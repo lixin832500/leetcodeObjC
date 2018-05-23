@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E95623C120B14272003AF037 /* ListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E95623A720B14270003AF037 /* ListNode.m */; };
+		E95623C220B14272003AF037 /* 92-ReverseLinkedListII.m in Sources */ = {isa = PBXBuildFile; fileRef = E95623A820B14270003AF037 /* 92-ReverseLinkedListII.m */; };
+		E95623C320B14272003AF037 /* 3-LongestSubstringWithoutRepeatingCharacters.m in Sources */ = {isa = PBXBuildFile; fileRef = E95623A920B14270003AF037 /* 3-LongestSubstringWithoutRepeatingCharacters.m */; };
+		E95623C420B14272003AF037 /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E95623AA20B14270003AF037 /* TreeNode.m */; };
+		E95623C520B14272003AF037 /* 101-SymmetricTree.m in Sources */ = {isa = PBXBuildFile; fileRef = E95623AB20B14270003AF037 /* 101-SymmetricTree.m */; };
+		E95623C620B14272003AF037 /* 11-ContainerWithMostWater.m in Sources */ = {isa = PBXBuildFile; fileRef = E95623AC20B14270003AF037 /* 11-ContainerWithMostWater.m */; };
+		E95623C720B14272003AF037 /* 100-SameTree.m in Sources */ = {isa = PBXBuildFile; fileRef = E95623AD20B14270003AF037 /* 100-SameTree.m */; };
+		E95623C820B14272003AF037 /* 237-DeleteNodeInALinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = E95623AE20B14270003AF037 /* 237-DeleteNodeInALinkedList.m */; };
+		E95623C920B14272003AF037 /* 1-TwoSum.m in Sources */ = {isa = PBXBuildFile; fileRef = E95623AF20B14270003AF037 /* 1-TwoSum.m */; };
+		E95623CA20B14272003AF037 /* 206-ReverseLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = E95623B020B14270003AF037 /* 206-ReverseLinkedList.m */; };
+		E95623CB20B14272003AF037 /* 102-BinaryTreeLevelOrderTraversal.m in Sources */ = {isa = PBXBuildFile; fileRef = E95623B320B14270003AF037 /* 102-BinaryTreeLevelOrderTraversal.m */; };
+		E95623CC20B14272003AF037 /* 24-SwapNodesinPairs.m in Sources */ = {isa = PBXBuildFile; fileRef = E95623B420B14271003AF037 /* 24-SwapNodesinPairs.m */; };
+		E95623CD20B14272003AF037 /* 2-AddTwoNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = E95623B520B14271003AF037 /* 2-AddTwoNumbers.m */; };
+		E95623CE20B14272003AF037 /* 15-3Sum.m in Sources */ = {isa = PBXBuildFile; fileRef = E95623B620B14271003AF037 /* 15-3Sum.m */; };
+		E95623CF20B14272003AF037 /* 95-UniqueBinarySearchTreesII.m in Sources */ = {isa = PBXBuildFile; fileRef = E95623B720B14271003AF037 /* 95-UniqueBinarySearchTreesII.m */; };
+		E95623D020B14272003AF037 /* 7-ReverseInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = E95623B820B14271003AF037 /* 7-ReverseInteger.m */; };
+		E95623D120B14272003AF037 /* 98-ValidateBinarySearchTree.m in Sources */ = {isa = PBXBuildFile; fileRef = E95623B920B14271003AF037 /* 98-ValidateBinarySearchTree.m */; };
+		E95623D220B14272003AF037 /* 404-SumofLeftLeaves.m in Sources */ = {isa = PBXBuildFile; fileRef = E95623BA20B14271003AF037 /* 404-SumofLeftLeaves.m */; };
+		E95623D320B14272003AF037 /* 226-InvertBinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = E95623BC20B14271003AF037 /* 226-InvertBinaryTree.m */; };
+		E95623D420B14272003AF037 /* 94-BinaryTreeInorderTraversal.m in Sources */ = {isa = PBXBuildFile; fileRef = E95623BD20B14271003AF037 /* 94-BinaryTreeInorderTraversal.m */; };
+		E95623D520B14272003AF037 /* 94-BinaryTreeInorderTraversal-2.m in Sources */ = {isa = PBXBuildFile; fileRef = E95623BE20B14271003AF037 /* 94-BinaryTreeInorderTraversal-2.m */; };
+		E95623D620B14272003AF037 /* 21-MergeTwoSortedLists.m in Sources */ = {isa = PBXBuildFile; fileRef = E95623BF20B14271003AF037 /* 21-MergeTwoSortedLists.m */; };
+		E95623D720B14272003AF037 /* 19-RemoveNthNodeFromEndofList.m in Sources */ = {isa = PBXBuildFile; fileRef = E95623C020B14272003AF037 /* 19-RemoveNthNodeFromEndofList.m */; };
+		E95623E520B142DA003AF037 /* twoSumTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E95623E420B142DA003AF037 /* twoSumTest.m */; };
+		E95623E720B1436F003AF037 /* 1-TwoSum.m in Sources */ = {isa = PBXBuildFile; fileRef = E95623AF20B14270003AF037 /* 1-TwoSum.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E956239B20B14218003AF037 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E92CA44820B615B4008DBB85 /* 2-AddTwoNumbers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "2-AddTwoNumbers.h"; sourceTree = "<group>"; };
+		E92CA44920B61694008DBB85 /* 3-LongestSubstringWithoutRepeatingCharacters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "3-LongestSubstringWithoutRepeatingCharacters.h"; sourceTree = "<group>"; };
+		E92CA44A20B616E6008DBB85 /* 7-ReverseInteger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "7-ReverseInteger.h"; sourceTree = "<group>"; };
+		E92CA44B20B61727008DBB85 /* 11-ContainerWithMostWater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "11-ContainerWithMostWater.h"; sourceTree = "<group>"; };
+		E92CA44C20B61777008DBB85 /* 15-3Sum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "15-3Sum.h"; sourceTree = "<group>"; };
+		E92CA44D20B617EA008DBB85 /* 19-RemoveNthNodeFromEndofList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "19-RemoveNthNodeFromEndofList.h"; sourceTree = "<group>"; };
+		E92CA44E20B6190D008DBB85 /* 21-MergeTwoSortedLists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "21-MergeTwoSortedLists.h"; sourceTree = "<group>"; };
+		E92CA44F20B6195E008DBB85 /* 24-SwapNodesinPairs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "24-SwapNodesinPairs.h"; sourceTree = "<group>"; };
+		E92CA45020B619B7008DBB85 /* 92-ReverseLinkedListII.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "92-ReverseLinkedListII.h"; sourceTree = "<group>"; };
+		E92CA45120B61A1B008DBB85 /* 94-BinaryTreeInorderTraversal-2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "94-BinaryTreeInorderTraversal-2.h"; sourceTree = "<group>"; };
+		E92CA45220B61A98008DBB85 /* 94-BinaryTreeInorderTraversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "94-BinaryTreeInorderTraversal.h"; sourceTree = "<group>"; };
+		E92CA45320B61ADE008DBB85 /* 95-UniqueBinarySearchTreesII.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "95-UniqueBinarySearchTreesII.h"; sourceTree = "<group>"; };
+		E92CA45420B61B3A008DBB85 /* 98-ValidateBinarySearchTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "98-ValidateBinarySearchTree.h"; sourceTree = "<group>"; };
+		E92CA45520B61B87008DBB85 /* 100-SamTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "100-SamTree.h"; sourceTree = "<group>"; };
+		E92CA45620B61BCB008DBB85 /* 101-SymmetricTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "101-SymmetricTree.h"; sourceTree = "<group>"; };
+		E92CA45720B61C2E008DBB85 /* 102-BinaryTreeLevelOrderTraversal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "102-BinaryTreeLevelOrderTraversal.h"; sourceTree = "<group>"; };
+		E92CA45820B61C78008DBB85 /* 206-ReverseLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "206-ReverseLinkedList.h"; sourceTree = "<group>"; };
+		E92CA45920B61CB3008DBB85 /* 226-InvertBinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "226-InvertBinaryTree.h"; sourceTree = "<group>"; };
+		E92CA45A20B61CE6008DBB85 /* 237-DeleteNodeInALinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "237-DeleteNodeInALinkedList.h"; sourceTree = "<group>"; };
+		E92CA45B20B61D26008DBB85 /* 404-SumofLeftLeaves.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "404-SumofLeftLeaves.h"; sourceTree = "<group>"; };
+		E956239D20B14218003AF037 /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95623A720B14270003AF037 /* ListNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListNode.m; sourceTree = "<group>"; };
+		E95623A820B14270003AF037 /* 92-ReverseLinkedListII.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "92-ReverseLinkedListII.m"; sourceTree = "<group>"; };
+		E95623A920B14270003AF037 /* 3-LongestSubstringWithoutRepeatingCharacters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "3-LongestSubstringWithoutRepeatingCharacters.m"; sourceTree = "<group>"; };
+		E95623AA20B14270003AF037 /* TreeNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreeNode.m; sourceTree = "<group>"; };
+		E95623AB20B14270003AF037 /* 101-SymmetricTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "101-SymmetricTree.m"; sourceTree = "<group>"; };
+		E95623AC20B14270003AF037 /* 11-ContainerWithMostWater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "11-ContainerWithMostWater.m"; sourceTree = "<group>"; };
+		E95623AD20B14270003AF037 /* 100-SameTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "100-SameTree.m"; sourceTree = "<group>"; };
+		E95623AE20B14270003AF037 /* 237-DeleteNodeInALinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "237-DeleteNodeInALinkedList.m"; sourceTree = "<group>"; };
+		E95623AF20B14270003AF037 /* 1-TwoSum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "1-TwoSum.m"; sourceTree = "<group>"; };
+		E95623B020B14270003AF037 /* 206-ReverseLinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "206-ReverseLinkedList.m"; sourceTree = "<group>"; };
+		E95623B120B14270003AF037 /* ListNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListNode.h; sourceTree = "<group>"; };
+		E95623B220B14270003AF037 /* 1-TwoSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "1-TwoSum.h"; sourceTree = "<group>"; };
+		E95623B320B14270003AF037 /* 102-BinaryTreeLevelOrderTraversal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "102-BinaryTreeLevelOrderTraversal.m"; sourceTree = "<group>"; };
+		E95623B420B14271003AF037 /* 24-SwapNodesinPairs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "24-SwapNodesinPairs.m"; sourceTree = "<group>"; };
+		E95623B520B14271003AF037 /* 2-AddTwoNumbers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "2-AddTwoNumbers.m"; sourceTree = "<group>"; };
+		E95623B620B14271003AF037 /* 15-3Sum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "15-3Sum.m"; sourceTree = "<group>"; };
+		E95623B720B14271003AF037 /* 95-UniqueBinarySearchTreesII.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "95-UniqueBinarySearchTreesII.m"; sourceTree = "<group>"; };
+		E95623B820B14271003AF037 /* 7-ReverseInteger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "7-ReverseInteger.m"; sourceTree = "<group>"; };
+		E95623B920B14271003AF037 /* 98-ValidateBinarySearchTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "98-ValidateBinarySearchTree.m"; sourceTree = "<group>"; };
+		E95623BA20B14271003AF037 /* 404-SumofLeftLeaves.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "404-SumofLeftLeaves.m"; sourceTree = "<group>"; };
+		E95623BB20B14271003AF037 /* TreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeNode.h; sourceTree = "<group>"; };
+		E95623BC20B14271003AF037 /* 226-InvertBinaryTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "226-InvertBinaryTree.m"; sourceTree = "<group>"; };
+		E95623BD20B14271003AF037 /* 94-BinaryTreeInorderTraversal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "94-BinaryTreeInorderTraversal.m"; sourceTree = "<group>"; };
+		E95623BE20B14271003AF037 /* 94-BinaryTreeInorderTraversal-2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "94-BinaryTreeInorderTraversal-2.m"; sourceTree = "<group>"; };
+		E95623BF20B14271003AF037 /* 21-MergeTwoSortedLists.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "21-MergeTwoSortedLists.m"; sourceTree = "<group>"; };
+		E95623C020B14272003AF037 /* 19-RemoveNthNodeFromEndofList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "19-RemoveNthNodeFromEndofList.m"; sourceTree = "<group>"; };
+		E95623DC20B14292003AF037 /* leetcodeTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = leetcodeTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95623E020B14292003AF037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E95623E420B142DA003AF037 /* twoSumTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = twoSumTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E956239A20B14218003AF037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95623D920B14292003AF037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E956239420B14218003AF037 = {
+			isa = PBXGroup;
+			children = (
+				E956239F20B14218003AF037 /* leetcode */,
+				E95623DD20B14292003AF037 /* leetcodeTest */,
+				E956239E20B14218003AF037 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E956239E20B14218003AF037 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E956239D20B14218003AF037 /* leetcode */,
+				E95623DC20B14292003AF037 /* leetcodeTest.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E956239F20B14218003AF037 /* leetcode */ = {
+			isa = PBXGroup;
+			children = (
+				E95623B220B14270003AF037 /* 1-TwoSum.h */,
+				E95623AF20B14270003AF037 /* 1-TwoSum.m */,
+				E95623B520B14271003AF037 /* 2-AddTwoNumbers.m */,
+				E92CA44820B615B4008DBB85 /* 2-AddTwoNumbers.h */,
+				E95623A920B14270003AF037 /* 3-LongestSubstringWithoutRepeatingCharacters.m */,
+				E92CA44920B61694008DBB85 /* 3-LongestSubstringWithoutRepeatingCharacters.h */,
+				E95623B820B14271003AF037 /* 7-ReverseInteger.m */,
+				E92CA44A20B616E6008DBB85 /* 7-ReverseInteger.h */,
+				E95623AC20B14270003AF037 /* 11-ContainerWithMostWater.m */,
+				E92CA44B20B61727008DBB85 /* 11-ContainerWithMostWater.h */,
+				E95623B620B14271003AF037 /* 15-3Sum.m */,
+				E92CA44C20B61777008DBB85 /* 15-3Sum.h */,
+				E95623C020B14272003AF037 /* 19-RemoveNthNodeFromEndofList.m */,
+				E92CA44D20B617EA008DBB85 /* 19-RemoveNthNodeFromEndofList.h */,
+				E95623BF20B14271003AF037 /* 21-MergeTwoSortedLists.m */,
+				E92CA44E20B6190D008DBB85 /* 21-MergeTwoSortedLists.h */,
+				E95623B420B14271003AF037 /* 24-SwapNodesinPairs.m */,
+				E92CA44F20B6195E008DBB85 /* 24-SwapNodesinPairs.h */,
+				E95623A820B14270003AF037 /* 92-ReverseLinkedListII.m */,
+				E92CA45020B619B7008DBB85 /* 92-ReverseLinkedListII.h */,
+				E95623BE20B14271003AF037 /* 94-BinaryTreeInorderTraversal-2.m */,
+				E92CA45120B61A1B008DBB85 /* 94-BinaryTreeInorderTraversal-2.h */,
+				E95623BD20B14271003AF037 /* 94-BinaryTreeInorderTraversal.m */,
+				E92CA45220B61A98008DBB85 /* 94-BinaryTreeInorderTraversal.h */,
+				E95623B720B14271003AF037 /* 95-UniqueBinarySearchTreesII.m */,
+				E92CA45320B61ADE008DBB85 /* 95-UniqueBinarySearchTreesII.h */,
+				E95623B920B14271003AF037 /* 98-ValidateBinarySearchTree.m */,
+				E92CA45420B61B3A008DBB85 /* 98-ValidateBinarySearchTree.h */,
+				E95623AD20B14270003AF037 /* 100-SameTree.m */,
+				E92CA45520B61B87008DBB85 /* 100-SamTree.h */,
+				E95623AB20B14270003AF037 /* 101-SymmetricTree.m */,
+				E92CA45620B61BCB008DBB85 /* 101-SymmetricTree.h */,
+				E95623B320B14270003AF037 /* 102-BinaryTreeLevelOrderTraversal.m */,
+				E92CA45720B61C2E008DBB85 /* 102-BinaryTreeLevelOrderTraversal.h */,
+				E95623B020B14270003AF037 /* 206-ReverseLinkedList.m */,
+				E92CA45820B61C78008DBB85 /* 206-ReverseLinkedList.h */,
+				E95623BC20B14271003AF037 /* 226-InvertBinaryTree.m */,
+				E92CA45920B61CB3008DBB85 /* 226-InvertBinaryTree.h */,
+				E95623AE20B14270003AF037 /* 237-DeleteNodeInALinkedList.m */,
+				E92CA45A20B61CE6008DBB85 /* 237-DeleteNodeInALinkedList.h */,
+				E95623BA20B14271003AF037 /* 404-SumofLeftLeaves.m */,
+				E92CA45B20B61D26008DBB85 /* 404-SumofLeftLeaves.h */,
+				E95623B120B14270003AF037 /* ListNode.h */,
+				E95623A720B14270003AF037 /* ListNode.m */,
+				E95623BB20B14271003AF037 /* TreeNode.h */,
+				E95623AA20B14270003AF037 /* TreeNode.m */,
+			);
+			path = leetcode;
+			sourceTree = "<group>";
+		};
+		E95623DD20B14292003AF037 /* leetcodeTest */ = {
+			isa = PBXGroup;
+			children = (
+				E95623E420B142DA003AF037 /* twoSumTest.m */,
+				E95623E020B14292003AF037 /* Info.plist */,
+			);
+			path = leetcodeTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E956239C20B14218003AF037 /* leetcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E95623A420B14218003AF037 /* Build configuration list for PBXNativeTarget "leetcode" */;
+			buildPhases = (
+				E956239920B14218003AF037 /* Sources */,
+				E956239A20B14218003AF037 /* Frameworks */,
+				E956239B20B14218003AF037 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcode;
+			productName = leetcode;
+			productReference = E956239D20B14218003AF037 /* leetcode */;
+			productType = "com.apple.product-type.tool";
+		};
+		E95623DB20B14292003AF037 /* leetcodeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E95623E120B14292003AF037 /* Build configuration list for PBXNativeTarget "leetcodeTest" */;
+			buildPhases = (
+				E95623D820B14292003AF037 /* Sources */,
+				E95623D920B14292003AF037 /* Frameworks */,
+				E95623DA20B14292003AF037 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leetcodeTest;
+			productName = leetcodeTest;
+			productReference = E95623DC20B14292003AF037 /* leetcodeTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E956239520B14218003AF037 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = lx;
+				TargetAttributes = {
+					E956239C20B14218003AF037 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					E95623DB20B14292003AF037 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = E956239820B14218003AF037 /* Build configuration list for PBXProject "leetcode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E956239420B14218003AF037;
+			productRefGroup = E956239E20B14218003AF037 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E956239C20B14218003AF037 /* leetcode */,
+				E95623DB20B14292003AF037 /* leetcodeTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E95623DA20B14292003AF037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E956239920B14218003AF037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95623C920B14272003AF037 /* 1-TwoSum.m in Sources */,
+				E95623C320B14272003AF037 /* 3-LongestSubstringWithoutRepeatingCharacters.m in Sources */,
+				E95623CF20B14272003AF037 /* 95-UniqueBinarySearchTreesII.m in Sources */,
+				E95623D720B14272003AF037 /* 19-RemoveNthNodeFromEndofList.m in Sources */,
+				E95623CD20B14272003AF037 /* 2-AddTwoNumbers.m in Sources */,
+				E95623C220B14272003AF037 /* 92-ReverseLinkedListII.m in Sources */,
+				E95623CB20B14272003AF037 /* 102-BinaryTreeLevelOrderTraversal.m in Sources */,
+				E95623D320B14272003AF037 /* 226-InvertBinaryTree.m in Sources */,
+				E95623D220B14272003AF037 /* 404-SumofLeftLeaves.m in Sources */,
+				E95623CE20B14272003AF037 /* 15-3Sum.m in Sources */,
+				E95623C720B14272003AF037 /* 100-SameTree.m in Sources */,
+				E95623C620B14272003AF037 /* 11-ContainerWithMostWater.m in Sources */,
+				E95623C120B14272003AF037 /* ListNode.m in Sources */,
+				E95623C820B14272003AF037 /* 237-DeleteNodeInALinkedList.m in Sources */,
+				E95623D020B14272003AF037 /* 7-ReverseInteger.m in Sources */,
+				E95623C520B14272003AF037 /* 101-SymmetricTree.m in Sources */,
+				E95623CC20B14272003AF037 /* 24-SwapNodesinPairs.m in Sources */,
+				E95623D420B14272003AF037 /* 94-BinaryTreeInorderTraversal.m in Sources */,
+				E95623D120B14272003AF037 /* 98-ValidateBinarySearchTree.m in Sources */,
+				E95623D520B14272003AF037 /* 94-BinaryTreeInorderTraversal-2.m in Sources */,
+				E95623D620B14272003AF037 /* 21-MergeTwoSortedLists.m in Sources */,
+				E95623CA20B14272003AF037 /* 206-ReverseLinkedList.m in Sources */,
+				E95623C420B14272003AF037 /* TreeNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E95623D820B14292003AF037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95623E720B1436F003AF037 /* 1-TwoSum.m in Sources */,
+				E95623E520B142DA003AF037 /* twoSumTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E95623A220B14218003AF037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E95623A320B14218003AF037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E95623A520B14218003AF037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E95623A620B14218003AF037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E95623E220B14292003AF037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = leetcodeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lx.leetcodeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E95623E320B14292003AF037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = leetcodeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lx.leetcodeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E956239820B14218003AF037 /* Build configuration list for PBXProject "leetcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E95623A220B14218003AF037 /* Debug */,
+				E95623A320B14218003AF037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E95623A420B14218003AF037 /* Build configuration list for PBXNativeTarget "leetcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E95623A520B14218003AF037 /* Debug */,
+				E95623A620B14218003AF037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E95623E120B14292003AF037 /* Build configuration list for PBXNativeTarget "leetcodeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E95623E220B14292003AF037 /* Debug */,
+				E95623E320B14292003AF037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E956239520B14218003AF037 /* Project object */;
+}
