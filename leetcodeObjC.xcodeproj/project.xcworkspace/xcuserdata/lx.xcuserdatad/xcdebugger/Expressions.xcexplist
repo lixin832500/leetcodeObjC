@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[Solution4 findKth:::::::]:4-MedianofTwoSortedArrays.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[nums2 objectAtIndex: start2]">
+            </PersistentString>
+            <PersistentString
+               value = "[nums1 objectAtIndex: start1]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
