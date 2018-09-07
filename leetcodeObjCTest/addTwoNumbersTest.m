@@ -12,7 +12,7 @@
 
 @interface addTwoNumbersTest : XCTestCase
 {
-@private
+    @private
     Solution2 *s;
 }
 @end
