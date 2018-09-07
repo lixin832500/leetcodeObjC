@@ -11,7 +11,7 @@
 
 @interface twoSumTest : XCTestCase
 {
-@private
+    @private
     Solution1 *s;
 }
 @end

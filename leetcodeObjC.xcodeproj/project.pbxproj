@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E91896ED21424C97009D21EA /* 8-StringToInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = E91896EC21424C97009D21EA /* 8-StringToInteger.m */; };
+		E91896EF214252C0009D21EA /* stringToIntegerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E91896EE214252C0009D21EA /* stringToIntegerTest.m */; };
+		E91896F021425470009D21EA /* 8-StringToInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = E91896EC21424C97009D21EA /* 8-StringToInteger.m */; };
 		E91C59BD20F190DA00BC74A0 /* longestPalindromicSubstringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E91C59BC20F190DA00BC74A0 /* longestPalindromicSubstringTest.m */; };
 		E91C59BE20F1982B00BC74A0 /* 5-LongestPalindromicSubstring.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A4DC8020F09E1C00C62B81 /* 5-LongestPalindromicSubstring.m */; };
 		E91CDB7620E363B6003DB474 /* 4-MedianofTwoSortedArrays.m in Sources */ = {isa = PBXBuildFile; fileRef = E91CDB7520E363B6003DB474 /* 4-MedianofTwoSortedArrays.m */; };
@@ -45,6 +48,7 @@
 		E97EAFEF20CC9EF400505F11 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97EAFEE20CC9EF400505F11 /* XCTest.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		E980297D2141070B00456DD7 /* zigzagConversionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E980297C2141070B00456DD7 /* zigzagConversionTest.m */; };
 		E980297E21410AA800456DD7 /* 6-ZigzagConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = E93CFCF3213B7B65000EA5BE /* 6-ZigzagConversion.m */; };
+		E98EE2A0214328C4003A0633 /* 9-PalindromeNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EB7FF121425A7A003AEC20 /* 9-PalindromeNumber.m */; };
 		E9A4DC8120F09E1C00C62B81 /* 5-LongestPalindromicSubstring.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A4DC8020F09E1C00C62B81 /* 5-LongestPalindromicSubstring.m */; };
 		E9BD25E020CDE7C6001778D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BD25DF20CDE7C6001778D6 /* main.m */; };
 		E9BD25EB20CDFE50001778D6 /* longestSubstringWithoutRepeatingCharactersTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BD25EA20CDFE50001778D6 /* longestSubstringWithoutRepeatingCharactersTest.m */; };
@@ -52,6 +56,8 @@
 		E9E555FE20D248D3000F33AD /* 3-LongestSubstringWithoutRepeatingCharacters.m in Sources */ = {isa = PBXBuildFile; fileRef = E97EAFA420CC965E00505F11 /* 3-LongestSubstringWithoutRepeatingCharacters.m */; };
 		E9E555FF20D248D3000F33AD /* 11-ContainerWithMostWater.m in Sources */ = {isa = PBXBuildFile; fileRef = E97EAFA820CC965E00505F11 /* 11-ContainerWithMostWater.m */; };
 		E9E5560120D25DB5000F33AD /* 1-TwoSum.m in Sources */ = {isa = PBXBuildFile; fileRef = E97EAFA020CC965E00505F11 /* 1-TwoSum.m */; };
+		E9EB7FF221425A7A003AEC20 /* 9-PalindromeNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EB7FF121425A7A003AEC20 /* 9-PalindromeNumber.m */; };
+		E9EB7FF421425B78003AEC20 /* isPalindromeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EB7FF321425B78003AEC20 /* isPalindromeTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -67,6 +73,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E91896EB21424B55009D21EA /* 8-StringToInteger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "8-StringToInteger.h"; sourceTree = "<group>"; };
+		E91896EC21424C97009D21EA /* 8-StringToInteger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "8-StringToInteger.m"; sourceTree = "<group>"; };
+		E91896EE214252C0009D21EA /* stringToIntegerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = stringToIntegerTest.m; sourceTree = "<group>"; };
 		E91C59BC20F190DA00BC74A0 /* longestPalindromicSubstringTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = longestPalindromicSubstringTest.m; sourceTree = "<group>"; };
 		E91CDB7420E3627A003DB474 /* 4-MedianofTwoSortedArrays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "4-MedianofTwoSortedArrays.h"; sourceTree = "<group>"; };
 		E91CDB7520E363B6003DB474 /* 4-MedianofTwoSortedArrays.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "4-MedianofTwoSortedArrays.m"; sourceTree = "<group>"; };
@@ -132,6 +141,9 @@
 		E9BD25DF20CDE7C6001778D6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E9BD25EA20CDFE50001778D6 /* longestSubstringWithoutRepeatingCharactersTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = longestSubstringWithoutRepeatingCharactersTest.m; sourceTree = "<group>"; };
 		E9E555EC20D246E8000F33AD /* containerWithMostWaterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = containerWithMostWaterTest.m; sourceTree = "<group>"; };
+		E9EB7FF0214259F7003AEC20 /* 9-PalindromeNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "9-PalindromeNumber.h"; sourceTree = "<group>"; };
+		E9EB7FF121425A7A003AEC20 /* 9-PalindromeNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "9-PalindromeNumber.m"; sourceTree = "<group>"; };
+		E9EB7FF321425B78003AEC20 /* isPalindromeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = isPalindromeTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +201,10 @@
 				E93CFCF3213B7B65000EA5BE /* 6-ZigzagConversion.m */,
 				E97EAFA520CC965E00505F11 /* 7-ReverseInteger.h */,
 				E97EAFA620CC965E00505F11 /* 7-ReverseInteger.m */,
+				E91896EB21424B55009D21EA /* 8-StringToInteger.h */,
+				E91896EC21424C97009D21EA /* 8-StringToInteger.m */,
+				E9EB7FF0214259F7003AEC20 /* 9-PalindromeNumber.h */,
+				E9EB7FF121425A7A003AEC20 /* 9-PalindromeNumber.m */,
 				E97EAFA720CC965E00505F11 /* 11-ContainerWithMostWater.h */,
 				E97EAFA820CC965E00505F11 /* 11-ContainerWithMostWater.m */,
 				E97EAFA920CC965E00505F11 /* 15-3Sum.h */,
@@ -246,9 +262,11 @@
 				E97886A720DF033700579C3A /* addTwoNumbersTest.m */,
 				E9E555EC20D246E8000F33AD /* containerWithMostWaterTest.m */,
 				E9687F7A20E60854006422CF /* findMedianSortedArraysTest.m */,
+				E9EB7FF321425B78003AEC20 /* isPalindromeTest.m */,
 				E91C59BC20F190DA00BC74A0 /* longestPalindromicSubstringTest.m */,
 				E9BD25EA20CDFE50001778D6 /* longestSubstringWithoutRepeatingCharactersTest.m */,
 				E97886AE20DF8BAB00579C3A /* mergeTwoSortedListTest.m */,
+				E91896EE214252C0009D21EA /* stringToIntegerTest.m */,
 				E96FDB7120CCB7C300121361 /* twoSumTest.m */,
 				E980297C2141070B00456DD7 /* zigzagConversionTest.m */,
 				E97EAFF820CCAD9700505F11 /* Info.plist */,
@@ -351,7 +369,9 @@
 				E97EAFCE20CC965E00505F11 /* 2-AddTwoNumbers.m in Sources */,
 				E97EAFCD20CC965E00505F11 /* 1-TwoSum.m in Sources */,
 				E97EAFE220CC965E00505F11 /* ListNode.m in Sources */,
+				E9EB7FF221425A7A003AEC20 /* 9-PalindromeNumber.m in Sources */,
 				E97EAFE020CC965E00505F11 /* 237-DeleteNodeInALinkedList.m in Sources */,
+				E91896ED21424C97009D21EA /* 8-StringToInteger.m in Sources */,
 				E91CDB7620E363B6003DB474 /* 4-MedianofTwoSortedArrays.m in Sources */,
 				E97EAFD520CC965E00505F11 /* 24-SwapNodesinPairs.m in Sources */,
 				E97EAFDF20CC965E00505F11 /* 226-InvertBinaryTree.m in Sources */,
@@ -379,6 +399,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E98EE2A0214328C4003A0633 /* 9-PalindromeNumber.m in Sources */,
+				E9EB7FF421425B78003AEC20 /* isPalindromeTest.m in Sources */,
+				E91896F021425470009D21EA /* 8-StringToInteger.m in Sources */,
 				E980297E21410AA800456DD7 /* 6-ZigzagConversion.m in Sources */,
 				E91C59BE20F1982B00BC74A0 /* 5-LongestPalindromicSubstring.m in Sources */,
 				E9687F7C20E610BA006422CF /* 4-MedianofTwoSortedArrays.m in Sources */,
@@ -389,6 +412,7 @@
 				E97886AF20DF8BAB00579C3A /* mergeTwoSortedListTest.m in Sources */,
 				E97886A920DF0B7C00579C3A /* 2-AddTwoNumbers.m in Sources */,
 				E9E5560120D25DB5000F33AD /* 1-TwoSum.m in Sources */,
+				E91896EF214252C0009D21EA /* stringToIntegerTest.m in Sources */,
 				E91C59BD20F190DA00BC74A0 /* longestPalindromicSubstringTest.m in Sources */,
 				E9E555FE20D248D3000F33AD /* 3-LongestSubstringWithoutRepeatingCharacters.m in Sources */,
 				E9E555FF20D248D3000F33AD /* 11-ContainerWithMostWater.m in Sources */,
