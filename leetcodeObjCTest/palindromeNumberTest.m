@@ -1,15 +1,15 @@
 //
-//  isPalindromeTest.m
+//  palindromeNumberTest.m
 //  leetcodeObjC
 //
-//  Created by lx on 6/16/1397 AP.
+//  Created by lx on 6/18/1397 AP.
 //  Copyright © 1397 lx. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 #import "9-PalindromeNumber.h"
 
-@interface isPalindromeTest : XCTestCase
+@interface palindromeNumberTest : XCTestCase
 {
 @private
     Solution9 *s;
@@ -17,7 +17,7 @@
 @end
 
 
-@implementation isPalindromeTest
+@implementation palindromeNumberTest
 
 - (void)setUp
 {
