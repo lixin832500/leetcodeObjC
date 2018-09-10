@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "TreeNode.h"
-#import "100-SamTree.h"
+#import "100-SameTree.h"
 
 @implementation Solution100 : NSObject
 - (BOOL)isSameTree:(TreeNode *)p
