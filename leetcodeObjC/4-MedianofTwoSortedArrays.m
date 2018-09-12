@@ -12,8 +12,8 @@
 @implementation Solution4: NSObject
 - (NSNumber *)findMedianSortedArrays: (NSArray *) nums1 : (NSArray *) nums2
 {
-    NSInteger len1 = nums1.count;
-    NSInteger len2 = nums2.count;
+    NSInteger len1 = [nums1 count];
+    NSInteger len2 = [nums2 count];
     NSInteger len = len1 + len2;
     
     if(len % 2 == 0){

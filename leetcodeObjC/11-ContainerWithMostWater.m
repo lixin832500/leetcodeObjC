@@ -15,7 +15,7 @@
     // use a hash to save searching time
     NSNumber *area = @0;
     NSInteger i = 0;
-    NSInteger j = height.count - 1;
+    NSInteger j = [height count] - 1;
     
     while(i < j){
         NSNumber *value1 = [height objectAtIndex:i];

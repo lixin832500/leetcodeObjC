@@ -42,9 +42,6 @@
                   Identifier = "TestContainerWithMostWater">
                </Test>
                <Test
-                  Identifier = "findMedianSortedArraysTest/testFindMedianSortedArrays1">
-               </Test>
-               <Test
                   Identifier = "isPalindromeTest">
                </Test>
             </SkippedTests>

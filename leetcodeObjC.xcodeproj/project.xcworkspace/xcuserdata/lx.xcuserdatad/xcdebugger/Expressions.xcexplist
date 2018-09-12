@@ -13,5 +13,13 @@
             </PersistentString>
          </PersistentStrings>
       </ContextState>
+      <ContextState
+         contextName = "-[threeSumTest testThreeSum]:threeSumTest.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[indices objectAtIndex:0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
    </ContextStates>
 </VariablesViewState>

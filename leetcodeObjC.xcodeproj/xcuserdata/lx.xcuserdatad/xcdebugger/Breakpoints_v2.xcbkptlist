@@ -348,83 +348,6 @@
             endingLineNumber = "40"
             landmarkName = "-testIsPalindrome1"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[isPalindromeTest testIsPalindrome1]"
-                  moduleName = "leetcodeObjCTest"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/isPalindromeTest.m"
-                  timestampString = "558150814.629061"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "75">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[isPalindromeTest testIsPalindrome1]"
-                  moduleName = "leetcodeObjCTest"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/isPalindromeTest.m"
-                  timestampString = "558150814.6437449"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "103">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[isPalindromeTest testIsPalindrome1]"
-                  moduleName = "leetcodeObjCTest"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/isPalindromeTest.m"
-                  timestampString = "558150814.656371"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "779">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[isPalindromeTest testIsPalindrome1]"
-                  moduleName = "leetcodeObjCTest"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/isPalindromeTest.m"
-                  timestampString = "558150814.6698641"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "835">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[isPalindromeTest testIsPalindrome1]"
-                  moduleName = "leetcodeObjCTest"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/isPalindromeTest.m"
-                  timestampString = "558150814.683588"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "957">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -440,6 +363,302 @@
             startingLineNumber = "15"
             endingLineNumber = "15"
             landmarkName = "-isPalindrome:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "leetcodeObjC/15-ThreeSum.m"
+            timestampString = "558253500.773061"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "-threeSum:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "leetcodeObjC/15-ThreeSum.m"
+            timestampString = "558253500.773061"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "-threeSum:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "leetcodeObjCTest/threeSumTest.m"
+            timestampString = "558254706.0732009"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "-testThreeSum"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[threeSumTest testThreeSum]"
+                  moduleName = "leetcodeObjCTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/threeSumTest.m"
+                  timestampString = "558254712.133922"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "1387">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[threeSumTest testThreeSum]"
+                  moduleName = "leetcodeObjCTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/threeSumTest.m"
+                  timestampString = "558254712.146207"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "2353">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[threeSumTest testThreeSum]"
+                  moduleName = "leetcodeObjCTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/threeSumTest.m"
+                  timestampString = "558254712.159341"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "2844">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[threeSumTest testThreeSum]"
+                  moduleName = "leetcodeObjCTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/threeSumTest.m"
+                  timestampString = "558254712.171883"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "3213">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[threeSumTest testThreeSum]"
+                  moduleName = "leetcodeObjCTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/threeSumTest.m"
+                  timestampString = "558254712.1896369"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "3240">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[threeSumTest testThreeSum]"
+                  moduleName = "leetcodeObjCTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/threeSumTest.m"
+                  timestampString = "558254712.21157"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "4206">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[threeSumTest testThreeSum]"
+                  moduleName = "leetcodeObjCTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/threeSumTest.m"
+                  timestampString = "558254712.236461"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "4697">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[threeSumTest testThreeSum]"
+                  moduleName = "leetcodeObjCTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/threeSumTest.m"
+                  timestampString = "558254712.268618"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "5093">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[threeSumTest testThreeSum]"
+                  moduleName = "leetcodeObjCTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/threeSumTest.m"
+                  timestampString = "558254712.283094"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "5351">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[threeSumTest testThreeSum]"
+                  moduleName = "leetcodeObjCTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/threeSumTest.m"
+                  timestampString = "558254712.2941231"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "5842">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "leetcodeObjCTest/threeSumTest.m"
+            timestampString = "558254393.697623"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "-testThreeSum"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "leetcodeObjC/15-ThreeSum.m"
+            timestampString = "558253500.773061"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "-threeSum:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "leetcodeObjC/15-ThreeSum.m"
+            timestampString = "558253290.116586"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "-threeSum:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "leetcodeObjC/15-ThreeSum.m"
+            timestampString = "558253500.773061"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "-threeSum:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "leetcodeObjC/15-ThreeSum.m"
+            timestampString = "558253500.773061"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "-threeSum:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "leetcodeObjCTest/threeSumTest.m"
+            timestampString = "558254395.790097"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "-testThreeSum"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
