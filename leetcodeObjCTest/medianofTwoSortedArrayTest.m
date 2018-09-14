@@ -7,17 +7,17 @@
 //
 
 #import <XCTest/XCTest.h>
-#import "4-medianofTwoSortedArrays.h"
+#import "4-medianOfTwoSortedArrays.h"
 
-@interface medianofTwoSortedArrayTest : XCTestCase
+@interface medianOfTwoSortedArrayTest : XCTestCase
 {
-    @private
+@private
     Solution4 *s;
 }
 
 @end
 
-@implementation medianofTwoSortedArrayTest
+@implementation medianOfTwoSortedArrayTest
 
 - (void)setUp {
     [super setUp];

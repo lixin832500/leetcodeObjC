@@ -1,5 +1,5 @@
 //
-//  4-MedianofTwoSortedArrays.m
+//  4-MedianOfTwoSortedArrays.m
 //  leetcodeObjC
 //
 //  Created by lx on 4/5/1397 AP.
@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "4-MedianofTwoSortedArrays.h"
+#import "4-MedianOfTwoSortedArrays.h"
 
 @implementation Solution4: NSObject
 - (NSNumber *)findMedianSortedArrays: (NSArray *) nums1 : (NSArray *) nums2
