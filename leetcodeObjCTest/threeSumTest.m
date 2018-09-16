@@ -38,8 +38,8 @@
     
     NSArray *value = indices[0];
   
-    XCTAssertEqual([value[0] intValue], -4, @"the number is equal to -1");
-    XCTAssertEqual([value[1] intValue], -1, @"the number is equal to -4");
+    XCTAssertEqual([value[0] intValue], -4, @"the number is equal to -4");
+    XCTAssertEqual([value[1] intValue], -1, @"the number is equal to -1");
     XCTAssertEqual([value[2] intValue], 5, @"the number is equal to 5");
     // XCTAssert(YES, @"Pass");
 }

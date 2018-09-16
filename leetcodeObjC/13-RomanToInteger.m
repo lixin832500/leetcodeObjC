@@ -12,14 +12,15 @@
 @implementation Solution13 : NSObject
 - (NSNumber *)romanToInt : (NSString*) s
 {
-    NSNumber * res = @(0);
-    NSDictionary *m = @{@'I':@(1), @'V':@(5), @'X':@(10), @'L':@(50), @'C':@(100), @'D':@(500), @'M':@(1000)};
+    NSNumber *res = @(0);
+    NSDictionary *map = @{@'I':@(1), @'V':@(5), @'X':@(10), @'L':@(50), @'C':@(100), @'D':@(500), @'M':@(1000)};
     for(int i = 0; i < s.length; i++){
-        NSNumber * val = [m valueForKey: [NSString stringWithCharacters:[s characterAtIndex:i] length:1]];
-        if( i == s.length -1 || [m valueForKey: [NSString stringWithCharacters:[s characterAtIndex:i+1 < [m valueForKey: [NSString stringWithCharacters:[s characterAtIndex:i] length:1]]] length:1]]){
+        NSNumber *val = [map objectForKey: @([s characterAtIndex:i])];
+        if( i == s.length -1 || ([map objectForKey: @([s characterAtIndex:i+1])] <= [map objectForKey: @([s characterAtIndex:i])]) ){
             res = @([res intValue] + [val intValue]);
+        }else{
+            res = @([res intValue] - [val intValue]);
         }
-        
     }
     
     return res;

@@ -30,11 +30,34 @@
     s = nil;
 }
 
-- (void)testRomanToInt{
+- (void)testRomanToInt1{
     NSString *str = @"III";
     NSNumber *result = [s romanToInt:str];
-    XCTAssertEqual([result intValue], 3, @"the number is converted to Roman");
+    XCTAssertEqual([result intValue], 3, @"the roman is converted to number");
 }
 
+- (void)testRomanToInt2{
+    NSString *str = @"IV";
+    NSNumber *result = [s romanToInt:str];
+    XCTAssertEqual([result intValue], 4, @"the roman is converted to number");
+}
+
+- (void)testRomanToInt3{
+    NSString *str = @"IX";
+    NSNumber *result = [s romanToInt:str];
+    XCTAssertEqual([result intValue], 9, @"the roman is converted to number");
+}
+
+- (void)testRomanToInt4{
+    NSString *str = @"LVIII";
+    NSNumber *result = [s romanToInt:str];
+    XCTAssertEqual([result intValue], 58, @"the roman is converted to number");
+}
+
+- (void)testRomanToInt5{
+    NSString *str = @"MCMXCIV";
+    NSNumber *result = [s romanToInt:str];
+    XCTAssertEqual([result intValue], 1994, @"the roman is converted to number");
+}
 
 @end
