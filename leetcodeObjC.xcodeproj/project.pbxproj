@@ -64,10 +64,13 @@
 		E98EE2A32143307A003A0633 /* 10-RegularExpressionMatching.m in Sources */ = {isa = PBXBuildFile; fileRef = E98EE2A22143307A003A0633 /* 10-RegularExpressionMatching.m */; };
 		E98EE2A521433377003A0633 /* regularExpressionMatchingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E98EE2A421433377003A0633 /* regularExpressionMatchingTest.m */; };
 		E98EE2A621433437003A0633 /* 10-RegularExpressionMatching.m in Sources */ = {isa = PBXBuildFile; fileRef = E98EE2A22143307A003A0633 /* 10-RegularExpressionMatching.m */; };
+		E995F7BD21520777004B2309 /* longestCommonPrefixTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E995F7BC21520777004B2309 /* longestCommonPrefixTest.m */; };
+		E995F7BE21520796004B2309 /* 14-LongestCommonPrefix.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BE38CC2150F1E400F09C09 /* 14-LongestCommonPrefix.m */; };
 		E9A4DC8120F09E1C00C62B81 /* 5-LongestPalindromicSubstring.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A4DC8020F09E1C00C62B81 /* 5-LongestPalindromicSubstring.m */; };
 		E9A802A721490BD00011259B /* 1-TwoSum.m in Sources */ = {isa = PBXBuildFile; fileRef = E97EAFA020CC965E00505F11 /* 1-TwoSum.m */; };
 		E9BD25E020CDE7C6001778D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BD25DF20CDE7C6001778D6 /* main.m */; };
 		E9BD25EB20CDFE50001778D6 /* longestSubstringWithoutRepeatingCharactersTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BD25EA20CDFE50001778D6 /* longestSubstringWithoutRepeatingCharactersTest.m */; };
+		E9BE38CD2150F1E400F09C09 /* 14-LongestCommonPrefix.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BE38CC2150F1E400F09C09 /* 14-LongestCommonPrefix.m */; };
 		E9E555ED20D246E8000F33AD /* containerWithMostWaterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E555EC20D246E8000F33AD /* containerWithMostWaterTest.m */; };
 		E9E555FE20D248D3000F33AD /* 3-LongestSubstringWithoutRepeatingCharacters.m in Sources */ = {isa = PBXBuildFile; fileRef = E97EAFA420CC965E00505F11 /* 3-LongestSubstringWithoutRepeatingCharacters.m */; };
 		E9E555FF20D248D3000F33AD /* 11-ContainerWithMostWater.m in Sources */ = {isa = PBXBuildFile; fileRef = E97EAFA820CC965E00505F11 /* 11-ContainerWithMostWater.m */; };
@@ -162,11 +165,14 @@
 		E98EE2A121433043003A0633 /* 10-RegularExpressionMatching.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "10-RegularExpressionMatching.h"; sourceTree = "<group>"; };
 		E98EE2A22143307A003A0633 /* 10-RegularExpressionMatching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "10-RegularExpressionMatching.m"; sourceTree = "<group>"; };
 		E98EE2A421433377003A0633 /* regularExpressionMatchingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = regularExpressionMatchingTest.m; sourceTree = "<group>"; };
+		E995F7BC21520777004B2309 /* longestCommonPrefixTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = longestCommonPrefixTest.m; sourceTree = "<group>"; };
 		E9A4DC7F20F09D7D00C62B81 /* 5-LongestPalindromicSubstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "5-LongestPalindromicSubstring.h"; sourceTree = "<group>"; };
 		E9A4DC8020F09E1C00C62B81 /* 5-LongestPalindromicSubstring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "5-LongestPalindromicSubstring.m"; sourceTree = "<group>"; };
 		E9A802A821490CCE0011259B /* 1-TwoSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "1-TwoSum.h"; sourceTree = "<group>"; };
 		E9BD25DF20CDE7C6001778D6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E9BD25EA20CDFE50001778D6 /* longestSubstringWithoutRepeatingCharactersTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = longestSubstringWithoutRepeatingCharactersTest.m; sourceTree = "<group>"; };
+		E9BE38CB2150F0E700F09C09 /* 14-LongestCommonPrefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "14-LongestCommonPrefix.h"; sourceTree = "<group>"; };
+		E9BE38CC2150F1E400F09C09 /* 14-LongestCommonPrefix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "14-LongestCommonPrefix.m"; sourceTree = "<group>"; };
 		E9E555EC20D246E8000F33AD /* containerWithMostWaterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = containerWithMostWaterTest.m; sourceTree = "<group>"; };
 		E9EB7FF0214259F7003AEC20 /* 9-PalindromeNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "9-PalindromeNumber.h"; sourceTree = "<group>"; };
 		E9EB7FF121425A7A003AEC20 /* 9-PalindromeNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "9-PalindromeNumber.m"; sourceTree = "<group>"; };
@@ -239,6 +245,8 @@
 				E962E4CD214B958D009A03A9 /* 12-IntegerToRoman.m */,
 				E962E4D2214BA5B1009A03A9 /* 13-RomanToInteger.h */,
 				E962E4D3214BA5CE009A03A9 /* 13-RomanToInteger.m */,
+				E9BE38CB2150F0E700F09C09 /* 14-LongestCommonPrefix.h */,
+				E9BE38CC2150F1E400F09C09 /* 14-LongestCommonPrefix.m */,
 				E97EAFA920CC965E00505F11 /* 15-ThreeSum.h */,
 				E97EAFAA20CC965E00505F11 /* 15-ThreeSum.m */,
 				E97EAFAB20CC965E00505F11 /* 19-RemoveNthNodeFromEndofList.h */,
@@ -295,6 +303,7 @@
 				E9E555EC20D246E8000F33AD /* containerWithMostWaterTest.m */,
 				E9687F7A20E60854006422CF /* findMedianSortedArraysTest.m */,
 				E962E4CF214BA0A1009A03A9 /* integerToRomanTest.m */,
+				E995F7BC21520777004B2309 /* longestCommonPrefixTest.m */,
 				E91C59BC20F190DA00BC74A0 /* longestPalindromicSubstringTest.m */,
 				E9BD25EA20CDFE50001778D6 /* longestSubstringWithoutRepeatingCharactersTest.m */,
 				E962E4CB214B93B2009A03A9 /* medianOfTwoSortedArrayTest.m */,
@@ -405,6 +414,7 @@
 				E97EAFDB20CC965E00505F11 /* 100-SameTree.m in Sources */,
 				E97EAFD620CC965E00505F11 /* 92-ReverseLinkedListII.m in Sources */,
 				E97EAFCF20CC965E00505F11 /* 3-LongestSubstringWithoutRepeatingCharacters.m in Sources */,
+				E9BE38CD2150F1E400F09C09 /* 14-LongestCommonPrefix.m in Sources */,
 				E97EAFCE20CC965E00505F11 /* 2-AddTwoNumbers.m in Sources */,
 				E97EAFCD20CC965E00505F11 /* 1-TwoSum.m in Sources */,
 				E97EAFE220CC965E00505F11 /* ListNode.m in Sources */,
@@ -440,6 +450,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E995F7BE21520796004B2309 /* 14-LongestCommonPrefix.m in Sources */,
 				E962E4D7214BACA1009A03A9 /* 13-RomanToInteger.m in Sources */,
 				E962E4D1214BA14B009A03A9 /* 12-IntegerToRoman.m in Sources */,
 				E9A802A721490BD00011259B /* 1-TwoSum.m in Sources */,
@@ -463,6 +474,7 @@
 				E91896EF214252C0009D21EA /* stringToIntegerTest.m in Sources */,
 				E962E4D6214BAB50009A03A9 /* romanToInteger.m in Sources */,
 				E91C59BD20F190DA00BC74A0 /* longestPalindromicSubstringTest.m in Sources */,
+				E995F7BD21520777004B2309 /* longestCommonPrefixTest.m in Sources */,
 				E91E9A1B2144FF6C00756048 /* palindromeNumberTest.m in Sources */,
 				E98EE2A521433377003A0633 /* regularExpressionMatchingTest.m in Sources */,
 				E9E555FE20D248D3000F33AD /* 3-LongestSubstringWithoutRepeatingCharacters.m in Sources */,
