@@ -31,7 +31,7 @@
     s = nil;
 }
 
-- (void)testThreeSum {
+- (void)testThreeSum1 {
     // This is an example of a functional test case.
     NSArray *numArray = @[@5,@9,@-1,@2,@-4,@4];
     NSArray *indices = [s threeSum: numArray];
@@ -41,6 +41,25 @@
     XCTAssertEqual([value[0] intValue], -4, @"the number is equal to -4");
     XCTAssertEqual([value[1] intValue], -1, @"the number is equal to -1");
     XCTAssertEqual([value[2] intValue], 5, @"the number is equal to 5");
+    // XCTAssert(YES, @"Pass");
+}
+
+- (void)testThreeSum2 {
+    // This is an example of a functional test case.
+    NSArray *numArray = @[@5,@9,@-1,@2,@-4,@4, @-8];
+    NSArray *indices = [s threeSum: numArray];
+    
+    NSArray *value1 = indices[0];
+    NSArray *value2 = indices[1];
+    
+    XCTAssertEqual([value1[0] intValue], -8, @"the number is equal to -8");
+    XCTAssertEqual([value1[1] intValue], -1, @"the number is equal to -1");
+    XCTAssertEqual([value1[2] intValue], 9, @"the number is equal to 9");
+    
+    XCTAssertEqual([value2[0] intValue], -4, @"the number is equal to -4");
+    XCTAssertEqual([value2[1] intValue], -1, @"the number is equal to -1");
+    XCTAssertEqual([value2[2] intValue], 5, @"the number is equal to 5");
+
     // XCTAssert(YES, @"Pass");
 }
 
