@@ -11,7 +11,7 @@
 #import "94-BinaryTreeInorderTraversal-2.h"
 
 @implementation Solution94_2 : NSObject
-- (NSMutableArray *)inorderTraversal: (TreeNode *)root
+- (NSArray *)inorderTraversal: (TreeNode *)root
 {
     
     NSMutableArray* ret =  [[NSMutableArray alloc] init];
@@ -31,7 +31,7 @@
         }
     }
     
-    return ret;
+    return [ret copy];
 }
 
 @end

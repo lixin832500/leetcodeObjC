@@ -11,13 +11,13 @@
 #import "95-UniqueBinarySearchTreesII.h"
 
 @implementation Solution95 : NSObject
-- (NSMutableArray *) generateTrees: (NSUInteger)num
+- (NSArray *) generateTrees: (NSUInteger)num
 {
     
     NSMutableArray* ret =  [[NSMutableArray alloc] init];
     if(num == 0) return ret;
     ret = [self generateTreeFrom: 1 To: num];
-    return ret;
+    return [ret copy];
 }
 
 - (NSMutableArray *) generateTreeFrom: (NSUInteger) start

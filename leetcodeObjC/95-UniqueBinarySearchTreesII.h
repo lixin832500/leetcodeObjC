@@ -10,7 +10,7 @@
 #define Header_h
 
 @interface Solution95 : NSObject
-- (NSMutableArray *) generateTrees: (NSUInteger)num;
+- (NSArray *) generateTrees: (NSUInteger)num;
 
 @end
 #endif /* Header_h */

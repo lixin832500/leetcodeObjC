@@ -8,6 +8,8 @@
 
 #ifndef _7_LetterCombinationOfAPhoneNumber_h
 #define _7_LetterCombinationOfAPhoneNumber_h
-
+@interface Solution17: NSObject
+- (NSArray *)letterCombination: (NSString *)digits;
+@end
 
 #endif /* _7_LetterCombinationOfAPhoneNumber_h */

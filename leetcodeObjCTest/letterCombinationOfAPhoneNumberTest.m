@@ -7,33 +7,34 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "17-LetterCombinationOfAPhoneNumber.h"
 
 @interface letterCombinationOfAPhoneNumberTest : XCTestCase
-
+{
+@private
+    Solution17 *s;
+}
 @end
 
 @implementation letterCombinationOfAPhoneNumberTest
 
 - (void)setUp {
     [super setUp];
+    s = [[Solution17 alloc] init];
     // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
 - (void)tearDown {
     // Put teardown code here. This method is called after the invocation of each test method in the class.
     [super tearDown];
+    s = nil;
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
-}
-
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+- (void)testLetterCombinations {
+    NSArray* result = [s letterCombination: @"23"];
+    NSArray* actual = [NSArray arrayWithObjects:@"ad",@"ae", @"af", @"bd", @"be", @"bf", @"cd", @"ce", @"cf", nil];
+    
+    XCTAssertTrue([result isEqualToArray: actual], @"the two arrays are the same");
 }
 
 @end

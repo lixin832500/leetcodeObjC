@@ -10,7 +10,7 @@
 #define _4_BinaryTreeInorderTraversal_2_h
 
 @interface Solution94_2 : NSObject
-- (NSMutableArray *)inorderTraversal: (TreeNode *)root;
+- (NSArray *)inorderTraversal: (TreeNode *)root;
 
 @end
 #endif /* _4_BinaryTreeInorderTraversal_2_h */

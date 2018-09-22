@@ -11,12 +11,12 @@
 #import "94-BinaryTreeInorderTraversal.h"
 
 @implementation Solution94 : NSObject
-- (NSMutableArray *)inorderTraversal: (TreeNode *)root
+- (NSArray *)inorderTraversal: (TreeNode *)root
 {
     
     NSMutableArray* ret =  [[NSMutableArray alloc] init];
     [self inorder:root withResult:ret];
-    return ret;
+    return [ret copy];
 }
 
 - (void)inorder:(TreeNode*) root
