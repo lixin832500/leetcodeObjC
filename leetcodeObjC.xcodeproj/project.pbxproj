@@ -35,6 +35,7 @@
 		E977093A215A088B00753038 /* fourSumTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9770939215A088B00753038 /* fourSumTest.m */; };
 		E977093B215A094E00753038 /* 19-RemoveNthNodeFromEndofList.m in Sources */ = {isa = PBXBuildFile; fileRef = E97EAFAC20CC965E00505F11 /* 19-RemoveNthNodeFromEndofList.m */; };
 		E977093C215A0BA300753038 /* 18-FourSum.m in Sources */ = {isa = PBXBuildFile; fileRef = E9770937215A061900753038 /* 18-FourSum.m */; };
+		E9770941215A14E100753038 /* removeNthNodeFromEndofListTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9770940215A14E100753038 /* removeNthNodeFromEndofListTest.m */; };
 		E97886A820DF033700579C3A /* addTwoNumbersTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E97886A720DF033700579C3A /* addTwoNumbersTest.m */; };
 		E97886A920DF0B7C00579C3A /* 2-AddTwoNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = E97EAFA220CC965E00505F11 /* 2-AddTwoNumbers.m */; };
 		E97886AA20DF0BAD00579C3A /* ListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E97EAFCA20CC965E00505F11 /* ListNode.m */; };
@@ -124,6 +125,7 @@
 		E9770936215A05C300753038 /* 18-FourSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "18-FourSum.h"; sourceTree = "<group>"; };
 		E9770937215A061900753038 /* 18-FourSum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "18-FourSum.m"; sourceTree = "<group>"; };
 		E9770939215A088B00753038 /* fourSumTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fourSumTest.m; sourceTree = "<group>"; };
+		E9770940215A14E100753038 /* removeNthNodeFromEndofListTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = removeNthNodeFromEndofListTest.m; sourceTree = "<group>"; };
 		E97886A720DF033700579C3A /* addTwoNumbersTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addTwoNumbersTest.m; sourceTree = "<group>"; };
 		E97886AE20DF8BAB00579C3A /* mergeTwoSortedListTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mergeTwoSortedListTest.m; sourceTree = "<group>"; };
 		E97EAF9520CC95EA00505F11 /* leetcodeObjC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcodeObjC; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -324,6 +326,7 @@
 		E97EAFF520CCAD9700505F11 /* leetcodeObjCTest */ = {
 			isa = PBXGroup;
 			children = (
+				E9770940215A14E100753038 /* removeNthNodeFromEndofListTest.m */,
 				E97886A720DF033700579C3A /* addTwoNumbersTest.m */,
 				E9E555EC20D246E8000F33AD /* containerWithMostWaterTest.m */,
 				E9687F7A20E60854006422CF /* findMedianSortedArraysTest.m */,
@@ -503,6 +506,7 @@
 				E962E4D0214BA0A1009A03A9 /* integerToRomanTest.m in Sources */,
 				E97886AD20DF29C000579C3A /* 21-MergeTwoSortedLists.m in Sources */,
 				E980297D2141070B00456DD7 /* zigzagConversionTest.m in Sources */,
+				E9770941215A14E100753038 /* removeNthNodeFromEndofListTest.m in Sources */,
 				E962E4CC214B93B2009A03A9 /* medianOfTwoSortedArrayTest.m in Sources */,
 				E9687F7B20E60854006422CF /* findMedianSortedArraysTest.m in Sources */,
 				E97886AA20DF0BAD00579C3A /* ListNode.m in Sources */,
