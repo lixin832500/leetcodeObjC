@@ -31,6 +31,10 @@
 		E9687F7B20E60854006422CF /* findMedianSortedArraysTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9687F7A20E60854006422CF /* findMedianSortedArraysTest.m */; };
 		E9687F7C20E610BA006422CF /* 4-MedianOfTwoSortedArrays.m in Sources */ = {isa = PBXBuildFile; fileRef = E91CDB7520E363B6003DB474 /* 4-MedianOfTwoSortedArrays.m */; };
 		E96FDB7220CCB7C300121361 /* twoSumTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E96FDB7120CCB7C300121361 /* twoSumTest.m */; };
+		E9770938215A061900753038 /* 18-FourSum.m in Sources */ = {isa = PBXBuildFile; fileRef = E9770937215A061900753038 /* 18-FourSum.m */; };
+		E977093A215A088B00753038 /* fourSumTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9770939215A088B00753038 /* fourSumTest.m */; };
+		E977093B215A094E00753038 /* 19-RemoveNthNodeFromEndofList.m in Sources */ = {isa = PBXBuildFile; fileRef = E97EAFAC20CC965E00505F11 /* 19-RemoveNthNodeFromEndofList.m */; };
+		E977093C215A0BA300753038 /* 18-FourSum.m in Sources */ = {isa = PBXBuildFile; fileRef = E9770937215A061900753038 /* 18-FourSum.m */; };
 		E97886A820DF033700579C3A /* addTwoNumbersTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E97886A720DF033700579C3A /* addTwoNumbersTest.m */; };
 		E97886A920DF0B7C00579C3A /* 2-AddTwoNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = E97EAFA220CC965E00505F11 /* 2-AddTwoNumbers.m */; };
 		E97886AA20DF0BAD00579C3A /* ListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E97EAFCA20CC965E00505F11 /* ListNode.m */; };
@@ -117,6 +121,9 @@
 		E963CE432144B6A1003D3F92 /* reverseIntegerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = reverseIntegerTest.m; sourceTree = "<group>"; };
 		E9687F7A20E60854006422CF /* findMedianSortedArraysTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = findMedianSortedArraysTest.m; sourceTree = "<group>"; };
 		E96FDB7120CCB7C300121361 /* twoSumTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = twoSumTest.m; sourceTree = "<group>"; };
+		E9770936215A05C300753038 /* 18-FourSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "18-FourSum.h"; sourceTree = "<group>"; };
+		E9770937215A061900753038 /* 18-FourSum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "18-FourSum.m"; sourceTree = "<group>"; };
+		E9770939215A088B00753038 /* fourSumTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fourSumTest.m; sourceTree = "<group>"; };
 		E97886A720DF033700579C3A /* addTwoNumbersTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addTwoNumbersTest.m; sourceTree = "<group>"; };
 		E97886AE20DF8BAB00579C3A /* mergeTwoSortedListTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mergeTwoSortedListTest.m; sourceTree = "<group>"; };
 		E97EAF9520CC95EA00505F11 /* leetcodeObjC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcodeObjC; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -265,6 +272,8 @@
 				E995F7C021520E5E004B2309 /* 16-ThreeSumClosest.m */,
 				E97F9DDE2154D97F000C6C82 /* 17-LetterCombinationOfAPhoneNumber.h */,
 				E97F9DDF2154D991000C6C82 /* 17-LetterCombinationOfAPhoneNumber.m */,
+				E9770936215A05C300753038 /* 18-FourSum.h */,
+				E9770937215A061900753038 /* 18-FourSum.m */,
 				E97EAFAB20CC965E00505F11 /* 19-RemoveNthNodeFromEndofList.h */,
 				E97EAFAC20CC965E00505F11 /* 19-RemoveNthNodeFromEndofList.m */,
 				E97EAFAD20CC965E00505F11 /* 21-MergeTwoSortedLists.h */,
@@ -318,6 +327,7 @@
 				E97886A720DF033700579C3A /* addTwoNumbersTest.m */,
 				E9E555EC20D246E8000F33AD /* containerWithMostWaterTest.m */,
 				E9687F7A20E60854006422CF /* findMedianSortedArraysTest.m */,
+				E9770939215A088B00753038 /* fourSumTest.m */,
 				E962E4CF214BA0A1009A03A9 /* integerToRomanTest.m */,
 				E97F9DE12154E8BF000C6C82 /* letterCombinationOfAPhoneNumberTest.m */,
 				E995F7BC21520777004B2309 /* longestCommonPrefixTest.m */,
@@ -430,6 +440,7 @@
 			files = (
 				E962E4CE214B958D009A03A9 /* 12-IntegerToRoman.m in Sources */,
 				E97EAFDB20CC965E00505F11 /* 100-SameTree.m in Sources */,
+				E9770938215A061900753038 /* 18-FourSum.m in Sources */,
 				E97EAFD620CC965E00505F11 /* 92-ReverseLinkedListII.m in Sources */,
 				E97EAFCF20CC965E00505F11 /* 3-LongestSubstringWithoutRepeatingCharacters.m in Sources */,
 				E9BE38CD2150F1E400F09C09 /* 14-LongestCommonPrefix.m in Sources */,
@@ -470,6 +481,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E977093C215A0BA300753038 /* 18-FourSum.m in Sources */,
+				E977093B215A094E00753038 /* 19-RemoveNthNodeFromEndofList.m in Sources */,
 				E97F9DE32154E8D4000C6C82 /* 17-LetterCombinationOfAPhoneNumber.m in Sources */,
 				E93C7DD62153797800A39502 /* 16-ThreeSumClosest.m in Sources */,
 				E995F7BE21520796004B2309 /* 14-LongestCommonPrefix.m in Sources */,
@@ -479,6 +492,7 @@
 				E935E0ED214504130090EECE /* 15-ThreeSum.m in Sources */,
 				E91E9A192144FDD100756048 /* 7-ReverseInteger.m in Sources */,
 				E98EE2A621433437003A0633 /* 10-RegularExpressionMatching.m in Sources */,
+				E977093A215A088B00753038 /* fourSumTest.m in Sources */,
 				E98EE2A0214328C4003A0633 /* 9-PalindromeNumber.m in Sources */,
 				E91896F021425470009D21EA /* 8-StringToInteger.m in Sources */,
 				E963CE442144B6A1003D3F92 /* reverseIntegerTest.m in Sources */,
