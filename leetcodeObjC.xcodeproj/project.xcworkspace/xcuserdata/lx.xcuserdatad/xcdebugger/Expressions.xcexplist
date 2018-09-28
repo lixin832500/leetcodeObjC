@@ -3,13 +3,13 @@
    version = "1.0">
    <ContextStates>
       <ContextState
-         contextName = "-[Solution17 dfs::::]:17-LetterCombinationOfAPhoneNumber.m">
+         contextName = "-[Solution4 findKth:::::::]:4-MedianofTwoSortedArrays.m">
          <PersistentStrings>
             <PersistentString
-               value = "[digits characterAtIndex: depth]">
+               value = "[nums2 objectAtIndex: start2]">
             </PersistentString>
             <PersistentString
-               value = "[digits characterAtIndex: depth] - &apos;2&apos;">
+               value = "[nums1 objectAtIndex: start1]">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -30,13 +30,21 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "-[Solution4 findKth:::::::]:4-MedianofTwoSortedArrays.m">
+         contextName = "-[Solution20 isValid:]:20-ValidParentheses.m">
          <PersistentStrings>
             <PersistentString
-               value = "[nums2 objectAtIndex: start2]">
+               value = "[stack count] == 0">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Solution17 dfs::::]:17-LetterCombinationOfAPhoneNumber.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[digits characterAtIndex: depth]">
             </PersistentString>
             <PersistentString
-               value = "[nums1 objectAtIndex: start1]">
+               value = "[digits characterAtIndex: depth] - &apos;2&apos;">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
