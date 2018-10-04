@@ -80,6 +80,8 @@
 		E995F7BD21520777004B2309 /* longestCommonPrefixTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E995F7BC21520777004B2309 /* longestCommonPrefixTest.m */; };
 		E995F7BE21520796004B2309 /* 14-LongestCommonPrefix.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BE38CC2150F1E400F09C09 /* 14-LongestCommonPrefix.m */; };
 		E995F7C121520E5E004B2309 /* 16-ThreeSumClosest.m in Sources */ = {isa = PBXBuildFile; fileRef = E995F7C021520E5E004B2309 /* 16-ThreeSumClosest.m */; };
+		E99BD98B2165D1050070A8E3 /* mergeKSortedListsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E99BD98A2165D1050070A8E3 /* mergeKSortedListsTest.m */; };
+		E99BD98D2165DEF80070A8E3 /* 23-MergeKSortedLists.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CFB9D52164A68E00188B82 /* 23-MergeKSortedLists.m */; };
 		E9A4DC8120F09E1C00C62B81 /* 5-LongestPalindromicSubstring.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A4DC8020F09E1C00C62B81 /* 5-LongestPalindromicSubstring.m */; };
 		E9A802A721490BD00011259B /* 1-TwoSum.m in Sources */ = {isa = PBXBuildFile; fileRef = E97EAFA020CC965E00505F11 /* 1-TwoSum.m */; };
 		E9BD25E020CDE7C6001778D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BD25DF20CDE7C6001778D6 /* main.m */; };
@@ -88,6 +90,7 @@
 		E9CFB9CE2164911300188B82 /* 22-GenerateParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CFB9CD2164911300188B82 /* 22-GenerateParentheses.m */; };
 		E9CFB9D121649BD900188B82 /* 22-GenerateParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CFB9CD2164911300188B82 /* 22-GenerateParentheses.m */; };
 		E9CFB9D321649CAF00188B82 /* generateParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CFB9D221649CAF00188B82 /* generateParentheses.m */; };
+		E9CFB9D62164A68E00188B82 /* 23-MergeKSortedLists.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CFB9D52164A68E00188B82 /* 23-MergeKSortedLists.m */; };
 		E9E555ED20D246E8000F33AD /* containerWithMostWaterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E555EC20D246E8000F33AD /* containerWithMostWaterTest.m */; };
 		E9E555FE20D248D3000F33AD /* 3-LongestSubstringWithoutRepeatingCharacters.m in Sources */ = {isa = PBXBuildFile; fileRef = E97EAFA420CC965E00505F11 /* 3-LongestSubstringWithoutRepeatingCharacters.m */; };
 		E9E555FF20D248D3000F33AD /* 11-ContainerWithMostWater.m in Sources */ = {isa = PBXBuildFile; fileRef = E97EAFA820CC965E00505F11 /* 11-ContainerWithMostWater.m */; };
@@ -196,6 +199,7 @@
 		E995F7BC21520777004B2309 /* longestCommonPrefixTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = longestCommonPrefixTest.m; sourceTree = "<group>"; };
 		E995F7BF21520E39004B2309 /* 16-ThreeSumClosest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "16-ThreeSumClosest.h"; sourceTree = "<group>"; };
 		E995F7C021520E5E004B2309 /* 16-ThreeSumClosest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "16-ThreeSumClosest.m"; sourceTree = "<group>"; };
+		E99BD98A2165D1050070A8E3 /* mergeKSortedListsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mergeKSortedListsTest.m; sourceTree = "<group>"; };
 		E9A4DC7F20F09D7D00C62B81 /* 5-LongestPalindromicSubstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "5-LongestPalindromicSubstring.h"; sourceTree = "<group>"; };
 		E9A4DC8020F09E1C00C62B81 /* 5-LongestPalindromicSubstring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "5-LongestPalindromicSubstring.m"; sourceTree = "<group>"; };
 		E9A802A821490CCE0011259B /* 1-TwoSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "1-TwoSum.h"; sourceTree = "<group>"; };
@@ -206,6 +210,8 @@
 		E9CFB9CC2164907100188B82 /* 22-GenerateParentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "22-GenerateParentheses.h"; sourceTree = "<group>"; };
 		E9CFB9CD2164911300188B82 /* 22-GenerateParentheses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "22-GenerateParentheses.m"; sourceTree = "<group>"; };
 		E9CFB9D221649CAF00188B82 /* generateParentheses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = generateParentheses.m; sourceTree = "<group>"; };
+		E9CFB9D42164A5CA00188B82 /* 23-MergeKSortedLists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "23-MergeKSortedLists.h"; sourceTree = "<group>"; };
+		E9CFB9D52164A68E00188B82 /* 23-MergeKSortedLists.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "23-MergeKSortedLists.m"; sourceTree = "<group>"; };
 		E9E555EC20D246E8000F33AD /* containerWithMostWaterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = containerWithMostWaterTest.m; sourceTree = "<group>"; };
 		E9EB7FF0214259F7003AEC20 /* 9-PalindromeNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "9-PalindromeNumber.h"; sourceTree = "<group>"; };
 		E9EB7FF121425A7A003AEC20 /* 9-PalindromeNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "9-PalindromeNumber.m"; sourceTree = "<group>"; };
@@ -296,6 +302,8 @@
 				E97EAFAE20CC965E00505F11 /* 21-MergeTwoSortedLists.m */,
 				E9CFB9CC2164907100188B82 /* 22-GenerateParentheses.h */,
 				E9CFB9CD2164911300188B82 /* 22-GenerateParentheses.m */,
+				E9CFB9D42164A5CA00188B82 /* 23-MergeKSortedLists.h */,
+				E9CFB9D52164A68E00188B82 /* 23-MergeKSortedLists.m */,
 				E97EAFAF20CC965E00505F11 /* 24-SwapNodesinPairs.h */,
 				E97EAFB020CC965E00505F11 /* 24-SwapNodesinPairs.m */,
 				E97EAFB120CC965E00505F11 /* 92-ReverseLinkedListII.h */,
@@ -346,12 +354,14 @@
 				E9E555EC20D246E8000F33AD /* containerWithMostWaterTest.m */,
 				E9687F7A20E60854006422CF /* findMedianSortedArraysTest.m */,
 				E9770939215A088B00753038 /* fourSumTest.m */,
+				E9CFB9D221649CAF00188B82 /* generateParentheses.m */,
 				E962E4CF214BA0A1009A03A9 /* integerToRomanTest.m */,
 				E97F9DE12154E8BF000C6C82 /* letterCombinationOfAPhoneNumberTest.m */,
 				E995F7BC21520777004B2309 /* longestCommonPrefixTest.m */,
 				E91C59BC20F190DA00BC74A0 /* longestPalindromicSubstringTest.m */,
 				E9BD25EA20CDFE50001778D6 /* longestSubstringWithoutRepeatingCharactersTest.m */,
 				E962E4CB214B93B2009A03A9 /* medianOfTwoSortedArrayTest.m */,
+				E99BD98A2165D1050070A8E3 /* mergeKSortedListsTest.m */,
 				E97886AE20DF8BAB00579C3A /* mergeTwoSortedListTest.m */,
 				E91E9A1A2144FF6C00756048 /* palindromeNumberTest.m */,
 				E98EE2A421433377003A0633 /* regularExpressionMatchingTest.m */,
@@ -365,7 +375,6 @@
 				E933ACA8215E106F00D23146 /* validParenthesesTest.m */,
 				E980297C2141070B00456DD7 /* zigzagConversionTest.m */,
 				E97EAFF820CCAD9700505F11 /* Info.plist */,
-				E9CFB9D221649CAF00188B82 /* generateParentheses.m */,
 			);
 			path = leetcodeObjCTest;
 			sourceTree = "<group>";
@@ -463,6 +472,7 @@
 				E97EAFDB20CC965E00505F11 /* 100-SameTree.m in Sources */,
 				E9770938215A061900753038 /* 18-FourSum.m in Sources */,
 				E97EAFD620CC965E00505F11 /* 92-ReverseLinkedListII.m in Sources */,
+				E9CFB9D62164A68E00188B82 /* 23-MergeKSortedLists.m in Sources */,
 				E9350EC0215CB8B0001456A3 /* 20-ValidParentheses.m in Sources */,
 				E97EAFCF20CC965E00505F11 /* 3-LongestSubstringWithoutRepeatingCharacters.m in Sources */,
 				E9BE38CD2150F1E400F09C09 /* 14-LongestCommonPrefix.m in Sources */,
@@ -504,11 +514,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E99BD98D2165DEF80070A8E3 /* 23-MergeKSortedLists.m in Sources */,
 				E9CFB9D121649BD900188B82 /* 22-GenerateParentheses.m in Sources */,
 				E9CFB9D321649CAF00188B82 /* generateParentheses.m in Sources */,
 				E933ACAA215E109200D23146 /* 20-ValidParentheses.m in Sources */,
 				E977093C215A0BA300753038 /* 18-FourSum.m in Sources */,
 				E977093B215A094E00753038 /* 19-RemoveNthNodeFromEndofList.m in Sources */,
+				E99BD98B2165D1050070A8E3 /* mergeKSortedListsTest.m in Sources */,
 				E97F9DE32154E8D4000C6C82 /* 17-LetterCombinationOfAPhoneNumber.m in Sources */,
 				E93C7DD62153797800A39502 /* 16-ThreeSumClosest.m in Sources */,
 				E995F7BE21520796004B2309 /* 14-LongestCommonPrefix.m in Sources */,
