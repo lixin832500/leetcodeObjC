@@ -36,6 +36,7 @@
 		E96FDB7220CCB7C300121361 /* twoSumTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E96FDB7120CCB7C300121361 /* twoSumTest.m */; };
 		E973C9842165F820008A9AB5 /* swapNodesInPairsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E973C9832165F820008A9AB5 /* swapNodesInPairsTest.m */; };
 		E973C9852165F97E008A9AB5 /* 24-SwapNodesinPairs.m in Sources */ = {isa = PBXBuildFile; fileRef = E97EAFB020CC965E00505F11 /* 24-SwapNodesinPairs.m */; };
+		E973C9882165FAA6008A9AB5 /* 25-ReverseNodesInKGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = E973C9872165FAA6008A9AB5 /* 25-ReverseNodesInKGroup.m */; };
 		E9770938215A061900753038 /* 18-FourSum.m in Sources */ = {isa = PBXBuildFile; fileRef = E9770937215A061900753038 /* 18-FourSum.m */; };
 		E977093A215A088B00753038 /* fourSumTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9770939215A088B00753038 /* fourSumTest.m */; };
 		E977093B215A094E00753038 /* 19-RemoveNthNodeFromEndofList.m in Sources */ = {isa = PBXBuildFile; fileRef = E97EAFAC20CC965E00505F11 /* 19-RemoveNthNodeFromEndofList.m */; };
@@ -137,6 +138,8 @@
 		E9687F7A20E60854006422CF /* findMedianSortedArraysTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = findMedianSortedArraysTest.m; sourceTree = "<group>"; };
 		E96FDB7120CCB7C300121361 /* twoSumTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = twoSumTest.m; sourceTree = "<group>"; };
 		E973C9832165F820008A9AB5 /* swapNodesInPairsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = swapNodesInPairsTest.m; sourceTree = "<group>"; };
+		E973C9862165FA04008A9AB5 /* 25-ReverseNodesInKGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "25-ReverseNodesInKGroup.h"; sourceTree = "<group>"; };
+		E973C9872165FAA6008A9AB5 /* 25-ReverseNodesInKGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "25-ReverseNodesInKGroup.m"; sourceTree = "<group>"; };
 		E9770936215A05C300753038 /* 18-FourSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "18-FourSum.h"; sourceTree = "<group>"; };
 		E9770937215A061900753038 /* 18-FourSum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "18-FourSum.m"; sourceTree = "<group>"; };
 		E9770939215A088B00753038 /* fourSumTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fourSumTest.m; sourceTree = "<group>"; };
@@ -309,6 +312,8 @@
 				E9CFB9D52164A68E00188B82 /* 23-MergeKSortedLists.m */,
 				E97EAFAF20CC965E00505F11 /* 24-SwapNodesinPairs.h */,
 				E97EAFB020CC965E00505F11 /* 24-SwapNodesinPairs.m */,
+				E973C9862165FA04008A9AB5 /* 25-ReverseNodesInKGroup.h */,
+				E973C9872165FAA6008A9AB5 /* 25-ReverseNodesInKGroup.m */,
 				E97EAFB120CC965E00505F11 /* 92-ReverseLinkedListII.h */,
 				E97EAFB220CC965E00505F11 /* 92-ReverseLinkedListII.m */,
 				E97EAFB320CC965E00505F11 /* 94-BinaryTreeInorderTraversal-2.h */,
@@ -484,6 +489,7 @@
 				E97EAFCE20CC965E00505F11 /* 2-AddTwoNumbers.m in Sources */,
 				E97EAFCD20CC965E00505F11 /* 1-TwoSum.m in Sources */,
 				E97EAFE220CC965E00505F11 /* ListNode.m in Sources */,
+				E973C9882165FAA6008A9AB5 /* 25-ReverseNodesInKGroup.m in Sources */,
 				E98EE2A32143307A003A0633 /* 10-RegularExpressionMatching.m in Sources */,
 				E9EB7FF221425A7A003AEC20 /* 9-PalindromeNumber.m in Sources */,
 				E97EAFE020CC965E00505F11 /* 237-DeleteNodeInALinkedList.m in Sources */,
