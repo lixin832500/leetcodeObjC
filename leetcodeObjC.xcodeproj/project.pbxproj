@@ -34,6 +34,8 @@
 		E9687F7B20E60854006422CF /* findMedianSortedArraysTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9687F7A20E60854006422CF /* findMedianSortedArraysTest.m */; };
 		E9687F7C20E610BA006422CF /* 4-MedianOfTwoSortedArrays.m in Sources */ = {isa = PBXBuildFile; fileRef = E91CDB7520E363B6003DB474 /* 4-MedianOfTwoSortedArrays.m */; };
 		E96FDB7220CCB7C300121361 /* twoSumTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E96FDB7120CCB7C300121361 /* twoSumTest.m */; };
+		E973C9842165F820008A9AB5 /* swapNodesInPairsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E973C9832165F820008A9AB5 /* swapNodesInPairsTest.m */; };
+		E973C9852165F97E008A9AB5 /* 24-SwapNodesinPairs.m in Sources */ = {isa = PBXBuildFile; fileRef = E97EAFB020CC965E00505F11 /* 24-SwapNodesinPairs.m */; };
 		E9770938215A061900753038 /* 18-FourSum.m in Sources */ = {isa = PBXBuildFile; fileRef = E9770937215A061900753038 /* 18-FourSum.m */; };
 		E977093A215A088B00753038 /* fourSumTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9770939215A088B00753038 /* fourSumTest.m */; };
 		E977093B215A094E00753038 /* 19-RemoveNthNodeFromEndofList.m in Sources */ = {isa = PBXBuildFile; fileRef = E97EAFAC20CC965E00505F11 /* 19-RemoveNthNodeFromEndofList.m */; };
@@ -134,6 +136,7 @@
 		E963CE432144B6A1003D3F92 /* reverseIntegerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = reverseIntegerTest.m; sourceTree = "<group>"; };
 		E9687F7A20E60854006422CF /* findMedianSortedArraysTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = findMedianSortedArraysTest.m; sourceTree = "<group>"; };
 		E96FDB7120CCB7C300121361 /* twoSumTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = twoSumTest.m; sourceTree = "<group>"; };
+		E973C9832165F820008A9AB5 /* swapNodesInPairsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = swapNodesInPairsTest.m; sourceTree = "<group>"; };
 		E9770936215A05C300753038 /* 18-FourSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "18-FourSum.h"; sourceTree = "<group>"; };
 		E9770937215A061900753038 /* 18-FourSum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "18-FourSum.m"; sourceTree = "<group>"; };
 		E9770939215A088B00753038 /* fourSumTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fourSumTest.m; sourceTree = "<group>"; };
@@ -375,6 +378,7 @@
 				E933ACA8215E106F00D23146 /* validParenthesesTest.m */,
 				E980297C2141070B00456DD7 /* zigzagConversionTest.m */,
 				E97EAFF820CCAD9700505F11 /* Info.plist */,
+				E973C9832165F820008A9AB5 /* swapNodesInPairsTest.m */,
 			);
 			path = leetcodeObjCTest;
 			sourceTree = "<group>";
@@ -514,9 +518,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E973C9852165F97E008A9AB5 /* 24-SwapNodesinPairs.m in Sources */,
 				E99BD98D2165DEF80070A8E3 /* 23-MergeKSortedLists.m in Sources */,
 				E9CFB9D121649BD900188B82 /* 22-GenerateParentheses.m in Sources */,
 				E9CFB9D321649CAF00188B82 /* generateParentheses.m in Sources */,
+				E973C9842165F820008A9AB5 /* swapNodesInPairsTest.m in Sources */,
 				E933ACAA215E109200D23146 /* 20-ValidParentheses.m in Sources */,
 				E977093C215A0BA300753038 /* 18-FourSum.m in Sources */,
 				E977093B215A094E00753038 /* 19-RemoveNthNodeFromEndofList.m in Sources */,
