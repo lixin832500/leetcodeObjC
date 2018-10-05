@@ -80,6 +80,8 @@
 		E98EE2A32143307A003A0633 /* 10-RegularExpressionMatching.m in Sources */ = {isa = PBXBuildFile; fileRef = E98EE2A22143307A003A0633 /* 10-RegularExpressionMatching.m */; };
 		E98EE2A521433377003A0633 /* regularExpressionMatchingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E98EE2A421433377003A0633 /* regularExpressionMatchingTest.m */; };
 		E98EE2A621433437003A0633 /* 10-RegularExpressionMatching.m in Sources */ = {isa = PBXBuildFile; fileRef = E98EE2A22143307A003A0633 /* 10-RegularExpressionMatching.m */; };
+		E993FA592167254F0089C560 /* reverseNodesInKGroupTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E993FA582167254F0089C560 /* reverseNodesInKGroupTest.m */; };
+		E993FA5A2167258C0089C560 /* 25-ReverseNodesInKGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = E973C9872165FAA6008A9AB5 /* 25-ReverseNodesInKGroup.m */; };
 		E995F7BD21520777004B2309 /* longestCommonPrefixTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E995F7BC21520777004B2309 /* longestCommonPrefixTest.m */; };
 		E995F7BE21520796004B2309 /* 14-LongestCommonPrefix.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BE38CC2150F1E400F09C09 /* 14-LongestCommonPrefix.m */; };
 		E995F7C121520E5E004B2309 /* 16-ThreeSumClosest.m in Sources */ = {isa = PBXBuildFile; fileRef = E995F7C021520E5E004B2309 /* 16-ThreeSumClosest.m */; };
@@ -202,6 +204,7 @@
 		E98EE2A121433043003A0633 /* 10-RegularExpressionMatching.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "10-RegularExpressionMatching.h"; sourceTree = "<group>"; };
 		E98EE2A22143307A003A0633 /* 10-RegularExpressionMatching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "10-RegularExpressionMatching.m"; sourceTree = "<group>"; };
 		E98EE2A421433377003A0633 /* regularExpressionMatchingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = regularExpressionMatchingTest.m; sourceTree = "<group>"; };
+		E993FA582167254F0089C560 /* reverseNodesInKGroupTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = reverseNodesInKGroupTest.m; sourceTree = "<group>"; };
 		E995F7BC21520777004B2309 /* longestCommonPrefixTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = longestCommonPrefixTest.m; sourceTree = "<group>"; };
 		E995F7BF21520E39004B2309 /* 16-ThreeSumClosest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "16-ThreeSumClosest.h"; sourceTree = "<group>"; };
 		E995F7C021520E5E004B2309 /* 16-ThreeSumClosest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "16-ThreeSumClosest.m"; sourceTree = "<group>"; };
@@ -384,6 +387,7 @@
 				E980297C2141070B00456DD7 /* zigzagConversionTest.m */,
 				E97EAFF820CCAD9700505F11 /* Info.plist */,
 				E973C9832165F820008A9AB5 /* swapNodesInPairsTest.m */,
+				E993FA582167254F0089C560 /* reverseNodesInKGroupTest.m */,
 			);
 			path = leetcodeObjCTest;
 			sourceTree = "<group>";
@@ -524,6 +528,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E993FA5A2167258C0089C560 /* 25-ReverseNodesInKGroup.m in Sources */,
 				E973C9852165F97E008A9AB5 /* 24-SwapNodesinPairs.m in Sources */,
 				E99BD98D2165DEF80070A8E3 /* 23-MergeKSortedLists.m in Sources */,
 				E9CFB9D121649BD900188B82 /* 22-GenerateParentheses.m in Sources */,
@@ -550,6 +555,7 @@
 				E980297E21410AA800456DD7 /* 6-ZigzagConversion.m in Sources */,
 				E93C7DD4215377E900A39502 /* threeSumClosestTest.m in Sources */,
 				E91C59BE20F1982B00BC74A0 /* 5-LongestPalindromicSubstring.m in Sources */,
+				E993FA592167254F0089C560 /* reverseNodesInKGroupTest.m in Sources */,
 				E9687F7C20E610BA006422CF /* 4-MedianOfTwoSortedArrays.m in Sources */,
 				E962E4D0214BA0A1009A03A9 /* integerToRomanTest.m in Sources */,
 				E97886AD20DF29C000579C3A /* 21-MergeTwoSortedLists.m in Sources */,
