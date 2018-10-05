@@ -82,6 +82,9 @@
 		E98EE2A621433437003A0633 /* 10-RegularExpressionMatching.m in Sources */ = {isa = PBXBuildFile; fileRef = E98EE2A22143307A003A0633 /* 10-RegularExpressionMatching.m */; };
 		E993FA592167254F0089C560 /* reverseNodesInKGroupTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E993FA582167254F0089C560 /* reverseNodesInKGroupTest.m */; };
 		E993FA5A2167258C0089C560 /* 25-ReverseNodesInKGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = E973C9872165FAA6008A9AB5 /* 25-ReverseNodesInKGroup.m */; };
+		E993FA5D21672A280089C560 /* 26-RemoveDuplicatesFromSortedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = E993FA5C21672A280089C560 /* 26-RemoveDuplicatesFromSortedArray.m */; };
+		E993FA5F21672BE00089C560 /* removeDuplicatesFromSortedArrayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E993FA5E21672BE00089C560 /* removeDuplicatesFromSortedArrayTest.m */; };
+		E993FA6021672C020089C560 /* 26-RemoveDuplicatesFromSortedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = E993FA5C21672A280089C560 /* 26-RemoveDuplicatesFromSortedArray.m */; };
 		E995F7BD21520777004B2309 /* longestCommonPrefixTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E995F7BC21520777004B2309 /* longestCommonPrefixTest.m */; };
 		E995F7BE21520796004B2309 /* 14-LongestCommonPrefix.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BE38CC2150F1E400F09C09 /* 14-LongestCommonPrefix.m */; };
 		E995F7C121520E5E004B2309 /* 16-ThreeSumClosest.m in Sources */ = {isa = PBXBuildFile; fileRef = E995F7C021520E5E004B2309 /* 16-ThreeSumClosest.m */; };
@@ -205,6 +208,9 @@
 		E98EE2A22143307A003A0633 /* 10-RegularExpressionMatching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "10-RegularExpressionMatching.m"; sourceTree = "<group>"; };
 		E98EE2A421433377003A0633 /* regularExpressionMatchingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = regularExpressionMatchingTest.m; sourceTree = "<group>"; };
 		E993FA582167254F0089C560 /* reverseNodesInKGroupTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = reverseNodesInKGroupTest.m; sourceTree = "<group>"; };
+		E993FA5B216729CA0089C560 /* 26-RemoveDuplicatesFromSortedArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "26-RemoveDuplicatesFromSortedArray.h"; sourceTree = "<group>"; };
+		E993FA5C21672A280089C560 /* 26-RemoveDuplicatesFromSortedArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "26-RemoveDuplicatesFromSortedArray.m"; sourceTree = "<group>"; };
+		E993FA5E21672BE00089C560 /* removeDuplicatesFromSortedArrayTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = removeDuplicatesFromSortedArrayTest.m; sourceTree = "<group>"; };
 		E995F7BC21520777004B2309 /* longestCommonPrefixTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = longestCommonPrefixTest.m; sourceTree = "<group>"; };
 		E995F7BF21520E39004B2309 /* 16-ThreeSumClosest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "16-ThreeSumClosest.h"; sourceTree = "<group>"; };
 		E995F7C021520E5E004B2309 /* 16-ThreeSumClosest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "16-ThreeSumClosest.m"; sourceTree = "<group>"; };
@@ -317,6 +323,8 @@
 				E97EAFB020CC965E00505F11 /* 24-SwapNodesinPairs.m */,
 				E973C9862165FA04008A9AB5 /* 25-ReverseNodesInKGroup.h */,
 				E973C9872165FAA6008A9AB5 /* 25-ReverseNodesInKGroup.m */,
+				E993FA5B216729CA0089C560 /* 26-RemoveDuplicatesFromSortedArray.h */,
+				E993FA5C21672A280089C560 /* 26-RemoveDuplicatesFromSortedArray.m */,
 				E97EAFB120CC965E00505F11 /* 92-ReverseLinkedListII.h */,
 				E97EAFB220CC965E00505F11 /* 92-ReverseLinkedListII.m */,
 				E97EAFB320CC965E00505F11 /* 94-BinaryTreeInorderTraversal-2.h */,
@@ -378,16 +386,17 @@
 				E98EE2A421433377003A0633 /* regularExpressionMatchingTest.m */,
 				E9770940215A14E100753038 /* removeNthNodeFromEndofListTest.m */,
 				E963CE432144B6A1003D3F92 /* reverseIntegerTest.m */,
+				E993FA582167254F0089C560 /* reverseNodesInKGroupTest.m */,
 				E962E4D5214BAB50009A03A9 /* romanToInteger.m */,
 				E91896EE214252C0009D21EA /* stringToIntegerTest.m */,
+				E973C9832165F820008A9AB5 /* swapNodesInPairsTest.m */,
 				E93C7DD3215377E900A39502 /* threeSumClosestTest.m */,
 				E935E0EE214505110090EECE /* threeSumTest.m */,
 				E96FDB7120CCB7C300121361 /* twoSumTest.m */,
 				E933ACA8215E106F00D23146 /* validParenthesesTest.m */,
 				E980297C2141070B00456DD7 /* zigzagConversionTest.m */,
 				E97EAFF820CCAD9700505F11 /* Info.plist */,
-				E973C9832165F820008A9AB5 /* swapNodesInPairsTest.m */,
-				E993FA582167254F0089C560 /* reverseNodesInKGroupTest.m */,
+				E993FA5E21672BE00089C560 /* removeDuplicatesFromSortedArrayTest.m */,
 			);
 			path = leetcodeObjCTest;
 			sourceTree = "<group>";
@@ -486,6 +495,7 @@
 				E9770938215A061900753038 /* 18-FourSum.m in Sources */,
 				E97EAFD620CC965E00505F11 /* 92-ReverseLinkedListII.m in Sources */,
 				E9CFB9D62164A68E00188B82 /* 23-MergeKSortedLists.m in Sources */,
+				E993FA5D21672A280089C560 /* 26-RemoveDuplicatesFromSortedArray.m in Sources */,
 				E9350EC0215CB8B0001456A3 /* 20-ValidParentheses.m in Sources */,
 				E97EAFCF20CC965E00505F11 /* 3-LongestSubstringWithoutRepeatingCharacters.m in Sources */,
 				E9BE38CD2150F1E400F09C09 /* 14-LongestCommonPrefix.m in Sources */,
@@ -528,6 +538,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E993FA6021672C020089C560 /* 26-RemoveDuplicatesFromSortedArray.m in Sources */,
 				E993FA5A2167258C0089C560 /* 25-ReverseNodesInKGroup.m in Sources */,
 				E973C9852165F97E008A9AB5 /* 24-SwapNodesinPairs.m in Sources */,
 				E99BD98D2165DEF80070A8E3 /* 23-MergeKSortedLists.m in Sources */,
@@ -561,6 +572,7 @@
 				E97886AD20DF29C000579C3A /* 21-MergeTwoSortedLists.m in Sources */,
 				E980297D2141070B00456DD7 /* zigzagConversionTest.m in Sources */,
 				E9770941215A14E100753038 /* removeNthNodeFromEndofListTest.m in Sources */,
+				E993FA5F21672BE00089C560 /* removeDuplicatesFromSortedArrayTest.m in Sources */,
 				E962E4CC214B93B2009A03A9 /* medianOfTwoSortedArrayTest.m in Sources */,
 				E9687F7B20E60854006422CF /* findMedianSortedArraysTest.m in Sources */,
 				E97886AA20DF0BAD00579C3A /* ListNode.m in Sources */,
