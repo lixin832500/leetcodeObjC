@@ -36,9 +36,9 @@
         NSMutableArray* left = [self generateTreeFrom : start To:k-1];
         NSMutableArray* right = [self generateTreeFrom : k+1 To:end];
         
-        for(NSInteger i=0; i<left.count; i++)
+        for(NSInteger i=0; i<[left count]; i++)
         {
-            for(NSInteger j=0; j<right.count; j++)
+            for(NSInteger j=0; j<[right count]; j++)
             {
                 TreeNode *root = [[TreeNode alloc] init];
                 root.val = k;

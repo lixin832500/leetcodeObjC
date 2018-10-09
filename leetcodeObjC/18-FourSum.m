@@ -12,14 +12,14 @@
 @implementation Solution18: NSObject
 - (NSArray *)fourSum: (NSArray *)nums : (NSInteger) target
 {
-    NSInteger len = nums.count;
+    NSInteger len = [nums count];
     NSMutableArray* ret = [NSMutableArray array];
     if(nums == nil || len < 4) return [ret copy];
     
     NSArray* sortedNums = [nums sortedArrayUsingSelector:@selector(compare:)];
     
-    for(NSInteger i = 0; i< sortedNums.count; i++){
-        for(NSInteger j = i+1; j< sortedNums.count; j++){
+    for(NSInteger i = 0; i< [sortedNums count]; i++){
+        for(NSInteger j = i+1; j< [sortedNums count]; j++){
             
             NSInteger left = j + 1;
             NSInteger right = len - 1;

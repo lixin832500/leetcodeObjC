@@ -18,7 +18,7 @@
     
     NSMutableArray *queue = [NSMutableArray array];
     [queue addObject: treeNode];
-    while (queue.count != 0) {
+    while ([queue count] != 0) {
         NSMutableArray *eachLevelArray = [NSMutableArray array];
         int size = (int)[queue count];
         for (int i = 0; i<size; i++) {

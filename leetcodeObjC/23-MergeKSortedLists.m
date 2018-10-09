@@ -13,7 +13,7 @@
 @implementation Solution23 : NSObject
 - (ListNode *) mergeKLists: (NSArray*) lists
 {
-    NSInteger sz = lists.count;
+    NSInteger sz = [lists count];
     if(sz == 0) return nil;
     
     NSMutableArray *tmpLists = [lists mutableCopy];

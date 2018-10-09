@@ -18,7 +18,7 @@
     if(root == nil) return ret;
     NSMutableArray *stack = [NSMutableArray array];
     TreeNode* p = root;
-    while(p != nil || stack.count != 0){
+    while(p != nil || [stack count] != 0){
         if(p != nil){
             [stack addObject: p];
             p = p.left;

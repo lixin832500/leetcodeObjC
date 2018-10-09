@@ -16,10 +16,10 @@
     NSInteger distance = INT_MAX;
     NSInteger ret = 0;
     
-    NSInteger len = nums.count;
+    NSInteger len = [nums count];
     NSArray* sortedNums = [nums sortedArrayUsingSelector:@selector(compare:)];
     
-    for(NSInteger i = 0; i< sortedNums.count - 1; i++){
+    for(NSInteger i = 0; i< [sortedNums count] - 1; i++){
         NSInteger left = i +1;
         NSInteger right = len -1;
         

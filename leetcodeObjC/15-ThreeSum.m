@@ -12,11 +12,11 @@
 @implementation Solution15: NSObject
 - (NSArray *)threeSum: (NSArray *)nums
 {
-    NSInteger len = nums.count;
+    NSInteger len = [nums count];
     NSMutableArray* ret = [NSMutableArray array];
     NSArray* sortedNums = [nums sortedArrayUsingSelector:@selector(compare:)];
     
-    for(NSInteger i = 0; i< sortedNums.count; i++){
+    for(NSInteger i = 0; i< [sortedNums count]; i++){
         
         NSInteger sum = 0 - [sortedNums[i] integerValue];
         NSInteger left = i + 1;

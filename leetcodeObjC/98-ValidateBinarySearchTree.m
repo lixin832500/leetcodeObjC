@@ -18,7 +18,7 @@
     
     [self inorder:root withResult:list];
     
-    for (NSInteger i = 1; i < list.count; i++) {
+    for (NSInteger i = 1; i < [list count]; i++) {
         NSNumber* myArrayElementPre = [list objectAtIndex: (i-1)];
         NSNumber* myArrayElementNext = [list objectAtIndex: i ];
         if(myArrayElementPre >= myArrayElementNext){
