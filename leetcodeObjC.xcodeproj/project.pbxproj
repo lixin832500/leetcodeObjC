@@ -95,6 +95,9 @@
 		E9B1BE8E216C789600FE7531 /* 27-RemoveElement.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B1BE8D216C789600FE7531 /* 27-RemoveElement.m */; };
 		E9B1BE92216C829700FE7531 /* removeElementTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B1BE91216C829700FE7531 /* removeElementTest.m */; };
 		E9B1BE93216C82BE00FE7531 /* 27-RemoveElement.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B1BE8D216C789600FE7531 /* 27-RemoveElement.m */; };
+		E9B1BE96216CFD4400FE7531 /* 28-ImplementStrstr.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B1BE95216CFD4400FE7531 /* 28-ImplementStrstr.m */; };
+		E9B1BE98216CFFC200FE7531 /* implementStrstrTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B1BE97216CFFC200FE7531 /* implementStrstrTest.m */; };
+		E9B1BE99216D000900FE7531 /* 28-ImplementStrstr.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B1BE95216CFD4400FE7531 /* 28-ImplementStrstr.m */; };
 		E9BD25E020CDE7C6001778D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BD25DF20CDE7C6001778D6 /* main.m */; };
 		E9BD25EB20CDFE50001778D6 /* longestSubstringWithoutRepeatingCharactersTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BD25EA20CDFE50001778D6 /* longestSubstringWithoutRepeatingCharactersTest.m */; };
 		E9BE38CD2150F1E400F09C09 /* 14-LongestCommonPrefix.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BE38CC2150F1E400F09C09 /* 14-LongestCommonPrefix.m */; };
@@ -224,6 +227,9 @@
 		E9B1BE8C216C777200FE7531 /* 27-RemoveElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "27-RemoveElement.h"; sourceTree = "<group>"; };
 		E9B1BE8D216C789600FE7531 /* 27-RemoveElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "27-RemoveElement.m"; sourceTree = "<group>"; };
 		E9B1BE91216C829700FE7531 /* removeElementTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = removeElementTest.m; sourceTree = "<group>"; };
+		E9B1BE94216CFD2F00FE7531 /* 28-ImplementStrstr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "28-ImplementStrstr.h"; sourceTree = "<group>"; };
+		E9B1BE95216CFD4400FE7531 /* 28-ImplementStrstr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "28-ImplementStrstr.m"; sourceTree = "<group>"; };
+		E9B1BE97216CFFC200FE7531 /* implementStrstrTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = implementStrstrTest.m; sourceTree = "<group>"; };
 		E9BD25DF20CDE7C6001778D6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E9BD25EA20CDFE50001778D6 /* longestSubstringWithoutRepeatingCharactersTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = longestSubstringWithoutRepeatingCharactersTest.m; sourceTree = "<group>"; };
 		E9BE38CB2150F0E700F09C09 /* 14-LongestCommonPrefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "14-LongestCommonPrefix.h"; sourceTree = "<group>"; };
@@ -331,6 +337,10 @@
 				E973C9872165FAA6008A9AB5 /* 25-ReverseNodesInKGroup.m */,
 				E993FA5B216729CA0089C560 /* 26-RemoveDuplicatesFromSortedArray.h */,
 				E993FA5C21672A280089C560 /* 26-RemoveDuplicatesFromSortedArray.m */,
+				E9B1BE8C216C777200FE7531 /* 27-RemoveElement.h */,
+				E9B1BE8D216C789600FE7531 /* 27-RemoveElement.m */,
+				E9B1BE94216CFD2F00FE7531 /* 28-ImplementStrstr.h */,
+				E9B1BE95216CFD4400FE7531 /* 28-ImplementStrstr.m */,
 				E97EAFB120CC965E00505F11 /* 92-ReverseLinkedListII.h */,
 				E97EAFB220CC965E00505F11 /* 92-ReverseLinkedListII.m */,
 				E97EAFB320CC965E00505F11 /* 94-BinaryTreeInorderTraversal-2.h */,
@@ -360,8 +370,6 @@
 				E9BD25DF20CDE7C6001778D6 /* main.m */,
 				E97EAFCB20CC965E00505F11 /* TreeNode.h */,
 				E97EAFCC20CC965E00505F11 /* TreeNode.m */,
-				E9B1BE8C216C777200FE7531 /* 27-RemoveElement.h */,
-				E9B1BE8D216C789600FE7531 /* 27-RemoveElement.m */,
 			);
 			path = leetcodeObjC;
 			sourceTree = "<group>";
@@ -392,6 +400,8 @@
 				E97886AE20DF8BAB00579C3A /* mergeTwoSortedListTest.m */,
 				E91E9A1A2144FF6C00756048 /* palindromeNumberTest.m */,
 				E98EE2A421433377003A0633 /* regularExpressionMatchingTest.m */,
+				E993FA5E21672BE00089C560 /* removeDuplicatesFromSortedArrayTest.m */,
+				E9B1BE91216C829700FE7531 /* removeElementTest.m */,
 				E9770940215A14E100753038 /* removeNthNodeFromEndofListTest.m */,
 				E963CE432144B6A1003D3F92 /* reverseIntegerTest.m */,
 				E993FA582167254F0089C560 /* reverseNodesInKGroupTest.m */,
@@ -404,8 +414,7 @@
 				E933ACA8215E106F00D23146 /* validParenthesesTest.m */,
 				E980297C2141070B00456DD7 /* zigzagConversionTest.m */,
 				E97EAFF820CCAD9700505F11 /* Info.plist */,
-				E993FA5E21672BE00089C560 /* removeDuplicatesFromSortedArrayTest.m */,
-				E9B1BE91216C829700FE7531 /* removeElementTest.m */,
+				E9B1BE97216CFFC200FE7531 /* implementStrstrTest.m */,
 			);
 			path = leetcodeObjCTest;
 			sourceTree = "<group>";
@@ -515,6 +524,7 @@
 				E97EAFE220CC965E00505F11 /* ListNode.m in Sources */,
 				E973C9882165FAA6008A9AB5 /* 25-ReverseNodesInKGroup.m in Sources */,
 				E98EE2A32143307A003A0633 /* 10-RegularExpressionMatching.m in Sources */,
+				E9B1BE96216CFD4400FE7531 /* 28-ImplementStrstr.m in Sources */,
 				E9EB7FF221425A7A003AEC20 /* 9-PalindromeNumber.m in Sources */,
 				E97EAFE020CC965E00505F11 /* 237-DeleteNodeInALinkedList.m in Sources */,
 				E91896ED21424C97009D21EA /* 8-StringToInteger.m in Sources */,
@@ -548,8 +558,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9B1BE99216D000900FE7531 /* 28-ImplementStrstr.m in Sources */,
 				E9B1BE93216C82BE00FE7531 /* 27-RemoveElement.m in Sources */,
 				E993FA6021672C020089C560 /* 26-RemoveDuplicatesFromSortedArray.m in Sources */,
+				E9B1BE98216CFFC200FE7531 /* implementStrstrTest.m in Sources */,
 				E993FA5A2167258C0089C560 /* 25-ReverseNodesInKGroup.m in Sources */,
 				E973C9852165F97E008A9AB5 /* 24-SwapNodesinPairs.m in Sources */,
 				E99BD98D2165DEF80070A8E3 /* 23-MergeKSortedLists.m in Sources */,
