@@ -76,6 +76,9 @@
 		E97F9DE32154E8D4000C6C82 /* 17-LetterCombinationOfAPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = E97F9DDF2154D991000C6C82 /* 17-LetterCombinationOfAPhoneNumber.m */; };
 		E980297D2141070B00456DD7 /* zigzagConversionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E980297C2141070B00456DD7 /* zigzagConversionTest.m */; };
 		E980297E21410AA800456DD7 /* 6-ZigzagConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = E93CFCF3213B7B65000EA5BE /* 6-ZigzagConversion.m */; };
+		E982052A216DCC380079A336 /* 29-DivideTwoIntegers.m in Sources */ = {isa = PBXBuildFile; fileRef = E9820529216DCC380079A336 /* 29-DivideTwoIntegers.m */; };
+		E982052C216DD11D0079A336 /* divideTwoIntegersTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E982052B216DD11D0079A336 /* divideTwoIntegersTest.m */; };
+		E982052D216DD2190079A336 /* 29-DivideTwoIntegers.m in Sources */ = {isa = PBXBuildFile; fileRef = E9820529216DCC380079A336 /* 29-DivideTwoIntegers.m */; };
 		E98EE2A0214328C4003A0633 /* 9-PalindromeNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EB7FF121425A7A003AEC20 /* 9-PalindromeNumber.m */; };
 		E98EE2A32143307A003A0633 /* 10-RegularExpressionMatching.m in Sources */ = {isa = PBXBuildFile; fileRef = E98EE2A22143307A003A0633 /* 10-RegularExpressionMatching.m */; };
 		E98EE2A521433377003A0633 /* regularExpressionMatchingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E98EE2A421433377003A0633 /* regularExpressionMatchingTest.m */; };
@@ -210,6 +213,9 @@
 		E97F9DDF2154D991000C6C82 /* 17-LetterCombinationOfAPhoneNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "17-LetterCombinationOfAPhoneNumber.m"; sourceTree = "<group>"; };
 		E97F9DE12154E8BF000C6C82 /* letterCombinationOfAPhoneNumberTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = letterCombinationOfAPhoneNumberTest.m; sourceTree = "<group>"; };
 		E980297C2141070B00456DD7 /* zigzagConversionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zigzagConversionTest.m; sourceTree = "<group>"; };
+		E9820528216DCC190079A336 /* 29-DivideTwoIntegers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "29-DivideTwoIntegers.h"; sourceTree = "<group>"; };
+		E9820529216DCC380079A336 /* 29-DivideTwoIntegers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "29-DivideTwoIntegers.m"; sourceTree = "<group>"; };
+		E982052B216DD11D0079A336 /* divideTwoIntegersTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = divideTwoIntegersTest.m; sourceTree = "<group>"; };
 		E98EE2A121433043003A0633 /* 10-RegularExpressionMatching.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "10-RegularExpressionMatching.h"; sourceTree = "<group>"; };
 		E98EE2A22143307A003A0633 /* 10-RegularExpressionMatching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "10-RegularExpressionMatching.m"; sourceTree = "<group>"; };
 		E98EE2A421433377003A0633 /* regularExpressionMatchingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = regularExpressionMatchingTest.m; sourceTree = "<group>"; };
@@ -341,6 +347,8 @@
 				E9B1BE8D216C789600FE7531 /* 27-RemoveElement.m */,
 				E9B1BE94216CFD2F00FE7531 /* 28-ImplementStrstr.h */,
 				E9B1BE95216CFD4400FE7531 /* 28-ImplementStrstr.m */,
+				E9820528216DCC190079A336 /* 29-DivideTwoIntegers.h */,
+				E9820529216DCC380079A336 /* 29-DivideTwoIntegers.m */,
 				E97EAFB120CC965E00505F11 /* 92-ReverseLinkedListII.h */,
 				E97EAFB220CC965E00505F11 /* 92-ReverseLinkedListII.m */,
 				E97EAFB320CC965E00505F11 /* 94-BinaryTreeInorderTraversal-2.h */,
@@ -387,9 +395,11 @@
 			children = (
 				E97886A720DF033700579C3A /* addTwoNumbersTest.m */,
 				E9E555EC20D246E8000F33AD /* containerWithMostWaterTest.m */,
+				E982052B216DD11D0079A336 /* divideTwoIntegersTest.m */,
 				E9687F7A20E60854006422CF /* findMedianSortedArraysTest.m */,
 				E9770939215A088B00753038 /* fourSumTest.m */,
 				E9CFB9D221649CAF00188B82 /* generateParentheses.m */,
+				E9B1BE97216CFFC200FE7531 /* implementStrstrTest.m */,
 				E962E4CF214BA0A1009A03A9 /* integerToRomanTest.m */,
 				E97F9DE12154E8BF000C6C82 /* letterCombinationOfAPhoneNumberTest.m */,
 				E995F7BC21520777004B2309 /* longestCommonPrefixTest.m */,
@@ -414,7 +424,6 @@
 				E933ACA8215E106F00D23146 /* validParenthesesTest.m */,
 				E980297C2141070B00456DD7 /* zigzagConversionTest.m */,
 				E97EAFF820CCAD9700505F11 /* Info.plist */,
-				E9B1BE97216CFFC200FE7531 /* implementStrstrTest.m */,
 			);
 			path = leetcodeObjCTest;
 			sourceTree = "<group>";
@@ -541,6 +550,7 @@
 				E97EAFDC20CC965E00505F11 /* 101-SymmetricTree.m in Sources */,
 				E93CFCF4213B7B65000EA5BE /* 6-ZigzagConversion.m in Sources */,
 				E97EAFDE20CC965E00505F11 /* 206-ReverseLinkedList.m in Sources */,
+				E982052A216DCC380079A336 /* 29-DivideTwoIntegers.m in Sources */,
 				E97EAFD920CC965E00505F11 /* 95-UniqueBinarySearchTreesII.m in Sources */,
 				E97EAFD820CC965E00505F11 /* 94-BinaryTreeInorderTraversal.m in Sources */,
 				E97EAFD720CC965E00505F11 /* 94-BinaryTreeInorderTraversal-2.m in Sources */,
@@ -558,9 +568,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E982052D216DD2190079A336 /* 29-DivideTwoIntegers.m in Sources */,
 				E9B1BE99216D000900FE7531 /* 28-ImplementStrstr.m in Sources */,
 				E9B1BE93216C82BE00FE7531 /* 27-RemoveElement.m in Sources */,
 				E993FA6021672C020089C560 /* 26-RemoveDuplicatesFromSortedArray.m in Sources */,
+				E982052C216DD11D0079A336 /* divideTwoIntegersTest.m in Sources */,
 				E9B1BE98216CFFC200FE7531 /* implementStrstrTest.m in Sources */,
 				E993FA5A2167258C0089C560 /* 25-ReverseNodesInKGroup.m in Sources */,
 				E973C9852165F97E008A9AB5 /* 24-SwapNodesinPairs.m in Sources */,
