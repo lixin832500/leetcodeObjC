@@ -549,7 +549,7 @@
                   moduleName = "leetcodeObjCTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/medianOfTwoSortedArrayTest.m"
-                  timestampString = "560845847.839717"
+                  timestampString = "561448204.550351"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "53"
@@ -564,7 +564,7 @@
                   moduleName = "leetcodeObjCTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/medianOfTwoSortedArrayTest.m"
-                  timestampString = "560845847.852055"
+                  timestampString = "561448204.562423"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "53"
@@ -579,7 +579,7 @@
                   moduleName = "leetcodeObjCTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/medianOfTwoSortedArrayTest.m"
-                  timestampString = "560845847.862628"
+                  timestampString = "561448204.5738519"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "53"
@@ -594,7 +594,7 @@
                   moduleName = "leetcodeObjCTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/medianOfTwoSortedArrayTest.m"
-                  timestampString = "560845847.873377"
+                  timestampString = "561448204.585364"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "53"
@@ -609,7 +609,7 @@
                   moduleName = "leetcodeObjCTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/medianOfTwoSortedArrayTest.m"
-                  timestampString = "560845847.884576"
+                  timestampString = "561448204.596727"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "53"
@@ -888,7 +888,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "leetcodeObjC/14-LongestCommonPrefix.m"
@@ -904,7 +904,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "leetcodeObjCTest/longestCommonPrefixTest.m"
@@ -917,14 +917,14 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "-[longestCommonPrefixTest testLongestCommonPrefix1]"
                   moduleName = "leetcodeObjCTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/longestCommonPrefixTest.m"
-                  timestampString = "560845847.91431"
+                  timestampString = "561443451.50881"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "36"
@@ -932,14 +932,14 @@
                   offsetFromSymbolStart = "152">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "-[longestCommonPrefixTest testLongestCommonPrefix1]"
                   moduleName = "leetcodeObjCTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/longestCommonPrefixTest.m"
-                  timestampString = "560845847.925281"
+                  timestampString = "561443451.517627"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "36"
@@ -947,14 +947,14 @@
                   offsetFromSymbolStart = "588">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "-[longestCommonPrefixTest testLongestCommonPrefix1]"
                   moduleName = "leetcodeObjCTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/longestCommonPrefixTest.m"
-                  timestampString = "560845847.935786"
+                  timestampString = "561443451.527202"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "36"
@@ -962,14 +962,14 @@
                   offsetFromSymbolStart = "674">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "-[longestCommonPrefixTest testLongestCommonPrefix1]"
                   moduleName = "leetcodeObjCTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/longestCommonPrefixTest.m"
-                  timestampString = "560845847.946259"
+                  timestampString = "561443451.53731"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "36"
@@ -982,7 +982,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "leetcodeObjC/14-LongestCommonPrefix.m"
@@ -998,7 +998,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "leetcodeObjC/14-LongestCommonPrefix.m"
@@ -1320,7 +1320,7 @@
                   moduleName = "leetcodeObjCTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/fourSumTest.m"
-                  timestampString = "560845848.005345"
+                  timestampString = "561448204.626596"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "44"
@@ -1335,7 +1335,7 @@
                   moduleName = "leetcodeObjCTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/fourSumTest.m"
-                  timestampString = "560845848.016106"
+                  timestampString = "561448204.638481"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "44"
@@ -1350,7 +1350,7 @@
                   moduleName = "leetcodeObjCTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/fourSumTest.m"
-                  timestampString = "560845848.0272"
+                  timestampString = "561448204.649601"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "44"
@@ -1365,7 +1365,7 @@
                   moduleName = "leetcodeObjCTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/fourSumTest.m"
-                  timestampString = "560845848.037856"
+                  timestampString = "561448204.660727"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "44"
@@ -1380,7 +1380,7 @@
                   moduleName = "leetcodeObjCTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/fourSumTest.m"
-                  timestampString = "560845848.048942"
+                  timestampString = "561448204.673593"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "44"
@@ -1600,7 +1600,7 @@
                   moduleName = "leetcodeObjCTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/generateParentheses.m"
-                  timestampString = "560845848.06541"
+                  timestampString = "561448204.6912481"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "37"
@@ -1615,7 +1615,7 @@
                   moduleName = "leetcodeObjCTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/generateParentheses.m"
-                  timestampString = "560845848.076494"
+                  timestampString = "561448204.701804"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "37"
@@ -1630,7 +1630,7 @@
                   moduleName = "leetcodeObjCTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/generateParentheses.m"
-                  timestampString = "560845848.087256"
+                  timestampString = "561448204.710016"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "37"
@@ -1645,7 +1645,7 @@
                   moduleName = "leetcodeObjCTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/generateParentheses.m"
-                  timestampString = "560845848.0978251"
+                  timestampString = "561448204.719619"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "37"
@@ -2153,6 +2153,179 @@
             startingLineNumber = "15"
             endingLineNumber = "15"
             landmarkName = "-strStr::"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "leetcodeObjC/14-LongestCommonPrefix.m"
+            timestampString = "561443459.8988349"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "-longestCommonPrefix:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "leetcodeObjC/30-SubstringWithConcatenationOfAllWords.m"
+            timestampString = "561447678.205599"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "-findSubstring::"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "leetcodeObjCTest/substringWithConcatenationOfAllWordsTest.m"
+            timestampString = "561447678.205599"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "-testFindSubstring1"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "leetcodeObjCTest/substringWithConcatenationOfAllWordsTest.m"
+            timestampString = "561447678.205599"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "-testFindSubstring1"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[substringWithConcatenationOfAllWordsTest testFindSubstring1]"
+                  moduleName = "leetcodeObjCTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/substringWithConcatenationOfAllWordsTest.m"
+                  timestampString = "561447766.185899"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "375">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[substringWithConcatenationOfAllWordsTest testFindSubstring1]"
+                  moduleName = "leetcodeObjCTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/substringWithConcatenationOfAllWordsTest.m"
+                  timestampString = "561447766.193855"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "439">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[substringWithConcatenationOfAllWordsTest testFindSubstring1]"
+                  moduleName = "leetcodeObjCTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/substringWithConcatenationOfAllWordsTest.m"
+                  timestampString = "561447766.20315"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1136">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[substringWithConcatenationOfAllWordsTest testFindSubstring1]"
+                  moduleName = "leetcodeObjCTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/substringWithConcatenationOfAllWordsTest.m"
+                  timestampString = "561447766.215428"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1282">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[substringWithConcatenationOfAllWordsTest testFindSubstring1]"
+                  moduleName = "leetcodeObjCTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/substringWithConcatenationOfAllWordsTest.m"
+                  timestampString = "561447766.2268929"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1410">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "leetcodeObjCTest/substringWithConcatenationOfAllWordsTest.m"
+            timestampString = "561447790.1897891"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "-testFindSubstring1"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "leetcodeObjC/30-SubstringWithConcatenationOfAllWords.m"
+            timestampString = "561447819.7828929"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "-findSubstring::"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

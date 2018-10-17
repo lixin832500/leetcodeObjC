@@ -79,6 +79,7 @@
 		E982052A216DCC380079A336 /* 29-DivideTwoIntegers.m in Sources */ = {isa = PBXBuildFile; fileRef = E9820529216DCC380079A336 /* 29-DivideTwoIntegers.m */; };
 		E982052C216DD11D0079A336 /* divideTwoIntegersTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E982052B216DD11D0079A336 /* divideTwoIntegersTest.m */; };
 		E982052D216DD2190079A336 /* 29-DivideTwoIntegers.m in Sources */ = {isa = PBXBuildFile; fileRef = E9820529216DCC380079A336 /* 29-DivideTwoIntegers.m */; };
+		E98C67802175C7DA0098CB39 /* 30-SubstringWithConcatenationOfAllWords.m in Sources */ = {isa = PBXBuildFile; fileRef = E98C677F2175C7DA0098CB39 /* 30-SubstringWithConcatenationOfAllWords.m */; };
 		E98EE2A0214328C4003A0633 /* 9-PalindromeNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EB7FF121425A7A003AEC20 /* 9-PalindromeNumber.m */; };
 		E98EE2A32143307A003A0633 /* 10-RegularExpressionMatching.m in Sources */ = {isa = PBXBuildFile; fileRef = E98EE2A22143307A003A0633 /* 10-RegularExpressionMatching.m */; };
 		E98EE2A521433377003A0633 /* regularExpressionMatchingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E98EE2A421433377003A0633 /* regularExpressionMatchingTest.m */; };
@@ -104,6 +105,8 @@
 		E9BD25E020CDE7C6001778D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BD25DF20CDE7C6001778D6 /* main.m */; };
 		E9BD25EB20CDFE50001778D6 /* longestSubstringWithoutRepeatingCharactersTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BD25EA20CDFE50001778D6 /* longestSubstringWithoutRepeatingCharactersTest.m */; };
 		E9BE38CD2150F1E400F09C09 /* 14-LongestCommonPrefix.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BE38CC2150F1E400F09C09 /* 14-LongestCommonPrefix.m */; };
+		E9C53B0E2176FFF000F39F06 /* substringWithConcatenationOfAllWordsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C53B0D2176FFF000F39F06 /* substringWithConcatenationOfAllWordsTest.m */; };
+		E9C53B0F2177000400F39F06 /* 30-SubstringWithConcatenationOfAllWords.m in Sources */ = {isa = PBXBuildFile; fileRef = E98C677F2175C7DA0098CB39 /* 30-SubstringWithConcatenationOfAllWords.m */; };
 		E9CFB9CE2164911300188B82 /* 22-GenerateParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CFB9CD2164911300188B82 /* 22-GenerateParentheses.m */; };
 		E9CFB9D121649BD900188B82 /* 22-GenerateParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CFB9CD2164911300188B82 /* 22-GenerateParentheses.m */; };
 		E9CFB9D321649CAF00188B82 /* generateParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CFB9D221649CAF00188B82 /* generateParentheses.m */; };
@@ -216,6 +219,8 @@
 		E9820528216DCC190079A336 /* 29-DivideTwoIntegers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "29-DivideTwoIntegers.h"; sourceTree = "<group>"; };
 		E9820529216DCC380079A336 /* 29-DivideTwoIntegers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "29-DivideTwoIntegers.m"; sourceTree = "<group>"; };
 		E982052B216DD11D0079A336 /* divideTwoIntegersTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = divideTwoIntegersTest.m; sourceTree = "<group>"; };
+		E98C677E2175C7B30098CB39 /* 30-SubstringWithConcatenationOfAllWords.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "30-SubstringWithConcatenationOfAllWords.h"; sourceTree = "<group>"; };
+		E98C677F2175C7DA0098CB39 /* 30-SubstringWithConcatenationOfAllWords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "30-SubstringWithConcatenationOfAllWords.m"; sourceTree = "<group>"; };
 		E98EE2A121433043003A0633 /* 10-RegularExpressionMatching.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "10-RegularExpressionMatching.h"; sourceTree = "<group>"; };
 		E98EE2A22143307A003A0633 /* 10-RegularExpressionMatching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "10-RegularExpressionMatching.m"; sourceTree = "<group>"; };
 		E98EE2A421433377003A0633 /* regularExpressionMatchingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = regularExpressionMatchingTest.m; sourceTree = "<group>"; };
@@ -240,6 +245,7 @@
 		E9BD25EA20CDFE50001778D6 /* longestSubstringWithoutRepeatingCharactersTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = longestSubstringWithoutRepeatingCharactersTest.m; sourceTree = "<group>"; };
 		E9BE38CB2150F0E700F09C09 /* 14-LongestCommonPrefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "14-LongestCommonPrefix.h"; sourceTree = "<group>"; };
 		E9BE38CC2150F1E400F09C09 /* 14-LongestCommonPrefix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "14-LongestCommonPrefix.m"; sourceTree = "<group>"; };
+		E9C53B0D2176FFF000F39F06 /* substringWithConcatenationOfAllWordsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = substringWithConcatenationOfAllWordsTest.m; sourceTree = "<group>"; };
 		E9CFB9CC2164907100188B82 /* 22-GenerateParentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "22-GenerateParentheses.h"; sourceTree = "<group>"; };
 		E9CFB9CD2164911300188B82 /* 22-GenerateParentheses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "22-GenerateParentheses.m"; sourceTree = "<group>"; };
 		E9CFB9D221649CAF00188B82 /* generateParentheses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = generateParentheses.m; sourceTree = "<group>"; };
@@ -349,6 +355,8 @@
 				E9B1BE95216CFD4400FE7531 /* 28-ImplementStrstr.m */,
 				E9820528216DCC190079A336 /* 29-DivideTwoIntegers.h */,
 				E9820529216DCC380079A336 /* 29-DivideTwoIntegers.m */,
+				E98C677E2175C7B30098CB39 /* 30-SubstringWithConcatenationOfAllWords.h */,
+				E98C677F2175C7DA0098CB39 /* 30-SubstringWithConcatenationOfAllWords.m */,
 				E97EAFB120CC965E00505F11 /* 92-ReverseLinkedListII.h */,
 				E97EAFB220CC965E00505F11 /* 92-ReverseLinkedListII.m */,
 				E97EAFB320CC965E00505F11 /* 94-BinaryTreeInorderTraversal-2.h */,
@@ -424,6 +432,7 @@
 				E933ACA8215E106F00D23146 /* validParenthesesTest.m */,
 				E980297C2141070B00456DD7 /* zigzagConversionTest.m */,
 				E97EAFF820CCAD9700505F11 /* Info.plist */,
+				E9C53B0D2176FFF000F39F06 /* substringWithConcatenationOfAllWordsTest.m */,
 			);
 			path = leetcodeObjCTest;
 			sourceTree = "<group>";
@@ -527,6 +536,7 @@
 				E9350EC0215CB8B0001456A3 /* 20-ValidParentheses.m in Sources */,
 				E97EAFCF20CC965E00505F11 /* 3-LongestSubstringWithoutRepeatingCharacters.m in Sources */,
 				E9BE38CD2150F1E400F09C09 /* 14-LongestCommonPrefix.m in Sources */,
+				E98C67802175C7DA0098CB39 /* 30-SubstringWithConcatenationOfAllWords.m in Sources */,
 				E995F7C121520E5E004B2309 /* 16-ThreeSumClosest.m in Sources */,
 				E97EAFCE20CC965E00505F11 /* 2-AddTwoNumbers.m in Sources */,
 				E97EAFCD20CC965E00505F11 /* 1-TwoSum.m in Sources */,
@@ -568,6 +578,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9C53B0F2177000400F39F06 /* 30-SubstringWithConcatenationOfAllWords.m in Sources */,
 				E982052D216DD2190079A336 /* 29-DivideTwoIntegers.m in Sources */,
 				E9B1BE99216D000900FE7531 /* 28-ImplementStrstr.m in Sources */,
 				E9B1BE93216C82BE00FE7531 /* 27-RemoveElement.m in Sources */,
@@ -589,6 +600,7 @@
 				E995F7BE21520796004B2309 /* 14-LongestCommonPrefix.m in Sources */,
 				E962E4D7214BACA1009A03A9 /* 13-RomanToInteger.m in Sources */,
 				E962E4D1214BA14B009A03A9 /* 12-IntegerToRoman.m in Sources */,
+				E9C53B0E2176FFF000F39F06 /* substringWithConcatenationOfAllWordsTest.m in Sources */,
 				E9A802A721490BD00011259B /* 1-TwoSum.m in Sources */,
 				E935E0ED214504130090EECE /* 15-ThreeSum.m in Sources */,
 				E91E9A192144FDD100756048 /* 7-ReverseInteger.m in Sources */,

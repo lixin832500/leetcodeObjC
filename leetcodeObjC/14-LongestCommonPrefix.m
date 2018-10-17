@@ -17,11 +17,11 @@
     
     NSMutableString* prefix = [NSMutableString stringWithString:@""];
     NSString *str0 = strs[0];
-    NSInteger minLength = [str0 length];
+    NSInteger minLength = str0.length;
     for(id str in strs){
         NSString *s = str;
-        if([s length] < minLength){
-            minLength = [s length];
+        if(s.length < minLength){
+            minLength = s.length;
         }
     }
     
