@@ -1,5 +1,5 @@
 //
-//  generateParentheses.m
+//  generateParenthesesTest.m
 //  leetcodeObjC
 //
 //  Created by lx on 7/10/1397 AP.
@@ -9,14 +9,14 @@
 #import <XCTest/XCTest.h>
 #import "22-GenerateParentheses.h"
 
-@interface generateParentheses : XCTestCase
+@interface generateParenthesesTest : XCTestCase
 {
 @private
     Solution22 *s;
 }
 @end
 
-@implementation generateParentheses
+@implementation generateParenthesesTest
 
 - (void)setUp {
     [super setUp];
@@ -35,7 +35,7 @@
     NSArray* actual = [NSArray arrayWithObjects:@"((()))",@"(()())", @"(())()", @"()(())", @"()()()", nil];
     
     XCTAssertTrue([result isEqualToArray: actual], @"the two arrays are the same");
-
+    
     
 }
 

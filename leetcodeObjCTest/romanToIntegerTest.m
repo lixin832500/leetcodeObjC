@@ -1,5 +1,5 @@
 //
-//  romanToInteger.m
+//  romanToIntegerTest.m
 //  leetcodeObjC
 //
 //  Created by lx on 6/23/1397 AP.
@@ -9,14 +9,14 @@
 #import <XCTest/XCTest.h>
 #import "13-RomanToInteger.h"
 
-@interface romanToInteger : XCTestCase
+@interface romanToIntegerTest : XCTestCase
 {
 @private
     Solution13 *s;
 }
 @end
 
-@implementation romanToInteger
+@implementation romanToIntegerTest
 
 - (void)setUp {
     [super setUp];

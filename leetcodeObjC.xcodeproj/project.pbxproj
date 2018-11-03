@@ -28,7 +28,6 @@
 		E962E4D0214BA0A1009A03A9 /* integerToRomanTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E962E4CF214BA0A1009A03A9 /* integerToRomanTest.m */; };
 		E962E4D1214BA14B009A03A9 /* 12-IntegerToRoman.m in Sources */ = {isa = PBXBuildFile; fileRef = E962E4CD214B958D009A03A9 /* 12-IntegerToRoman.m */; };
 		E962E4D4214BA5CE009A03A9 /* 13-RomanToInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = E962E4D3214BA5CE009A03A9 /* 13-RomanToInteger.m */; };
-		E962E4D6214BAB50009A03A9 /* romanToInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = E962E4D5214BAB50009A03A9 /* romanToInteger.m */; };
 		E962E4D7214BACA1009A03A9 /* 13-RomanToInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = E962E4D3214BA5CE009A03A9 /* 13-RomanToInteger.m */; };
 		E963CE442144B6A1003D3F92 /* reverseIntegerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E963CE432144B6A1003D3F92 /* reverseIntegerTest.m */; };
 		E9687F7B20E60854006422CF /* findMedianSortedArraysTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9687F7A20E60854006422CF /* findMedianSortedArraysTest.m */; };
@@ -84,6 +83,11 @@
 		E98EE2A32143307A003A0633 /* 10-RegularExpressionMatching.m in Sources */ = {isa = PBXBuildFile; fileRef = E98EE2A22143307A003A0633 /* 10-RegularExpressionMatching.m */; };
 		E98EE2A521433377003A0633 /* regularExpressionMatchingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E98EE2A421433377003A0633 /* regularExpressionMatchingTest.m */; };
 		E98EE2A621433437003A0633 /* 10-RegularExpressionMatching.m in Sources */ = {isa = PBXBuildFile; fileRef = E98EE2A22143307A003A0633 /* 10-RegularExpressionMatching.m */; };
+		E99143EE218E1BB500ABE11D /* 32-LongestValidParenthese.m in Sources */ = {isa = PBXBuildFile; fileRef = E99143ED218E1BB400ABE11D /* 32-LongestValidParenthese.m */; };
+		E99143F0218E249D00ABE11D /* longestValidParentheseTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E99143EF218E249D00ABE11D /* longestValidParentheseTest.m */; };
+		E99143F2218E24F600ABE11D /* generateParenthesesTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E99143F1218E24F600ABE11D /* generateParenthesesTest.m */; };
+		E99143F4218E259400ABE11D /* romanToIntegerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E99143F3218E259400ABE11D /* romanToIntegerTest.m */; };
+		E99143F5218E267D00ABE11D /* 32-LongestValidParenthese.m in Sources */ = {isa = PBXBuildFile; fileRef = E99143ED218E1BB400ABE11D /* 32-LongestValidParenthese.m */; };
 		E993FA592167254F0089C560 /* reverseNodesInKGroupTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E993FA582167254F0089C560 /* reverseNodesInKGroupTest.m */; };
 		E993FA5A2167258C0089C560 /* 25-ReverseNodesInKGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = E973C9872165FAA6008A9AB5 /* 25-ReverseNodesInKGroup.m */; };
 		E993FA5D21672A280089C560 /* 26-RemoveDuplicatesFromSortedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = E993FA5C21672A280089C560 /* 26-RemoveDuplicatesFromSortedArray.m */; };
@@ -112,7 +116,6 @@
 		E9C53B0F2177000400F39F06 /* 30-SubstringWithConcatenationOfAllWords.m in Sources */ = {isa = PBXBuildFile; fileRef = E98C677F2175C7DA0098CB39 /* 30-SubstringWithConcatenationOfAllWords.m */; };
 		E9CFB9CE2164911300188B82 /* 22-GenerateParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CFB9CD2164911300188B82 /* 22-GenerateParentheses.m */; };
 		E9CFB9D121649BD900188B82 /* 22-GenerateParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CFB9CD2164911300188B82 /* 22-GenerateParentheses.m */; };
-		E9CFB9D321649CAF00188B82 /* generateParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CFB9D221649CAF00188B82 /* generateParentheses.m */; };
 		E9CFB9D62164A68E00188B82 /* 23-MergeKSortedLists.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CFB9D52164A68E00188B82 /* 23-MergeKSortedLists.m */; };
 		E9E555ED20D246E8000F33AD /* containerWithMostWaterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E555EC20D246E8000F33AD /* containerWithMostWaterTest.m */; };
 		E9E555FE20D248D3000F33AD /* 3-LongestSubstringWithoutRepeatingCharacters.m in Sources */ = {isa = PBXBuildFile; fileRef = E97EAFA420CC965E00505F11 /* 3-LongestSubstringWithoutRepeatingCharacters.m */; };
@@ -153,7 +156,6 @@
 		E962E4CF214BA0A1009A03A9 /* integerToRomanTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = integerToRomanTest.m; sourceTree = "<group>"; };
 		E962E4D2214BA5B1009A03A9 /* 13-RomanToInteger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "13-RomanToInteger.h"; sourceTree = "<group>"; };
 		E962E4D3214BA5CE009A03A9 /* 13-RomanToInteger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "13-RomanToInteger.m"; sourceTree = "<group>"; };
-		E962E4D5214BAB50009A03A9 /* romanToInteger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = romanToInteger.m; sourceTree = "<group>"; };
 		E963CE432144B6A1003D3F92 /* reverseIntegerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = reverseIntegerTest.m; sourceTree = "<group>"; };
 		E9687F7A20E60854006422CF /* findMedianSortedArraysTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = findMedianSortedArraysTest.m; sourceTree = "<group>"; };
 		E96FDB7120CCB7C300121361 /* twoSumTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = twoSumTest.m; sourceTree = "<group>"; };
@@ -227,6 +229,11 @@
 		E98EE2A121433043003A0633 /* 10-RegularExpressionMatching.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "10-RegularExpressionMatching.h"; sourceTree = "<group>"; };
 		E98EE2A22143307A003A0633 /* 10-RegularExpressionMatching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "10-RegularExpressionMatching.m"; sourceTree = "<group>"; };
 		E98EE2A421433377003A0633 /* regularExpressionMatchingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = regularExpressionMatchingTest.m; sourceTree = "<group>"; };
+		E99143EC218E1B9E00ABE11D /* 32-LongestValidParentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "32-LongestValidParentheses.h"; sourceTree = "<group>"; };
+		E99143ED218E1BB400ABE11D /* 32-LongestValidParenthese.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "32-LongestValidParenthese.m"; sourceTree = "<group>"; };
+		E99143EF218E249D00ABE11D /* longestValidParentheseTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = longestValidParentheseTest.m; sourceTree = "<group>"; };
+		E99143F1218E24F600ABE11D /* generateParenthesesTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = generateParenthesesTest.m; sourceTree = "<group>"; };
+		E99143F3218E259400ABE11D /* romanToIntegerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = romanToIntegerTest.m; sourceTree = "<group>"; };
 		E993FA582167254F0089C560 /* reverseNodesInKGroupTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = reverseNodesInKGroupTest.m; sourceTree = "<group>"; };
 		E993FA5B216729CA0089C560 /* 26-RemoveDuplicatesFromSortedArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "26-RemoveDuplicatesFromSortedArray.h"; sourceTree = "<group>"; };
 		E993FA5C21672A280089C560 /* 26-RemoveDuplicatesFromSortedArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "26-RemoveDuplicatesFromSortedArray.m"; sourceTree = "<group>"; };
@@ -254,7 +261,6 @@
 		E9C53B0D2176FFF000F39F06 /* substringWithConcatenationOfAllWordsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = substringWithConcatenationOfAllWordsTest.m; sourceTree = "<group>"; };
 		E9CFB9CC2164907100188B82 /* 22-GenerateParentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "22-GenerateParentheses.h"; sourceTree = "<group>"; };
 		E9CFB9CD2164911300188B82 /* 22-GenerateParentheses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "22-GenerateParentheses.m"; sourceTree = "<group>"; };
-		E9CFB9D221649CAF00188B82 /* generateParentheses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = generateParentheses.m; sourceTree = "<group>"; };
 		E9CFB9D42164A5CA00188B82 /* 23-MergeKSortedLists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "23-MergeKSortedLists.h"; sourceTree = "<group>"; };
 		E9CFB9D52164A68E00188B82 /* 23-MergeKSortedLists.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "23-MergeKSortedLists.m"; sourceTree = "<group>"; };
 		E9E555EC20D246E8000F33AD /* containerWithMostWaterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = containerWithMostWaterTest.m; sourceTree = "<group>"; };
@@ -363,6 +369,8 @@
 				E9820529216DCC380079A336 /* 29-DivideTwoIntegers.m */,
 				E98C677E2175C7B30098CB39 /* 30-SubstringWithConcatenationOfAllWords.h */,
 				E98C677F2175C7DA0098CB39 /* 30-SubstringWithConcatenationOfAllWords.m */,
+				E99F2B5A218C2A88002DEF57 /* 31-NextPermutation.h */,
+				E99F2B5B218C2AA4002DEF57 /* 31-NextPermutation.m */,
 				E97EAFB120CC965E00505F11 /* 92-ReverseLinkedListII.h */,
 				E97EAFB220CC965E00505F11 /* 92-ReverseLinkedListII.m */,
 				E97EAFB320CC965E00505F11 /* 94-BinaryTreeInorderTraversal-2.h */,
@@ -392,8 +400,8 @@
 				E9BD25DF20CDE7C6001778D6 /* main.m */,
 				E97EAFCB20CC965E00505F11 /* TreeNode.h */,
 				E97EAFCC20CC965E00505F11 /* TreeNode.m */,
-				E99F2B5A218C2A88002DEF57 /* 31-NextPermutation.h */,
-				E99F2B5B218C2AA4002DEF57 /* 31-NextPermutation.m */,
+				E99143EC218E1B9E00ABE11D /* 32-LongestValidParentheses.h */,
+				E99143ED218E1BB400ABE11D /* 32-LongestValidParenthese.m */,
 			);
 			path = leetcodeObjC;
 			sourceTree = "<group>";
@@ -414,16 +422,18 @@
 				E982052B216DD11D0079A336 /* divideTwoIntegersTest.m */,
 				E9687F7A20E60854006422CF /* findMedianSortedArraysTest.m */,
 				E9770939215A088B00753038 /* fourSumTest.m */,
-				E9CFB9D221649CAF00188B82 /* generateParentheses.m */,
+				E99143F1218E24F600ABE11D /* generateParenthesesTest.m */,
 				E9B1BE97216CFFC200FE7531 /* implementStrstrTest.m */,
 				E962E4CF214BA0A1009A03A9 /* integerToRomanTest.m */,
 				E97F9DE12154E8BF000C6C82 /* letterCombinationOfAPhoneNumberTest.m */,
 				E995F7BC21520777004B2309 /* longestCommonPrefixTest.m */,
 				E91C59BC20F190DA00BC74A0 /* longestPalindromicSubstringTest.m */,
 				E9BD25EA20CDFE50001778D6 /* longestSubstringWithoutRepeatingCharactersTest.m */,
+				E99143EF218E249D00ABE11D /* longestValidParentheseTest.m */,
 				E962E4CB214B93B2009A03A9 /* medianOfTwoSortedArrayTest.m */,
 				E99BD98A2165D1050070A8E3 /* mergeKSortedListsTest.m */,
 				E97886AE20DF8BAB00579C3A /* mergeTwoSortedListTest.m */,
+				E99F2B5D218C4274002DEF57 /* nextPermutationTest.m */,
 				E91E9A1A2144FF6C00756048 /* palindromeNumberTest.m */,
 				E98EE2A421433377003A0633 /* regularExpressionMatchingTest.m */,
 				E993FA5E21672BE00089C560 /* removeDuplicatesFromSortedArrayTest.m */,
@@ -431,8 +441,9 @@
 				E9770940215A14E100753038 /* removeNthNodeFromEndofListTest.m */,
 				E963CE432144B6A1003D3F92 /* reverseIntegerTest.m */,
 				E993FA582167254F0089C560 /* reverseNodesInKGroupTest.m */,
-				E962E4D5214BAB50009A03A9 /* romanToInteger.m */,
+				E99143F3218E259400ABE11D /* romanToIntegerTest.m */,
 				E91896EE214252C0009D21EA /* stringToIntegerTest.m */,
+				E9C53B0D2176FFF000F39F06 /* substringWithConcatenationOfAllWordsTest.m */,
 				E973C9832165F820008A9AB5 /* swapNodesInPairsTest.m */,
 				E93C7DD3215377E900A39502 /* threeSumClosestTest.m */,
 				E935E0EE214505110090EECE /* threeSumTest.m */,
@@ -440,8 +451,6 @@
 				E933ACA8215E106F00D23146 /* validParenthesesTest.m */,
 				E980297C2141070B00456DD7 /* zigzagConversionTest.m */,
 				E97EAFF820CCAD9700505F11 /* Info.plist */,
-				E9C53B0D2176FFF000F39F06 /* substringWithConcatenationOfAllWordsTest.m */,
-				E99F2B5D218C4274002DEF57 /* nextPermutationTest.m */,
 			);
 			path = leetcodeObjCTest;
 			sourceTree = "<group>";
@@ -544,6 +553,7 @@
 				E993FA5D21672A280089C560 /* 26-RemoveDuplicatesFromSortedArray.m in Sources */,
 				E9350EC0215CB8B0001456A3 /* 20-ValidParentheses.m in Sources */,
 				E97EAFCF20CC965E00505F11 /* 3-LongestSubstringWithoutRepeatingCharacters.m in Sources */,
+				E99143EE218E1BB500ABE11D /* 32-LongestValidParenthese.m in Sources */,
 				E9BE38CD2150F1E400F09C09 /* 14-LongestCommonPrefix.m in Sources */,
 				E98C67802175C7DA0098CB39 /* 30-SubstringWithConcatenationOfAllWords.m in Sources */,
 				E995F7C121520E5E004B2309 /* 16-ThreeSumClosest.m in Sources */,
@@ -588,6 +598,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E99143F5218E267D00ABE11D /* 32-LongestValidParenthese.m in Sources */,
+				E99143F0218E249D00ABE11D /* longestValidParentheseTest.m in Sources */,
 				E99F2B5F218C42B2002DEF57 /* 31-NextPermutation.m in Sources */,
 				E9C53B0F2177000400F39F06 /* 30-SubstringWithConcatenationOfAllWords.m in Sources */,
 				E982052D216DD2190079A336 /* 29-DivideTwoIntegers.m in Sources */,
@@ -600,7 +612,7 @@
 				E973C9852165F97E008A9AB5 /* 24-SwapNodesinPairs.m in Sources */,
 				E99BD98D2165DEF80070A8E3 /* 23-MergeKSortedLists.m in Sources */,
 				E9CFB9D121649BD900188B82 /* 22-GenerateParentheses.m in Sources */,
-				E9CFB9D321649CAF00188B82 /* generateParentheses.m in Sources */,
+				E99143F2218E24F600ABE11D /* generateParenthesesTest.m in Sources */,
 				E973C9842165F820008A9AB5 /* swapNodesInPairsTest.m in Sources */,
 				E933ACAA215E109200D23146 /* 20-ValidParentheses.m in Sources */,
 				E977093C215A0BA300753038 /* 18-FourSum.m in Sources */,
@@ -639,11 +651,11 @@
 				E97886AF20DF8BAB00579C3A /* mergeTwoSortedListTest.m in Sources */,
 				E97886A920DF0B7C00579C3A /* 2-AddTwoNumbers.m in Sources */,
 				E91896EF214252C0009D21EA /* stringToIntegerTest.m in Sources */,
-				E962E4D6214BAB50009A03A9 /* romanToInteger.m in Sources */,
 				E91C59BD20F190DA00BC74A0 /* longestPalindromicSubstringTest.m in Sources */,
 				E97F9DE22154E8BF000C6C82 /* letterCombinationOfAPhoneNumberTest.m in Sources */,
 				E995F7BD21520777004B2309 /* longestCommonPrefixTest.m in Sources */,
 				E91E9A1B2144FF6C00756048 /* palindromeNumberTest.m in Sources */,
+				E99143F4218E259400ABE11D /* romanToIntegerTest.m in Sources */,
 				E98EE2A521433377003A0633 /* regularExpressionMatchingTest.m in Sources */,
 				E9E555FE20D248D3000F33AD /* 3-LongestSubstringWithoutRepeatingCharacters.m in Sources */,
 				E9E555FF20D248D3000F33AD /* 11-ContainerWithMostWater.m in Sources */,
