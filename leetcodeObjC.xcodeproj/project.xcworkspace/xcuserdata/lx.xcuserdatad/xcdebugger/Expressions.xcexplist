@@ -3,17 +3,6 @@
    version = "1.0">
    <ContextStates>
       <ContextState
-         contextName = "-[Solution4 findKth:::::::]:4-MedianofTwoSortedArrays.m">
-         <PersistentStrings>
-            <PersistentString
-               value = "[nums2 objectAtIndex: start2]">
-            </PersistentString>
-            <PersistentString
-               value = "[nums1 objectAtIndex: start1]">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
          contextName = "-[threeSumTest testThreeSum]:threeSumTest.m">
          <PersistentStrings>
             <PersistentString
@@ -22,10 +11,37 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "-[Solution31 nextPermutation:]:31-NextPermutation.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[ret[i] intValue]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[nextPermutationTest testNextPermutation3]:nextPermutationTest.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[ret isEqualToArray:actual]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "-[Solution13 romanToInt:]:13-RomanToInteger.m">
          <PersistentStrings>
             <PersistentString
                value = "[m valueForKey: c]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Solution4 findKth:::::::]:4-MedianofTwoSortedArrays.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[nums2 objectAtIndex: start2]">
+            </PersistentString>
+            <PersistentString
+               value = "[nums1 objectAtIndex: start1]">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
