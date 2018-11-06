@@ -109,6 +109,13 @@
 		E9B1BE96216CFD4400FE7531 /* 28-ImplementStrstr.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B1BE95216CFD4400FE7531 /* 28-ImplementStrstr.m */; };
 		E9B1BE98216CFFC200FE7531 /* implementStrstrTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B1BE97216CFFC200FE7531 /* implementStrstrTest.m */; };
 		E9B1BE99216D000900FE7531 /* 28-ImplementStrstr.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B1BE95216CFD4400FE7531 /* 28-ImplementStrstr.m */; };
+		E9B4D43B219171EC00CDA9C1 /* 33-SearchInRotatedSortedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B4D43A219171EC00CDA9C1 /* 33-SearchInRotatedSortedArray.m */; };
+		E9B4D43E21917BF800CDA9C1 /* 33-SearchInRotatedSortedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B4D43A219171EC00CDA9C1 /* 33-SearchInRotatedSortedArray.m */; };
+		E9B4D44121917FE500CDA9C1 /* 34-FindFirstAndLastPositionOfElementInSortedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B4D44021917FE500CDA9C1 /* 34-FindFirstAndLastPositionOfElementInSortedArray.m */; };
+		E9B4D4432191801800CDA9C1 /* leetcodeObjC in Resources */ = {isa = PBXBuildFile; fileRef = E9B4D4422191801800CDA9C1 /* leetcodeObjC */; };
+		E9B4D446219184B000CDA9C1 /* findFirstAndLastPositionOfElementInSortedArrayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B4D445219184B000CDA9C1 /* findFirstAndLastPositionOfElementInSortedArrayTest.m */; };
+		E9B4D4482191858000CDA9C1 /* searchInRotatedSortedArrayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B4D4472191857F00CDA9C1 /* searchInRotatedSortedArrayTest.m */; };
+		E9B4D4492191874900CDA9C1 /* 34-FindFirstAndLastPositionOfElementInSortedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B4D44021917FE500CDA9C1 /* 34-FindFirstAndLastPositionOfElementInSortedArray.m */; };
 		E9BD25E020CDE7C6001778D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BD25DF20CDE7C6001778D6 /* main.m */; };
 		E9BD25EB20CDFE50001778D6 /* longestSubstringWithoutRepeatingCharactersTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BD25EA20CDFE50001778D6 /* longestSubstringWithoutRepeatingCharactersTest.m */; };
 		E9BE38CD2150F1E400F09C09 /* 14-LongestCommonPrefix.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BE38CC2150F1E400F09C09 /* 14-LongestCommonPrefix.m */; };
@@ -254,6 +261,13 @@
 		E9B1BE94216CFD2F00FE7531 /* 28-ImplementStrstr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "28-ImplementStrstr.h"; sourceTree = "<group>"; };
 		E9B1BE95216CFD4400FE7531 /* 28-ImplementStrstr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "28-ImplementStrstr.m"; sourceTree = "<group>"; };
 		E9B1BE97216CFFC200FE7531 /* implementStrstrTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = implementStrstrTest.m; sourceTree = "<group>"; };
+		E9B4D439219171BA00CDA9C1 /* 33-SearchInRotatedSortedArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "33-SearchInRotatedSortedArray.h"; sourceTree = "<group>"; };
+		E9B4D43A219171EC00CDA9C1 /* 33-SearchInRotatedSortedArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "33-SearchInRotatedSortedArray.m"; sourceTree = "<group>"; };
+		E9B4D44021917FE500CDA9C1 /* 34-FindFirstAndLastPositionOfElementInSortedArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "34-FindFirstAndLastPositionOfElementInSortedArray.m"; sourceTree = "<group>"; };
+		E9B4D4422191801800CDA9C1 /* leetcodeObjC */ = {isa = PBXFileReference; lastKnownFileType = folder; path = leetcodeObjC; sourceTree = SOURCE_ROOT; };
+		E9B4D4442191807300CDA9C1 /* 34-FindFirstAndLastPositionOfElementInSortedArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "34-FindFirstAndLastPositionOfElementInSortedArray.h"; sourceTree = "<group>"; };
+		E9B4D445219184B000CDA9C1 /* findFirstAndLastPositionOfElementInSortedArrayTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = findFirstAndLastPositionOfElementInSortedArrayTest.m; sourceTree = "<group>"; };
+		E9B4D4472191857F00CDA9C1 /* searchInRotatedSortedArrayTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = searchInRotatedSortedArrayTest.m; sourceTree = "<group>"; };
 		E9BD25DF20CDE7C6001778D6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E9BD25EA20CDFE50001778D6 /* longestSubstringWithoutRepeatingCharactersTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = longestSubstringWithoutRepeatingCharactersTest.m; sourceTree = "<group>"; };
 		E9BE38CB2150F0E700F09C09 /* 14-LongestCommonPrefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "14-LongestCommonPrefix.h"; sourceTree = "<group>"; };
@@ -371,6 +385,12 @@
 				E98C677F2175C7DA0098CB39 /* 30-SubstringWithConcatenationOfAllWords.m */,
 				E99F2B5A218C2A88002DEF57 /* 31-NextPermutation.h */,
 				E99F2B5B218C2AA4002DEF57 /* 31-NextPermutation.m */,
+				E99143ED218E1BB400ABE11D /* 32-LongestValidParenthese.m */,
+				E99143EC218E1B9E00ABE11D /* 32-LongestValidParentheses.h */,
+				E9B4D439219171BA00CDA9C1 /* 33-SearchInRotatedSortedArray.h */,
+				E9B4D43A219171EC00CDA9C1 /* 33-SearchInRotatedSortedArray.m */,
+				E9B4D4442191807300CDA9C1 /* 34-FindFirstAndLastPositionOfElementInSortedArray.h */,
+				E9B4D44021917FE500CDA9C1 /* 34-FindFirstAndLastPositionOfElementInSortedArray.m */,
 				E97EAFB120CC965E00505F11 /* 92-ReverseLinkedListII.h */,
 				E97EAFB220CC965E00505F11 /* 92-ReverseLinkedListII.m */,
 				E97EAFB320CC965E00505F11 /* 94-BinaryTreeInorderTraversal-2.h */,
@@ -400,8 +420,6 @@
 				E9BD25DF20CDE7C6001778D6 /* main.m */,
 				E97EAFCB20CC965E00505F11 /* TreeNode.h */,
 				E97EAFCC20CC965E00505F11 /* TreeNode.m */,
-				E99143EC218E1B9E00ABE11D /* 32-LongestValidParentheses.h */,
-				E99143ED218E1BB400ABE11D /* 32-LongestValidParenthese.m */,
 			);
 			path = leetcodeObjC;
 			sourceTree = "<group>";
@@ -417,9 +435,11 @@
 		E97EAFF520CCAD9700505F11 /* leetcodeObjCTest */ = {
 			isa = PBXGroup;
 			children = (
+				E9B4D4422191801800CDA9C1 /* leetcodeObjC */,
 				E97886A720DF033700579C3A /* addTwoNumbersTest.m */,
 				E9E555EC20D246E8000F33AD /* containerWithMostWaterTest.m */,
 				E982052B216DD11D0079A336 /* divideTwoIntegersTest.m */,
+				E9B4D445219184B000CDA9C1 /* findFirstAndLastPositionOfElementInSortedArrayTest.m */,
 				E9687F7A20E60854006422CF /* findMedianSortedArraysTest.m */,
 				E9770939215A088B00753038 /* fourSumTest.m */,
 				E99143F1218E24F600ABE11D /* generateParenthesesTest.m */,
@@ -442,6 +462,7 @@
 				E963CE432144B6A1003D3F92 /* reverseIntegerTest.m */,
 				E993FA582167254F0089C560 /* reverseNodesInKGroupTest.m */,
 				E99143F3218E259400ABE11D /* romanToIntegerTest.m */,
+				E9B4D4472191857F00CDA9C1 /* searchInRotatedSortedArrayTest.m */,
 				E91896EE214252C0009D21EA /* stringToIntegerTest.m */,
 				E9C53B0D2176FFF000F39F06 /* substringWithConcatenationOfAllWordsTest.m */,
 				E973C9832165F820008A9AB5 /* swapNodesInPairsTest.m */,
@@ -534,6 +555,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9B4D4432191801800CDA9C1 /* leetcodeObjC in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,6 +570,7 @@
 				E97EAFDB20CC965E00505F11 /* 100-SameTree.m in Sources */,
 				E9770938215A061900753038 /* 18-FourSum.m in Sources */,
 				E97EAFD620CC965E00505F11 /* 92-ReverseLinkedListII.m in Sources */,
+				E9B4D44121917FE500CDA9C1 /* 34-FindFirstAndLastPositionOfElementInSortedArray.m in Sources */,
 				E9CFB9D62164A68E00188B82 /* 23-MergeKSortedLists.m in Sources */,
 				E9B1BE8E216C789600FE7531 /* 27-RemoveElement.m in Sources */,
 				E993FA5D21672A280089C560 /* 26-RemoveDuplicatesFromSortedArray.m in Sources */,
@@ -573,6 +596,7 @@
 				E97EAFD220CC965E00505F11 /* 15-ThreeSum.m in Sources */,
 				E97EAFD320CC965E00505F11 /* 19-RemoveNthNodeFromEndofList.m in Sources */,
 				E97EAFDA20CC965E00505F11 /* 98-ValidateBinarySearchTree.m in Sources */,
+				E9B4D43B219171EC00CDA9C1 /* 33-SearchInRotatedSortedArray.m in Sources */,
 				E97EAFDD20CC965E00505F11 /* 102-BinaryTreeLevelOrderTraversal.m in Sources */,
 				E97EAFE120CC965E00505F11 /* 404-SumofLeftLeaves.m in Sources */,
 				E97EAFD420CC965E00505F11 /* 21-MergeTwoSortedLists.m in Sources */,
@@ -598,6 +622,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9B4D4492191874900CDA9C1 /* 34-FindFirstAndLastPositionOfElementInSortedArray.m in Sources */,
+				E9B4D43E21917BF800CDA9C1 /* 33-SearchInRotatedSortedArray.m in Sources */,
 				E99143F5218E267D00ABE11D /* 32-LongestValidParenthese.m in Sources */,
 				E99143F0218E249D00ABE11D /* longestValidParentheseTest.m in Sources */,
 				E99F2B5F218C42B2002DEF57 /* 31-NextPermutation.m in Sources */,
@@ -615,6 +641,7 @@
 				E99143F2218E24F600ABE11D /* generateParenthesesTest.m in Sources */,
 				E973C9842165F820008A9AB5 /* swapNodesInPairsTest.m in Sources */,
 				E933ACAA215E109200D23146 /* 20-ValidParentheses.m in Sources */,
+				E9B4D446219184B000CDA9C1 /* findFirstAndLastPositionOfElementInSortedArrayTest.m in Sources */,
 				E977093C215A0BA300753038 /* 18-FourSum.m in Sources */,
 				E977093B215A094E00753038 /* 19-RemoveNthNodeFromEndofList.m in Sources */,
 				E99BD98B2165D1050070A8E3 /* mergeKSortedListsTest.m in Sources */,
@@ -645,6 +672,7 @@
 				E980297D2141070B00456DD7 /* zigzagConversionTest.m in Sources */,
 				E9770941215A14E100753038 /* removeNthNodeFromEndofListTest.m in Sources */,
 				E993FA5F21672BE00089C560 /* removeDuplicatesFromSortedArrayTest.m in Sources */,
+				E9B4D4482191858000CDA9C1 /* searchInRotatedSortedArrayTest.m in Sources */,
 				E962E4CC214B93B2009A03A9 /* medianOfTwoSortedArrayTest.m in Sources */,
 				E9687F7B20E60854006422CF /* findMedianSortedArraysTest.m in Sources */,
 				E97886AA20DF0BAD00579C3A /* ListNode.m in Sources */,
