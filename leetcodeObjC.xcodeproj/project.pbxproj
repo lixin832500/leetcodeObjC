@@ -121,6 +121,8 @@
 		E9C52D472192C0F2004640A5 /* 35-SearchInsertPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C52D462192C0F2004640A5 /* 35-SearchInsertPosition.m */; };
 		E9C52D482192C189004640A5 /* 35-SearchInsertPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C52D462192C0F2004640A5 /* 35-SearchInsertPosition.m */; };
 		E9C52D4A2192D61E004640A5 /* searchInsertPostionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C52D492192D61E004640A5 /* searchInsertPostionTest.m */; };
+		E9C52D4D2192D86E004640A5 /* 36-ValidSudoku.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C52D4C2192D86E004640A5 /* 36-ValidSudoku.m */; };
+		E9C52D4E2192D8F1004640A5 /* 36-ValidSudoku.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C52D4C2192D86E004640A5 /* 36-ValidSudoku.m */; };
 		E9C53B0E2176FFF000F39F06 /* substringWithConcatenationOfAllWordsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C53B0D2176FFF000F39F06 /* substringWithConcatenationOfAllWordsTest.m */; };
 		E9C53B0F2177000400F39F06 /* 30-SubstringWithConcatenationOfAllWords.m in Sources */ = {isa = PBXBuildFile; fileRef = E98C677F2175C7DA0098CB39 /* 30-SubstringWithConcatenationOfAllWords.m */; };
 		E9CFB9CE2164911300188B82 /* 22-GenerateParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CFB9CD2164911300188B82 /* 22-GenerateParentheses.m */; };
@@ -276,6 +278,8 @@
 		E9C52D452192C0CE004640A5 /* 35-SearchInsertPosition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "35-SearchInsertPosition.h"; sourceTree = "<group>"; };
 		E9C52D462192C0F2004640A5 /* 35-SearchInsertPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "35-SearchInsertPosition.m"; sourceTree = "<group>"; };
 		E9C52D492192D61E004640A5 /* searchInsertPostionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = searchInsertPostionTest.m; sourceTree = "<group>"; };
+		E9C52D4B2192D853004640A5 /* 36-ValidSudoku.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "36-ValidSudoku.h"; sourceTree = "<group>"; };
+		E9C52D4C2192D86E004640A5 /* 36-ValidSudoku.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "36-ValidSudoku.m"; sourceTree = "<group>"; };
 		E9C53B0D2176FFF000F39F06 /* substringWithConcatenationOfAllWordsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = substringWithConcatenationOfAllWordsTest.m; sourceTree = "<group>"; };
 		E9CFB9CC2164907100188B82 /* 22-GenerateParentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "22-GenerateParentheses.h"; sourceTree = "<group>"; };
 		E9CFB9CD2164911300188B82 /* 22-GenerateParentheses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "22-GenerateParentheses.m"; sourceTree = "<group>"; };
@@ -397,6 +401,8 @@
 				E9B4D44021917FE500CDA9C1 /* 34-FindFirstAndLastPositionOfElementInSortedArray.m */,
 				E9C52D452192C0CE004640A5 /* 35-SearchInsertPosition.h */,
 				E9C52D462192C0F2004640A5 /* 35-SearchInsertPosition.m */,
+				E9C52D4B2192D853004640A5 /* 36-ValidSudoku.h */,
+				E9C52D4C2192D86E004640A5 /* 36-ValidSudoku.m */,
 				E97EAFB120CC965E00505F11 /* 92-ReverseLinkedListII.h */,
 				E97EAFB220CC965E00505F11 /* 92-ReverseLinkedListII.m */,
 				E97EAFB320CC965E00505F11 /* 94-BinaryTreeInorderTraversal-2.h */,
@@ -584,6 +590,7 @@
 				E99143EE218E1BB500ABE11D /* 32-LongestValidParenthese.m in Sources */,
 				E9BE38CD2150F1E400F09C09 /* 14-LongestCommonPrefix.m in Sources */,
 				E98C67802175C7DA0098CB39 /* 30-SubstringWithConcatenationOfAllWords.m in Sources */,
+				E9C52D4D2192D86E004640A5 /* 36-ValidSudoku.m in Sources */,
 				E9C52D472192C0F2004640A5 /* 35-SearchInsertPosition.m in Sources */,
 				E995F7C121520E5E004B2309 /* 16-ThreeSumClosest.m in Sources */,
 				E97EAFCE20CC965E00505F11 /* 2-AddTwoNumbers.m in Sources */,
@@ -628,6 +635,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9C52D4E2192D8F1004640A5 /* 36-ValidSudoku.m in Sources */,
 				E9C52D482192C189004640A5 /* 35-SearchInsertPosition.m in Sources */,
 				E9B4D4492191874900CDA9C1 /* 34-FindFirstAndLastPositionOfElementInSortedArray.m in Sources */,
 				E9B4D43E21917BF800CDA9C1 /* 33-SearchInRotatedSortedArray.m in Sources */,
