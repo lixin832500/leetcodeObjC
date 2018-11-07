@@ -112,7 +112,6 @@
 		E9B4D43B219171EC00CDA9C1 /* 33-SearchInRotatedSortedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B4D43A219171EC00CDA9C1 /* 33-SearchInRotatedSortedArray.m */; };
 		E9B4D43E21917BF800CDA9C1 /* 33-SearchInRotatedSortedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B4D43A219171EC00CDA9C1 /* 33-SearchInRotatedSortedArray.m */; };
 		E9B4D44121917FE500CDA9C1 /* 34-FindFirstAndLastPositionOfElementInSortedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B4D44021917FE500CDA9C1 /* 34-FindFirstAndLastPositionOfElementInSortedArray.m */; };
-		E9B4D4432191801800CDA9C1 /* leetcodeObjC in Resources */ = {isa = PBXBuildFile; fileRef = E9B4D4422191801800CDA9C1 /* leetcodeObjC */; };
 		E9B4D446219184B000CDA9C1 /* findFirstAndLastPositionOfElementInSortedArrayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B4D445219184B000CDA9C1 /* findFirstAndLastPositionOfElementInSortedArrayTest.m */; };
 		E9B4D4482191858000CDA9C1 /* searchInRotatedSortedArrayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B4D4472191857F00CDA9C1 /* searchInRotatedSortedArrayTest.m */; };
 		E9B4D4492191874900CDA9C1 /* 34-FindFirstAndLastPositionOfElementInSortedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B4D44021917FE500CDA9C1 /* 34-FindFirstAndLastPositionOfElementInSortedArray.m */; };
@@ -267,7 +266,6 @@
 		E9B4D439219171BA00CDA9C1 /* 33-SearchInRotatedSortedArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "33-SearchInRotatedSortedArray.h"; sourceTree = "<group>"; };
 		E9B4D43A219171EC00CDA9C1 /* 33-SearchInRotatedSortedArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "33-SearchInRotatedSortedArray.m"; sourceTree = "<group>"; };
 		E9B4D44021917FE500CDA9C1 /* 34-FindFirstAndLastPositionOfElementInSortedArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "34-FindFirstAndLastPositionOfElementInSortedArray.m"; sourceTree = "<group>"; };
-		E9B4D4422191801800CDA9C1 /* leetcodeObjC */ = {isa = PBXFileReference; lastKnownFileType = folder; path = leetcodeObjC; sourceTree = SOURCE_ROOT; };
 		E9B4D4442191807300CDA9C1 /* 34-FindFirstAndLastPositionOfElementInSortedArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "34-FindFirstAndLastPositionOfElementInSortedArray.h"; sourceTree = "<group>"; };
 		E9B4D445219184B000CDA9C1 /* findFirstAndLastPositionOfElementInSortedArrayTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = findFirstAndLastPositionOfElementInSortedArrayTest.m; sourceTree = "<group>"; };
 		E9B4D4472191857F00CDA9C1 /* searchInRotatedSortedArrayTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = searchInRotatedSortedArrayTest.m; sourceTree = "<group>"; };
@@ -443,7 +441,6 @@
 		E97EAFF520CCAD9700505F11 /* leetcodeObjCTest */ = {
 			isa = PBXGroup;
 			children = (
-				E9B4D4422191801800CDA9C1 /* leetcodeObjC */,
 				E97886A720DF033700579C3A /* addTwoNumbersTest.m */,
 				E9E555EC20D246E8000F33AD /* containerWithMostWaterTest.m */,
 				E982052B216DD11D0079A336 /* divideTwoIntegersTest.m */,
@@ -471,6 +468,7 @@
 				E993FA582167254F0089C560 /* reverseNodesInKGroupTest.m */,
 				E99143F3218E259400ABE11D /* romanToIntegerTest.m */,
 				E9B4D4472191857F00CDA9C1 /* searchInRotatedSortedArrayTest.m */,
+				E9C52D492192D61E004640A5 /* searchInsertPostionTest.m */,
 				E91896EE214252C0009D21EA /* stringToIntegerTest.m */,
 				E9C53B0D2176FFF000F39F06 /* substringWithConcatenationOfAllWordsTest.m */,
 				E973C9832165F820008A9AB5 /* swapNodesInPairsTest.m */,
@@ -480,7 +478,6 @@
 				E933ACA8215E106F00D23146 /* validParenthesesTest.m */,
 				E980297C2141070B00456DD7 /* zigzagConversionTest.m */,
 				E97EAFF820CCAD9700505F11 /* Info.plist */,
-				E9C52D492192D61E004640A5 /* searchInsertPostionTest.m */,
 			);
 			path = leetcodeObjCTest;
 			sourceTree = "<group>";
@@ -564,7 +561,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9B4D4432191801800CDA9C1 /* leetcodeObjC in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
