@@ -23,6 +23,7 @@
 		E93C7DD4215377E900A39502 /* threeSumClosestTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E93C7DD3215377E900A39502 /* threeSumClosestTest.m */; };
 		E93C7DD62153797800A39502 /* 16-ThreeSumClosest.m in Sources */ = {isa = PBXBuildFile; fileRef = E995F7C021520E5E004B2309 /* 16-ThreeSumClosest.m */; };
 		E93CFCF4213B7B65000EA5BE /* 6-ZigzagConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = E93CFCF3213B7B65000EA5BE /* 6-ZigzagConversion.m */; };
+		E94FA8582193FAB8000E36FC /* 37-SudokuSolver.m in Sources */ = {isa = PBXBuildFile; fileRef = E94FA8572193FAB8000E36FC /* 37-SudokuSolver.m */; };
 		E962E4CC214B93B2009A03A9 /* medianOfTwoSortedArrayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E962E4CB214B93B2009A03A9 /* medianOfTwoSortedArrayTest.m */; };
 		E962E4CE214B958D009A03A9 /* 12-IntegerToRoman.m in Sources */ = {isa = PBXBuildFile; fileRef = E962E4CD214B958D009A03A9 /* 12-IntegerToRoman.m */; };
 		E962E4D0214BA0A1009A03A9 /* integerToRomanTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E962E4CF214BA0A1009A03A9 /* integerToRomanTest.m */; };
@@ -162,6 +163,8 @@
 		E93C7DD3215377E900A39502 /* threeSumClosestTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = threeSumClosestTest.m; sourceTree = "<group>"; };
 		E93CFCF2213B7AC6000EA5BE /* 6-ZigzagConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "6-ZigzagConversion.h"; sourceTree = "<group>"; };
 		E93CFCF3213B7B65000EA5BE /* 6-ZigzagConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "6-ZigzagConversion.m"; sourceTree = "<group>"; };
+		E94FA8562193FAA4000E36FC /* 37-SudokuSolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "37-SudokuSolver.h"; sourceTree = "<group>"; };
+		E94FA8572193FAB8000E36FC /* 37-SudokuSolver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "37-SudokuSolver.m"; sourceTree = "<group>"; };
 		E962E4CA214B920F009A03A9 /* 12-IntegerToRoman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "12-IntegerToRoman.h"; sourceTree = "<group>"; };
 		E962E4CB214B93B2009A03A9 /* medianOfTwoSortedArrayTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = medianOfTwoSortedArrayTest.m; sourceTree = "<group>"; };
 		E962E4CD214B958D009A03A9 /* 12-IntegerToRoman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "12-IntegerToRoman.m"; sourceTree = "<group>"; };
@@ -405,6 +408,8 @@
 				E9C52D462192C0F2004640A5 /* 35-SearchInsertPosition.m */,
 				E9C52D4B2192D853004640A5 /* 36-ValidSudoku.h */,
 				E9C52D4C2192D86E004640A5 /* 36-ValidSudoku.m */,
+				E94FA8562193FAA4000E36FC /* 37-SudokuSolver.h */,
+				E94FA8572193FAB8000E36FC /* 37-SudokuSolver.m */,
 				E97EAFB120CC965E00505F11 /* 92-ReverseLinkedListII.h */,
 				E97EAFB220CC965E00505F11 /* 92-ReverseLinkedListII.m */,
 				E97EAFB320CC965E00505F11 /* 94-BinaryTreeInorderTraversal-2.h */,
@@ -589,6 +594,7 @@
 				E9B1BE8E216C789600FE7531 /* 27-RemoveElement.m in Sources */,
 				E993FA5D21672A280089C560 /* 26-RemoveDuplicatesFromSortedArray.m in Sources */,
 				E9350EC0215CB8B0001456A3 /* 20-ValidParentheses.m in Sources */,
+				E94FA8582193FAB8000E36FC /* 37-SudokuSolver.m in Sources */,
 				E97EAFCF20CC965E00505F11 /* 3-LongestSubstringWithoutRepeatingCharacters.m in Sources */,
 				E99143EE218E1BB500ABE11D /* 32-LongestValidParenthese.m in Sources */,
 				E9BE38CD2150F1E400F09C09 /* 14-LongestCommonPrefix.m in Sources */,
