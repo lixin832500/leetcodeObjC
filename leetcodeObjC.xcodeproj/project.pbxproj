@@ -46,6 +46,7 @@
 		E97886AA20DF0BAD00579C3A /* ListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E97EAFCA20CC965E00505F11 /* ListNode.m */; };
 		E97886AD20DF29C000579C3A /* 21-MergeTwoSortedLists.m in Sources */ = {isa = PBXBuildFile; fileRef = E97EAFAE20CC965E00505F11 /* 21-MergeTwoSortedLists.m */; };
 		E97886AF20DF8BAB00579C3A /* mergeTwoSortedListTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E97886AE20DF8BAB00579C3A /* mergeTwoSortedListTest.m */; };
+		E97C0D912193B4C900FDD071 /* validSudokuTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E97C0D902193B4C900FDD071 /* validSudokuTest.m */; };
 		E97EAFCD20CC965E00505F11 /* 1-TwoSum.m in Sources */ = {isa = PBXBuildFile; fileRef = E97EAFA020CC965E00505F11 /* 1-TwoSum.m */; };
 		E97EAFCE20CC965E00505F11 /* 2-AddTwoNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = E97EAFA220CC965E00505F11 /* 2-AddTwoNumbers.m */; };
 		E97EAFCF20CC965E00505F11 /* 3-LongestSubstringWithoutRepeatingCharacters.m in Sources */ = {isa = PBXBuildFile; fileRef = E97EAFA420CC965E00505F11 /* 3-LongestSubstringWithoutRepeatingCharacters.m */; };
@@ -179,6 +180,7 @@
 		E9770940215A14E100753038 /* removeNthNodeFromEndofListTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = removeNthNodeFromEndofListTest.m; sourceTree = "<group>"; };
 		E97886A720DF033700579C3A /* addTwoNumbersTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addTwoNumbersTest.m; sourceTree = "<group>"; };
 		E97886AE20DF8BAB00579C3A /* mergeTwoSortedListTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mergeTwoSortedListTest.m; sourceTree = "<group>"; };
+		E97C0D902193B4C900FDD071 /* validSudokuTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = validSudokuTest.m; sourceTree = "<group>"; };
 		E97EAF9520CC95EA00505F11 /* leetcodeObjC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcodeObjC; sourceTree = BUILT_PRODUCTS_DIR; };
 		E97EAFA020CC965E00505F11 /* 1-TwoSum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "1-TwoSum.m"; sourceTree = "<group>"; };
 		E97EAFA120CC965E00505F11 /* 2-AddTwoNumbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "2-AddTwoNumbers.h"; sourceTree = "<group>"; };
@@ -482,6 +484,7 @@
 				E935E0EE214505110090EECE /* threeSumTest.m */,
 				E96FDB7120CCB7C300121361 /* twoSumTest.m */,
 				E933ACA8215E106F00D23146 /* validParenthesesTest.m */,
+				E97C0D902193B4C900FDD071 /* validSudokuTest.m */,
 				E980297C2141070B00456DD7 /* zigzagConversionTest.m */,
 				E97EAFF820CCAD9700505F11 /* Info.plist */,
 			);
@@ -674,6 +677,7 @@
 				E98EE2A621433437003A0633 /* 10-RegularExpressionMatching.m in Sources */,
 				E977093A215A088B00753038 /* fourSumTest.m in Sources */,
 				E98EE2A0214328C4003A0633 /* 9-PalindromeNumber.m in Sources */,
+				E97C0D912193B4C900FDD071 /* validSudokuTest.m in Sources */,
 				E91896F021425470009D21EA /* 8-StringToInteger.m in Sources */,
 				E933ACA9215E106F00D23146 /* validParenthesesTest.m in Sources */,
 				E963CE442144B6A1003D3F92 /* reverseIntegerTest.m in Sources */,
