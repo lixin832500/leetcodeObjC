@@ -540,6 +540,83 @@
             endingLineNumber = "53"
             landmarkName = "-testFindMedianSortedArrays2"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[medianOfTwoSortedArrayTest testFindMedianSortedArrays2]"
+                  moduleName = "leetcodeObjCTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/medianOfTwoSortedArrayTest.m"
+                  timestampString = "563359560.068711"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "713">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[medianOfTwoSortedArrayTest testFindMedianSortedArrays2]"
+                  moduleName = "leetcodeObjCTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/medianOfTwoSortedArrayTest.m"
+                  timestampString = "563359560.088092"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "796">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[medianOfTwoSortedArrayTest testFindMedianSortedArrays2]"
+                  moduleName = "leetcodeObjCTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/medianOfTwoSortedArrayTest.m"
+                  timestampString = "563359560.108902"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "1472">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[medianOfTwoSortedArrayTest testFindMedianSortedArrays2]"
+                  moduleName = "leetcodeObjCTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/medianOfTwoSortedArrayTest.m"
+                  timestampString = "563359560.118829"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "1576">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[medianOfTwoSortedArrayTest testFindMedianSortedArrays2]"
+                  moduleName = "leetcodeObjCTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/medianOfTwoSortedArrayTest.m"
+                  timestampString = "563359560.190985"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "1698">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1234,6 +1311,83 @@
             endingLineNumber = "44"
             landmarkName = "-testFourSum"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[fourSumTest testFourSum]"
+                  moduleName = "leetcodeObjCTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/fourSumTest.m"
+                  timestampString = "563359560.460809"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "678">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[fourSumTest testFourSum]"
+                  moduleName = "leetcodeObjCTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/fourSumTest.m"
+                  timestampString = "563359560.476302"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "821">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[fourSumTest testFourSum]"
+                  moduleName = "leetcodeObjCTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/fourSumTest.m"
+                  timestampString = "563359560.488398"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "1533">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[fourSumTest testFourSum]"
+                  moduleName = "leetcodeObjCTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/fourSumTest.m"
+                  timestampString = "563359560.500015"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "2374">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[fourSumTest testFourSum]"
+                  moduleName = "leetcodeObjCTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lx/Documents/workspace/leetcodeObjC/leetcodeObjCTest/fourSumTest.m"
+                  timestampString = "563359560.511651"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "2511">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
