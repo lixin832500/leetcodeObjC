@@ -35,6 +35,17 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "-[Solution39 combinationSumDFS:target:start:output:ret:]:39-CombinationSum.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "candidates[i]">
+            </PersistentString>
+            <PersistentString
+               value = "target - [candidates[i] intValue]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "-[Solution4 findKth:::::::]:4-MedianofTwoSortedArrays.m">
          <PersistentStrings>
             <PersistentString
@@ -61,6 +72,14 @@
             </PersistentString>
             <PersistentString
                value = "[digits characterAtIndex: depth] - &apos;2&apos;">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Solution39 combinationSumDFS:target:start:output:res:]:39-CombinationSum.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "candidates[i]">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

@@ -34,6 +34,12 @@
 		E962E4D4214BA5CE009A03A9 /* 13-RomanToInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = E962E4D3214BA5CE009A03A9 /* 13-RomanToInteger.m */; };
 		E962E4D7214BACA1009A03A9 /* 13-RomanToInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = E962E4D3214BA5CE009A03A9 /* 13-RomanToInteger.m */; };
 		E963CE442144B6A1003D3F92 /* reverseIntegerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E963CE432144B6A1003D3F92 /* reverseIntegerTest.m */; };
+		E96748872195189800861B2C /* 39-CombinationSum.m in Sources */ = {isa = PBXBuildFile; fileRef = E96748862195189800861B2C /* 39-CombinationSum.m */; };
+		E96748882195193F00861B2C /* 39-CombinationSum.m in Sources */ = {isa = PBXBuildFile; fileRef = E96748862195189800861B2C /* 39-CombinationSum.m */; };
+		E967488B219519B400861B2C /* 40-CombinationSumII.m in Sources */ = {isa = PBXBuildFile; fileRef = E967488A219519B400861B2C /* 40-CombinationSumII.m */; };
+		E967488C219519E300861B2C /* 40-CombinationSumII.m in Sources */ = {isa = PBXBuildFile; fileRef = E967488A219519B400861B2C /* 40-CombinationSumII.m */; };
+		E967488E2195667C00861B2C /* combinationSumTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E967488D2195667C00861B2C /* combinationSumTest.m */; };
+		E96748902195939200861B2C /* combinationSumIITest.m in Sources */ = {isa = PBXBuildFile; fileRef = E967488F2195939200861B2C /* combinationSumIITest.m */; };
 		E9687F7B20E60854006422CF /* findMedianSortedArraysTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9687F7A20E60854006422CF /* findMedianSortedArraysTest.m */; };
 		E9687F7C20E610BA006422CF /* 4-MedianOfTwoSortedArrays.m in Sources */ = {isa = PBXBuildFile; fileRef = E91CDB7520E363B6003DB474 /* 4-MedianOfTwoSortedArrays.m */; };
 		E96FDB7220CCB7C300121361 /* twoSumTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E96FDB7120CCB7C300121361 /* twoSumTest.m */; };
@@ -178,6 +184,12 @@
 		E962E4D2214BA5B1009A03A9 /* 13-RomanToInteger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "13-RomanToInteger.h"; sourceTree = "<group>"; };
 		E962E4D3214BA5CE009A03A9 /* 13-RomanToInteger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "13-RomanToInteger.m"; sourceTree = "<group>"; };
 		E963CE432144B6A1003D3F92 /* reverseIntegerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = reverseIntegerTest.m; sourceTree = "<group>"; };
+		E96748852195188500861B2C /* 39-CombinationSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "39-CombinationSum.h"; sourceTree = "<group>"; };
+		E96748862195189800861B2C /* 39-CombinationSum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "39-CombinationSum.m"; sourceTree = "<group>"; };
+		E96748892195196B00861B2C /* 40-CombinationSumII.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "40-CombinationSumII.h"; sourceTree = "<group>"; };
+		E967488A219519B400861B2C /* 40-CombinationSumII.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "40-CombinationSumII.m"; sourceTree = "<group>"; };
+		E967488D2195667C00861B2C /* combinationSumTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = combinationSumTest.m; sourceTree = "<group>"; };
+		E967488F2195939200861B2C /* combinationSumIITest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = combinationSumIITest.m; sourceTree = "<group>"; };
 		E9687F7A20E60854006422CF /* findMedianSortedArraysTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = findMedianSortedArraysTest.m; sourceTree = "<group>"; };
 		E96FDB7120CCB7C300121361 /* twoSumTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = twoSumTest.m; sourceTree = "<group>"; };
 		E973C9832165F820008A9AB5 /* swapNodesInPairsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = swapNodesInPairsTest.m; sourceTree = "<group>"; };
@@ -418,6 +430,10 @@
 				E94FA8572193FAB8000E36FC /* 37-SudokuSolver.m */,
 				E94FA8592194244C000E36FC /* 38-CountAndSay.h */,
 				E94FA85A2194245F000E36FC /* 38-CountAndSay.m */,
+				E96748852195188500861B2C /* 39-CombinationSum.h */,
+				E96748862195189800861B2C /* 39-CombinationSum.m */,
+				E96748892195196B00861B2C /* 40-CombinationSumII.h */,
+				E967488A219519B400861B2C /* 40-CombinationSumII.m */,
 				E97EAFB120CC965E00505F11 /* 92-ReverseLinkedListII.h */,
 				E97EAFB220CC965E00505F11 /* 92-ReverseLinkedListII.m */,
 				E97EAFB320CC965E00505F11 /* 94-BinaryTreeInorderTraversal-2.h */,
@@ -501,6 +517,8 @@
 				E980297C2141070B00456DD7 /* zigzagConversionTest.m */,
 				E97EAFF820CCAD9700505F11 /* Info.plist */,
 				E94FA85C21942D96000E36FC /* countAndSayTest.m */,
+				E967488D2195667C00861B2C /* combinationSumTest.m */,
+				E967488F2195939200861B2C /* combinationSumIITest.m */,
 			);
 			path = leetcodeObjCTest;
 			sourceTree = "<group>";
@@ -595,6 +613,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E962E4CE214B958D009A03A9 /* 12-IntegerToRoman.m in Sources */,
+				E96748872195189800861B2C /* 39-CombinationSum.m in Sources */,
 				E97EAFDB20CC965E00505F11 /* 100-SameTree.m in Sources */,
 				E9770938215A061900753038 /* 18-FourSum.m in Sources */,
 				E97EAFD620CC965E00505F11 /* 92-ReverseLinkedListII.m in Sources */,
@@ -626,6 +645,7 @@
 				E962E4D4214BA5CE009A03A9 /* 13-RomanToInteger.m in Sources */,
 				E97EAFDF20CC965E00505F11 /* 226-InvertBinaryTree.m in Sources */,
 				E97EAFD220CC965E00505F11 /* 15-ThreeSum.m in Sources */,
+				E967488B219519B400861B2C /* 40-CombinationSumII.m in Sources */,
 				E97EAFD320CC965E00505F11 /* 19-RemoveNthNodeFromEndofList.m in Sources */,
 				E97EAFDA20CC965E00505F11 /* 98-ValidateBinarySearchTree.m in Sources */,
 				E9B4D43B219171EC00CDA9C1 /* 33-SearchInRotatedSortedArray.m in Sources */,
@@ -654,6 +674,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E967488C219519E300861B2C /* 40-CombinationSumII.m in Sources */,
+				E96748882195193F00861B2C /* 39-CombinationSum.m in Sources */,
 				E94FA85E21942DB6000E36FC /* 38-CountAndSay.m in Sources */,
 				E9C52D4E2192D8F1004640A5 /* 36-ValidSudoku.m in Sources */,
 				E9C52D482192C189004640A5 /* 35-SearchInsertPosition.m in Sources */,
@@ -679,6 +701,7 @@
 				E933ACAA215E109200D23146 /* 20-ValidParentheses.m in Sources */,
 				E9B4D446219184B000CDA9C1 /* findFirstAndLastPositionOfElementInSortedArrayTest.m in Sources */,
 				E977093C215A0BA300753038 /* 18-FourSum.m in Sources */,
+				E967488E2195667C00861B2C /* combinationSumTest.m in Sources */,
 				E977093B215A094E00753038 /* 19-RemoveNthNodeFromEndofList.m in Sources */,
 				E99BD98B2165D1050070A8E3 /* mergeKSortedListsTest.m in Sources */,
 				E97F9DE32154E8D4000C6C82 /* 17-LetterCombinationOfAPhoneNumber.m in Sources */,
@@ -726,6 +749,7 @@
 				E94FA85D21942D96000E36FC /* countAndSayTest.m in Sources */,
 				E9E555FF20D248D3000F33AD /* 11-ContainerWithMostWater.m in Sources */,
 				E97886A820DF033700579C3A /* addTwoNumbersTest.m in Sources */,
+				E96748902195939200861B2C /* combinationSumIITest.m in Sources */,
 				E9E555ED20D246E8000F33AD /* containerWithMostWaterTest.m in Sources */,
 				E96FDB7220CCB7C300121361 /* twoSumTest.m in Sources */,
 				E935E0EF214505110090EECE /* threeSumTest.m in Sources */,
