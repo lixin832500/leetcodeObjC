@@ -34,7 +34,16 @@
     NSArray *candidates = @[@2, @3, @6, @7];
     NSInteger target = 7;
     NSArray *result = [s combinationSum: candidates target: target];
-    NSArray *actual = @[@[@7], @[@2, @2, @3]];
+    NSLog(@"result: %@",result);
+    NSArray *actual = @[@[@2, @2, @3],@[@7]];
+    XCTAssertEqual([result isEqualToArray:actual], YES, @"the result is right");
+}
+
+- (void)testCombinationSum2 {
+    NSArray *candidates = @[@2, @3, @5];
+    NSInteger target = 8;
+    NSArray *result = [s combinationSum: candidates target: target];
+    NSArray *actual = @[@[@2, @2, @2, @2], @[@2, @3, @3], @[@3, @5]];
     XCTAssertEqual([result isEqualToArray:actual], YES, @"the result is right");
 }
 

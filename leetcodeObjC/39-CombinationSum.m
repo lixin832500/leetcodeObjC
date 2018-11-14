@@ -22,7 +22,8 @@
 -(void) combinationSumDFS: (NSArray*) candidates target: (NSInteger) target  start: (NSInteger) start output: (NSMutableArray*) output res: (NSMutableArray*) res
 {
     if(target < 0) return;
-    else if(target == 0){
+    if(target == 0){
+        NSLog(@"output: %@",output);
         [res addObject: [NSArray arrayWithArray:output]];
         return;
     }else{
@@ -30,7 +31,9 @@
             [output addObject: candidates[i]];
             target = target - [candidates[i] intValue];
             [self combinationSumDFS: candidates target: target  start: i output:output res:res];
+            //NSLog(@"output before remove lastobject: %@",output);
             [output removeLastObject];
+            //NSLog(@"output after remove lastobject: %@",output);
         }
     }
 }

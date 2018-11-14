@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E90D819321983BA4009A08E6 /* 41-FirstMissingPositive.m in Sources */ = {isa = PBXBuildFile; fileRef = E90D819221983BA4009A08E6 /* 41-FirstMissingPositive.m */; };
+		E90D819421983C20009A08E6 /* 41-FirstMissingPositive.m in Sources */ = {isa = PBXBuildFile; fileRef = E90D819221983BA4009A08E6 /* 41-FirstMissingPositive.m */; };
+		E90D819721984040009A08E6 /* 42-TrappingRainWater.m in Sources */ = {isa = PBXBuildFile; fileRef = E90D819621984040009A08E6 /* 42-TrappingRainWater.m */; };
+		E9182A3D21997771001061EC /* 43-MultiplyStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = E9182A3C21997771001061EC /* 43-MultiplyStrings.m */; };
+		E9182A3F219981B0001061EC /* multiplyStringsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9182A3E219981B0001061EC /* multiplyStringsTest.m */; };
+		E9182A40219981C9001061EC /* 43-MultiplyStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = E9182A3C21997771001061EC /* 43-MultiplyStrings.m */; };
+		E9182A432199843C001061EC /* 44-WildcardMatching.m in Sources */ = {isa = PBXBuildFile; fileRef = E9182A422199843C001061EC /* 44-WildcardMatching.m */; };
 		E91896ED21424C97009D21EA /* 8-StringToInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = E91896EC21424C97009D21EA /* 8-StringToInteger.m */; };
 		E91896EF214252C0009D21EA /* stringToIntegerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E91896EE214252C0009D21EA /* stringToIntegerTest.m */; };
 		E91896F021425470009D21EA /* 8-StringToInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = E91896EC21424C97009D21EA /* 8-StringToInteger.m */; };
@@ -158,6 +165,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E90D819121983B84009A08E6 /* 41-FirstMissingPositive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "41-FirstMissingPositive.h"; sourceTree = "<group>"; };
+		E90D819221983BA4009A08E6 /* 41-FirstMissingPositive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "41-FirstMissingPositive.m"; sourceTree = "<group>"; };
+		E90D81952198402A009A08E6 /* 42-TrappingRainWater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "42-TrappingRainWater.h"; sourceTree = "<group>"; };
+		E90D819621984040009A08E6 /* 42-TrappingRainWater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "42-TrappingRainWater.m"; sourceTree = "<group>"; };
+		E9182A3B21997761001061EC /* 43-MultiplyStrings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "43-MultiplyStrings.h"; sourceTree = "<group>"; };
+		E9182A3C21997771001061EC /* 43-MultiplyStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "43-MultiplyStrings.m"; sourceTree = "<group>"; };
+		E9182A3E219981B0001061EC /* multiplyStringsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = multiplyStringsTest.m; sourceTree = "<group>"; };
+		E9182A4121998427001061EC /* 44-WildcardMatching.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "44-WildcardMatching.h"; sourceTree = "<group>"; };
+		E9182A422199843C001061EC /* 44-WildcardMatching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "44-WildcardMatching.m"; sourceTree = "<group>"; };
 		E91896EB21424B55009D21EA /* 8-StringToInteger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "8-StringToInteger.h"; sourceTree = "<group>"; };
 		E91896EC21424C97009D21EA /* 8-StringToInteger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "8-StringToInteger.m"; sourceTree = "<group>"; };
 		E91896EE214252C0009D21EA /* stringToIntegerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = stringToIntegerTest.m; sourceTree = "<group>"; };
@@ -463,6 +479,14 @@
 				E9BD25DF20CDE7C6001778D6 /* main.m */,
 				E97EAFCB20CC965E00505F11 /* TreeNode.h */,
 				E97EAFCC20CC965E00505F11 /* TreeNode.m */,
+				E90D819121983B84009A08E6 /* 41-FirstMissingPositive.h */,
+				E90D819221983BA4009A08E6 /* 41-FirstMissingPositive.m */,
+				E90D81952198402A009A08E6 /* 42-TrappingRainWater.h */,
+				E90D819621984040009A08E6 /* 42-TrappingRainWater.m */,
+				E9182A3B21997761001061EC /* 43-MultiplyStrings.h */,
+				E9182A3C21997771001061EC /* 43-MultiplyStrings.m */,
+				E9182A4121998427001061EC /* 44-WildcardMatching.h */,
+				E9182A422199843C001061EC /* 44-WildcardMatching.m */,
 			);
 			path = leetcodeObjC;
 			sourceTree = "<group>";
@@ -479,7 +503,10 @@
 			isa = PBXGroup;
 			children = (
 				E97886A720DF033700579C3A /* addTwoNumbersTest.m */,
+				E967488F2195939200861B2C /* combinationSumIITest.m */,
+				E967488D2195667C00861B2C /* combinationSumTest.m */,
 				E9E555EC20D246E8000F33AD /* containerWithMostWaterTest.m */,
+				E94FA85C21942D96000E36FC /* countAndSayTest.m */,
 				E982052B216DD11D0079A336 /* divideTwoIntegersTest.m */,
 				E9B4D445219184B000CDA9C1 /* findFirstAndLastPositionOfElementInSortedArrayTest.m */,
 				E9687F7A20E60854006422CF /* findMedianSortedArraysTest.m */,
@@ -516,9 +543,7 @@
 				E97C0D902193B4C900FDD071 /* validSudokuTest.m */,
 				E980297C2141070B00456DD7 /* zigzagConversionTest.m */,
 				E97EAFF820CCAD9700505F11 /* Info.plist */,
-				E94FA85C21942D96000E36FC /* countAndSayTest.m */,
-				E967488D2195667C00861B2C /* combinationSumTest.m */,
-				E967488F2195939200861B2C /* combinationSumIITest.m */,
+				E9182A3E219981B0001061EC /* multiplyStringsTest.m */,
 			);
 			path = leetcodeObjCTest;
 			sourceTree = "<group>";
@@ -615,6 +640,7 @@
 				E962E4CE214B958D009A03A9 /* 12-IntegerToRoman.m in Sources */,
 				E96748872195189800861B2C /* 39-CombinationSum.m in Sources */,
 				E97EAFDB20CC965E00505F11 /* 100-SameTree.m in Sources */,
+				E90D819321983BA4009A08E6 /* 41-FirstMissingPositive.m in Sources */,
 				E9770938215A061900753038 /* 18-FourSum.m in Sources */,
 				E97EAFD620CC965E00505F11 /* 92-ReverseLinkedListII.m in Sources */,
 				E9B4D44121917FE500CDA9C1 /* 34-FindFirstAndLastPositionOfElementInSortedArray.m in Sources */,
@@ -647,12 +673,14 @@
 				E97EAFD220CC965E00505F11 /* 15-ThreeSum.m in Sources */,
 				E967488B219519B400861B2C /* 40-CombinationSumII.m in Sources */,
 				E97EAFD320CC965E00505F11 /* 19-RemoveNthNodeFromEndofList.m in Sources */,
+				E90D819721984040009A08E6 /* 42-TrappingRainWater.m in Sources */,
 				E97EAFDA20CC965E00505F11 /* 98-ValidateBinarySearchTree.m in Sources */,
 				E9B4D43B219171EC00CDA9C1 /* 33-SearchInRotatedSortedArray.m in Sources */,
 				E97EAFDD20CC965E00505F11 /* 102-BinaryTreeLevelOrderTraversal.m in Sources */,
 				E97EAFE120CC965E00505F11 /* 404-SumofLeftLeaves.m in Sources */,
 				E97EAFD420CC965E00505F11 /* 21-MergeTwoSortedLists.m in Sources */,
 				E97EAFDC20CC965E00505F11 /* 101-SymmetricTree.m in Sources */,
+				E9182A3D21997771001061EC /* 43-MultiplyStrings.m in Sources */,
 				E93CFCF4213B7B65000EA5BE /* 6-ZigzagConversion.m in Sources */,
 				E97EAFDE20CC965E00505F11 /* 206-ReverseLinkedList.m in Sources */,
 				E982052A216DCC380079A336 /* 29-DivideTwoIntegers.m in Sources */,
@@ -665,6 +693,7 @@
 				E97F9DE02154D991000C6C82 /* 17-LetterCombinationOfAPhoneNumber.m in Sources */,
 				E97EAFD020CC965E00505F11 /* 7-ReverseInteger.m in Sources */,
 				E9CFB9CE2164911300188B82 /* 22-GenerateParentheses.m in Sources */,
+				E9182A432199843C001061EC /* 44-WildcardMatching.m in Sources */,
 				E9BD25E020CDE7C6001778D6 /* main.m in Sources */,
 				E97EAFE320CC965E00505F11 /* TreeNode.m in Sources */,
 			);
@@ -674,6 +703,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9182A40219981C9001061EC /* 43-MultiplyStrings.m in Sources */,
+				E90D819421983C20009A08E6 /* 41-FirstMissingPositive.m in Sources */,
 				E967488C219519E300861B2C /* 40-CombinationSumII.m in Sources */,
 				E96748882195193F00861B2C /* 39-CombinationSum.m in Sources */,
 				E94FA85E21942DB6000E36FC /* 38-CountAndSay.m in Sources */,
@@ -733,6 +764,7 @@
 				E9770941215A14E100753038 /* removeNthNodeFromEndofListTest.m in Sources */,
 				E993FA5F21672BE00089C560 /* removeDuplicatesFromSortedArrayTest.m in Sources */,
 				E9B4D4482191858000CDA9C1 /* searchInRotatedSortedArrayTest.m in Sources */,
+				E9182A3F219981B0001061EC /* multiplyStringsTest.m in Sources */,
 				E962E4CC214B93B2009A03A9 /* medianOfTwoSortedArrayTest.m in Sources */,
 				E9687F7B20E60854006422CF /* findMedianSortedArraysTest.m in Sources */,
 				E97886AA20DF0BAD00579C3A /* ListNode.m in Sources */,
