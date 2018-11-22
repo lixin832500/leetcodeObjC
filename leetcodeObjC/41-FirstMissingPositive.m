@@ -18,15 +18,15 @@
     NSInteger len = [num count];
     NSInteger i = 0;
     while(i < len){
-        if([num[i] intValue] != i+1 && [num[i] intValue] > 0 && [num[i] intValue] <= len && [num[i] intValue] != [nums[[nums[i] intValue] -1] intValue]){
-            [num exchangeObjectAtIndex: i withObjectAtIndex: [nums[[nums[i] intValue] -1] intValue]];
+        if([num[i] intValue] != i+1 && [num[i] intValue] > 0 && [num[i] intValue] <= len && [num[i] intValue] != [num[[num[i] intValue] -1] intValue]){
+            [num exchangeObjectAtIndex: i withObjectAtIndex: [num[i] intValue] -1];
         }else{
             ++i;
         }
     }
     
     for(NSInteger i = 0; i <len; ++i){
-        if([nums[i] intValue] != i+1) return i +1;
+        if([num[i] intValue] != i+1) return i +1;
     }
     
     return len +1;
