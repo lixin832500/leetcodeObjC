@@ -35,8 +35,7 @@
                 break;
             }
             [output addObject: candidates[i]];
-            target = target - [candidates[i] intValue];
-            [self combinationSumDFS: candidates target: target  start: i+1 output:output res:res];
+            [self combinationSumDFS: candidates target: target - [candidates[i] intValue]  start: i+1 output:output res:res];
             [output removeLastObject];
         }
     }

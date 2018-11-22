@@ -23,17 +23,13 @@
 {
     if(target < 0) return;
     if(target == 0){
-        NSLog(@"output: %@",output);
         [res addObject: [NSArray arrayWithArray:output]];
         return;
     }else{
         for(NSInteger  i = start; i < [candidates count]; ++i){
             [output addObject: candidates[i]];
-            target = target - [candidates[i] intValue];
-            [self combinationSumDFS: candidates target: target  start: i output:output res:res];
-            //NSLog(@"output before remove lastobject: %@",output);
+            [self combinationSumDFS: candidates target: target - [candidates[i] intValue]  start: i output:output res:res];
             [output removeLastObject];
-            //NSLog(@"output after remove lastobject: %@",output);
         }
     }
 }
