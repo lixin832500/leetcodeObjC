@@ -10,6 +10,6 @@
 #define _3_MultiplyStrings_h
 
 @interface Solution43 : NSObject
--(NSString*) multiply: (NSString*) nums1: (NSString*) nums2;
+-(NSString*) multiply: (NSString*) nums1 : (NSString*) nums2;
 @end
 #endif /* _3_MultiplyStrings_h */

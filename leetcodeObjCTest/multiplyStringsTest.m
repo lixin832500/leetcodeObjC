@@ -30,11 +30,19 @@
     s = nil;
 }
 
-- (void)testMultiply {
+- (void)testMultiply1 {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
     NSString *num1 = @"2",*num2 =  @"3";
     NSString *result = [s multiply: num1 : num2];
     XCTAssertEqual([result isEqualToString: @"6"], YES, @"the result is 6");
+}
+
+- (void)testMultiply2 {
+    // This is an example of a functional test case.
+    // Use XCTAssert and related functions to verify your tests produce the correct results.
+    NSString *num1 = @"123",*num2 =  @"456";
+    NSString *result = [s multiply: num1 : num2];
+    XCTAssertEqual([result isEqualToString: @"56088"], YES, @"the result is 6");
 }
 @end
