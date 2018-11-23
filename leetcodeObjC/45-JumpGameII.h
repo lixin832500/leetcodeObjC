@@ -9,5 +9,7 @@
 #ifndef _5_JumpGameII_h
 #define _5_JumpGameII_h
 
-
+@interface Solution45 : NSObject
+-(NSInteger) jump: (NSArray*) nums;
+@end
 #endif /* _5_JumpGameII_h */
