@@ -9,5 +9,7 @@
 #ifndef _7_PermutationsII_h
 #define _7_PermutationsII_h
 
-
+@interface  Solution47 : NSObject
+-(NSArray*) permuteUnique:(NSArray*) nums;
+@end
 #endif /* _7_PermutationsII_h */
