@@ -9,5 +9,7 @@
 #ifndef _9_GroupAnagrams_h
 #define _9_GroupAnagrams_h
 
-
+@interface Solution49 : NSObject
+-(NSArray*) groupAnagrams: (NSArray*) strs;
+@end
 #endif /* _9_GroupAnagrams_h */
