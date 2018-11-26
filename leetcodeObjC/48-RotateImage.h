@@ -9,5 +9,8 @@
 #ifndef _8_RotateImage_h
 #define _8_RotateImage_h
 
+@interface  Solution48 : NSObject
+-(NSArray*) rotate:(NSArray*) matrix;
+@end
 
 #endif /* _8_RotateImage_h */
