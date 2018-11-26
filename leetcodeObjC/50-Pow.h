@@ -9,5 +9,7 @@
 #ifndef _0_Pow_h
 #define _0_Pow_h
 
-
+@interface Solution50 : NSObject
+-(double) myPow: (double) x: (int) n;
+@end
 #endif /* _0_Pow_h */
