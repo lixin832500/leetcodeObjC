@@ -9,5 +9,7 @@
 #ifndef _1_NQueens_h
 #define _1_NQueens_h
 
-
+@interface Solution51 : NSObject
+-(NSArray*) solveNQueens: (NSInteger)n;
+@end
 #endif /* _1_NQueens_h */

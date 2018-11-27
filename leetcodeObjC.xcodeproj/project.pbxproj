@@ -41,6 +41,7 @@
 		E962E4D4214BA5CE009A03A9 /* 13-RomanToInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = E962E4D3214BA5CE009A03A9 /* 13-RomanToInteger.m */; };
 		E962E4D7214BACA1009A03A9 /* 13-RomanToInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = E962E4D3214BA5CE009A03A9 /* 13-RomanToInteger.m */; };
 		E963CE442144B6A1003D3F92 /* reverseIntegerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E963CE432144B6A1003D3F92 /* reverseIntegerTest.m */; };
+		E9643ACD21A549F600365910 /* 51-NQueens.m in Sources */ = {isa = PBXBuildFile; fileRef = E9643ACC21A549F600365910 /* 51-NQueens.m */; };
 		E96748872195189800861B2C /* 39-CombinationSum.m in Sources */ = {isa = PBXBuildFile; fileRef = E96748862195189800861B2C /* 39-CombinationSum.m */; };
 		E96748882195193F00861B2C /* 39-CombinationSum.m in Sources */ = {isa = PBXBuildFile; fileRef = E96748862195189800861B2C /* 39-CombinationSum.m */; };
 		E967488B219519B400861B2C /* 40-CombinationSumII.m in Sources */ = {isa = PBXBuildFile; fileRef = E967488A219519B400861B2C /* 40-CombinationSumII.m */; };
@@ -64,6 +65,9 @@
 		E97886AD20DF29C000579C3A /* 21-MergeTwoSortedLists.m in Sources */ = {isa = PBXBuildFile; fileRef = E97EAFAE20CC965E00505F11 /* 21-MergeTwoSortedLists.m */; };
 		E97886AF20DF8BAB00579C3A /* mergeTwoSortedListTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E97886AE20DF8BAB00579C3A /* mergeTwoSortedListTest.m */; };
 		E97C0D912193B4C900FDD071 /* validSudokuTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E97C0D902193B4C900FDD071 /* validSudokuTest.m */; };
+		E97CA2EF219D42A100795BB8 /* 47-PermutationsII.m in Sources */ = {isa = PBXBuildFile; fileRef = E97CA2EE219D42A100795BB8 /* 47-PermutationsII.m */; };
+		E97CA2F0219D445B00795BB8 /* 47-PermutationsII.m in Sources */ = {isa = PBXBuildFile; fileRef = E97CA2EE219D42A100795BB8 /* 47-PermutationsII.m */; };
+		E97CA2F3219D686400795BB8 /* 48-RotateImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E97CA2F2219D686400795BB8 /* 48-RotateImage.m */; };
 		E97EAFCD20CC965E00505F11 /* 1-TwoSum.m in Sources */ = {isa = PBXBuildFile; fileRef = E97EAFA020CC965E00505F11 /* 1-TwoSum.m */; };
 		E97EAFCE20CC965E00505F11 /* 2-AddTwoNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = E97EAFA220CC965E00505F11 /* 2-AddTwoNumbers.m */; };
 		E97EAFCF20CC965E00505F11 /* 3-LongestSubstringWithoutRepeatingCharacters.m in Sources */ = {isa = PBXBuildFile; fileRef = E97EAFA420CC965E00505F11 /* 3-LongestSubstringWithoutRepeatingCharacters.m */; };
@@ -93,6 +97,7 @@
 		E97F9DE32154E8D4000C6C82 /* 17-LetterCombinationOfAPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = E97F9DDF2154D991000C6C82 /* 17-LetterCombinationOfAPhoneNumber.m */; };
 		E980297D2141070B00456DD7 /* zigzagConversionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E980297C2141070B00456DD7 /* zigzagConversionTest.m */; };
 		E980297E21410AA800456DD7 /* 6-ZigzagConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = E93CFCF3213B7B65000EA5BE /* 6-ZigzagConversion.m */; };
+		E981EA6221AD254D0079A1B4 /* nQueensTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E981EA6121AD254D0079A1B4 /* nQueensTest.m */; };
 		E982052A216DCC380079A336 /* 29-DivideTwoIntegers.m in Sources */ = {isa = PBXBuildFile; fileRef = E9820529216DCC380079A336 /* 29-DivideTwoIntegers.m */; };
 		E982052C216DD11D0079A336 /* divideTwoIntegersTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E982052B216DD11D0079A336 /* divideTwoIntegersTest.m */; };
 		E982052D216DD2190079A336 /* 29-DivideTwoIntegers.m in Sources */ = {isa = PBXBuildFile; fileRef = E9820529216DCC380079A336 /* 29-DivideTwoIntegers.m */; };
@@ -133,9 +138,18 @@
 		E9B4D446219184B000CDA9C1 /* findFirstAndLastPositionOfElementInSortedArrayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B4D445219184B000CDA9C1 /* findFirstAndLastPositionOfElementInSortedArrayTest.m */; };
 		E9B4D4482191858000CDA9C1 /* searchInRotatedSortedArrayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B4D4472191857F00CDA9C1 /* searchInRotatedSortedArrayTest.m */; };
 		E9B4D4492191874900CDA9C1 /* 34-FindFirstAndLastPositionOfElementInSortedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B4D44021917FE500CDA9C1 /* 34-FindFirstAndLastPositionOfElementInSortedArray.m */; };
+		E9B720C921A7D537005DFE2E /* wildcardMatchingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B720C821A7D537005DFE2E /* wildcardMatchingTest.m */; };
+		E9B720CB21A7D785005DFE2E /* jumpGameIITest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B720CA21A7D785005DFE2E /* jumpGameIITest.m */; };
+		E9B720CD21A7D8F8005DFE2E /* permutationsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B720CC21A7D8F8005DFE2E /* permutationsTest.m */; };
+		E9B720CF21A7E1FF005DFE2E /* permutationsIITest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B720CE21A7E1FF005DFE2E /* permutationsIITest.m */; };
+		E9B720D121A7E3AB005DFE2E /* rotateImageTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B720D021A7E3AB005DFE2E /* rotateImageTest.m */; };
+		E9B8D008219C07B100094210 /* 45-JumpGameII.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B8D007219C07B100094210 /* 45-JumpGameII.m */; };
+		E9B8D009219C099100094210 /* 45-JumpGameII.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B8D007219C07B100094210 /* 45-JumpGameII.m */; };
+		E9B8D00C219C09EF00094210 /* 46-Permutations.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B8D00B219C09EE00094210 /* 46-Permutations.m */; };
 		E9BD25E020CDE7C6001778D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BD25DF20CDE7C6001778D6 /* main.m */; };
 		E9BD25EB20CDFE50001778D6 /* longestSubstringWithoutRepeatingCharactersTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BD25EA20CDFE50001778D6 /* longestSubstringWithoutRepeatingCharactersTest.m */; };
 		E9BE38CD2150F1E400F09C09 /* 14-LongestCommonPrefix.m in Sources */ = {isa = PBXBuildFile; fileRef = E9BE38CC2150F1E400F09C09 /* 14-LongestCommonPrefix.m */; };
+		E9C13AE921A00B0C0018DB47 /* sort-string.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C13AE821A00B0C0018DB47 /* sort-string.m */; };
 		E9C52D472192C0F2004640A5 /* 35-SearchInsertPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C52D462192C0F2004640A5 /* 35-SearchInsertPosition.m */; };
 		E9C52D482192C189004640A5 /* 35-SearchInsertPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C52D462192C0F2004640A5 /* 35-SearchInsertPosition.m */; };
 		E9C52D4A2192D61E004640A5 /* searchInsertPostionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C52D492192D61E004640A5 /* searchInsertPostionTest.m */; };
@@ -143,12 +157,25 @@
 		E9C52D4E2192D8F1004640A5 /* 36-ValidSudoku.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C52D4C2192D86E004640A5 /* 36-ValidSudoku.m */; };
 		E9C53B0E2176FFF000F39F06 /* substringWithConcatenationOfAllWordsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C53B0D2176FFF000F39F06 /* substringWithConcatenationOfAllWordsTest.m */; };
 		E9C53B0F2177000400F39F06 /* 30-SubstringWithConcatenationOfAllWords.m in Sources */ = {isa = PBXBuildFile; fileRef = E98C677F2175C7DA0098CB39 /* 30-SubstringWithConcatenationOfAllWords.m */; };
+		E9C5656A21A144FD002A56D8 /* 50-Pow.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C5656921A144FD002A56D8 /* 50-Pow.m */; };
+		E9C7B34021A6B7BE00E6CD32 /* firstMissingPositiveTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C7B33F21A6B7BE00E6CD32 /* firstMissingPositiveTest.m */; };
+		E9C7B34121A6B7EB00E6CD32 /* 42-TrappingRainWater.m in Sources */ = {isa = PBXBuildFile; fileRef = E90D819621984040009A08E6 /* 42-TrappingRainWater.m */; };
+		E9C7B34221A6B7EB00E6CD32 /* 44-WildcardMatching.m in Sources */ = {isa = PBXBuildFile; fileRef = E9182A422199843C001061EC /* 44-WildcardMatching.m */; };
+		E9C7B34321A6B7EB00E6CD32 /* 46-Permutations.m in Sources */ = {isa = PBXBuildFile; fileRef = E9B8D00B219C09EE00094210 /* 46-Permutations.m */; };
+		E9C7B34421A6B7EB00E6CD32 /* 48-RotateImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E97CA2F2219D686400795BB8 /* 48-RotateImage.m */; };
+		E9C7B34521A6B7EB00E6CD32 /* 49-GroupAnagrams.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D83B4C219ECBA40058F759 /* 49-GroupAnagrams.m */; };
+		E9C7B34621A6B7EB00E6CD32 /* 50-Pow.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C5656921A144FD002A56D8 /* 50-Pow.m */; };
+		E9C7B34721A6B7EB00E6CD32 /* 51-NQueens.m in Sources */ = {isa = PBXBuildFile; fileRef = E9643ACC21A549F600365910 /* 51-NQueens.m */; };
+		E9C7B34921A6C2A500E6CD32 /* trappingRainWaterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C7B34821A6C2A500E6CD32 /* trappingRainWaterTest.m */; };
 		E9CFB9CE2164911300188B82 /* 22-GenerateParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CFB9CD2164911300188B82 /* 22-GenerateParentheses.m */; };
 		E9CFB9D121649BD900188B82 /* 22-GenerateParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CFB9CD2164911300188B82 /* 22-GenerateParentheses.m */; };
 		E9CFB9D62164A68E00188B82 /* 23-MergeKSortedLists.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CFB9D52164A68E00188B82 /* 23-MergeKSortedLists.m */; };
+		E9D83B4D219ECBA40058F759 /* 49-GroupAnagrams.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D83B4C219ECBA40058F759 /* 49-GroupAnagrams.m */; };
 		E9E555ED20D246E8000F33AD /* containerWithMostWaterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E555EC20D246E8000F33AD /* containerWithMostWaterTest.m */; };
 		E9E555FE20D248D3000F33AD /* 3-LongestSubstringWithoutRepeatingCharacters.m in Sources */ = {isa = PBXBuildFile; fileRef = E97EAFA420CC965E00505F11 /* 3-LongestSubstringWithoutRepeatingCharacters.m */; };
 		E9E555FF20D248D3000F33AD /* 11-ContainerWithMostWater.m in Sources */ = {isa = PBXBuildFile; fileRef = E97EAFA820CC965E00505F11 /* 11-ContainerWithMostWater.m */; };
+		E9E8E00321ABC2260038FE30 /* groupAnagramsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E8E00221ABC2260038FE30 /* groupAnagramsTest.m */; };
+		E9E8E00521ABCC4D0038FE30 /* powTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E8E00421ABCC4D0038FE30 /* powTest.m */; };
 		E9EB7FF221425A7A003AEC20 /* 9-PalindromeNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = E9EB7FF121425A7A003AEC20 /* 9-PalindromeNumber.m */; };
 /* End PBXBuildFile section */
 
@@ -200,6 +227,8 @@
 		E962E4D2214BA5B1009A03A9 /* 13-RomanToInteger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "13-RomanToInteger.h"; sourceTree = "<group>"; };
 		E962E4D3214BA5CE009A03A9 /* 13-RomanToInteger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "13-RomanToInteger.m"; sourceTree = "<group>"; };
 		E963CE432144B6A1003D3F92 /* reverseIntegerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = reverseIntegerTest.m; sourceTree = "<group>"; };
+		E9643ACB21A549E100365910 /* 51-NQueens.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "51-NQueens.h"; sourceTree = "<group>"; };
+		E9643ACC21A549F600365910 /* 51-NQueens.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "51-NQueens.m"; sourceTree = "<group>"; };
 		E96748852195188500861B2C /* 39-CombinationSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "39-CombinationSum.h"; sourceTree = "<group>"; };
 		E96748862195189800861B2C /* 39-CombinationSum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "39-CombinationSum.m"; sourceTree = "<group>"; };
 		E96748892195196B00861B2C /* 40-CombinationSumII.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "40-CombinationSumII.h"; sourceTree = "<group>"; };
@@ -218,6 +247,10 @@
 		E97886A720DF033700579C3A /* addTwoNumbersTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addTwoNumbersTest.m; sourceTree = "<group>"; };
 		E97886AE20DF8BAB00579C3A /* mergeTwoSortedListTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mergeTwoSortedListTest.m; sourceTree = "<group>"; };
 		E97C0D902193B4C900FDD071 /* validSudokuTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = validSudokuTest.m; sourceTree = "<group>"; };
+		E97CA2ED219D428E00795BB8 /* 47-PermutationsII.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "47-PermutationsII.h"; sourceTree = "<group>"; };
+		E97CA2EE219D42A100795BB8 /* 47-PermutationsII.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "47-PermutationsII.m"; sourceTree = "<group>"; };
+		E97CA2F1219D684F00795BB8 /* 48-RotateImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "48-RotateImage.h"; sourceTree = "<group>"; };
+		E97CA2F2219D686400795BB8 /* 48-RotateImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "48-RotateImage.m"; sourceTree = "<group>"; };
 		E97EAF9520CC95EA00505F11 /* leetcodeObjC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcodeObjC; sourceTree = BUILT_PRODUCTS_DIR; };
 		E97EAFA020CC965E00505F11 /* 1-TwoSum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "1-TwoSum.m"; sourceTree = "<group>"; };
 		E97EAFA120CC965E00505F11 /* 2-AddTwoNumbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "2-AddTwoNumbers.h"; sourceTree = "<group>"; };
@@ -271,6 +304,7 @@
 		E97F9DDF2154D991000C6C82 /* 17-LetterCombinationOfAPhoneNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "17-LetterCombinationOfAPhoneNumber.m"; sourceTree = "<group>"; };
 		E97F9DE12154E8BF000C6C82 /* letterCombinationOfAPhoneNumberTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = letterCombinationOfAPhoneNumberTest.m; sourceTree = "<group>"; };
 		E980297C2141070B00456DD7 /* zigzagConversionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zigzagConversionTest.m; sourceTree = "<group>"; };
+		E981EA6121AD254D0079A1B4 /* nQueensTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nQueensTest.m; sourceTree = "<group>"; };
 		E9820528216DCC190079A336 /* 29-DivideTwoIntegers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "29-DivideTwoIntegers.h"; sourceTree = "<group>"; };
 		E9820529216DCC380079A336 /* 29-DivideTwoIntegers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "29-DivideTwoIntegers.m"; sourceTree = "<group>"; };
 		E982052B216DD11D0079A336 /* divideTwoIntegersTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = divideTwoIntegersTest.m; sourceTree = "<group>"; };
@@ -310,21 +344,39 @@
 		E9B4D4442191807300CDA9C1 /* 34-FindFirstAndLastPositionOfElementInSortedArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "34-FindFirstAndLastPositionOfElementInSortedArray.h"; sourceTree = "<group>"; };
 		E9B4D445219184B000CDA9C1 /* findFirstAndLastPositionOfElementInSortedArrayTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = findFirstAndLastPositionOfElementInSortedArrayTest.m; sourceTree = "<group>"; };
 		E9B4D4472191857F00CDA9C1 /* searchInRotatedSortedArrayTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = searchInRotatedSortedArrayTest.m; sourceTree = "<group>"; };
+		E9B720C821A7D537005DFE2E /* wildcardMatchingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wildcardMatchingTest.m; sourceTree = "<group>"; };
+		E9B720CA21A7D785005DFE2E /* jumpGameIITest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jumpGameIITest.m; sourceTree = "<group>"; };
+		E9B720CC21A7D8F8005DFE2E /* permutationsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = permutationsTest.m; sourceTree = "<group>"; };
+		E9B720CE21A7E1FF005DFE2E /* permutationsIITest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = permutationsIITest.m; sourceTree = "<group>"; };
+		E9B720D021A7E3AB005DFE2E /* rotateImageTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = rotateImageTest.m; sourceTree = "<group>"; };
+		E9B8D006219C079D00094210 /* 45-JumpGameII.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "45-JumpGameII.h"; sourceTree = "<group>"; };
+		E9B8D007219C07B100094210 /* 45-JumpGameII.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "45-JumpGameII.m"; sourceTree = "<group>"; };
+		E9B8D00A219C09DD00094210 /* 46-Permutations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "46-Permutations.h"; sourceTree = "<group>"; };
+		E9B8D00B219C09EE00094210 /* 46-Permutations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "46-Permutations.m"; sourceTree = "<group>"; };
 		E9BD25DF20CDE7C6001778D6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E9BD25EA20CDFE50001778D6 /* longestSubstringWithoutRepeatingCharactersTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = longestSubstringWithoutRepeatingCharactersTest.m; sourceTree = "<group>"; };
 		E9BE38CB2150F0E700F09C09 /* 14-LongestCommonPrefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "14-LongestCommonPrefix.h"; sourceTree = "<group>"; };
 		E9BE38CC2150F1E400F09C09 /* 14-LongestCommonPrefix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "14-LongestCommonPrefix.m"; sourceTree = "<group>"; };
+		E9C13AE821A00B0C0018DB47 /* sort-string.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "sort-string.m"; sourceTree = "<group>"; };
 		E9C52D452192C0CE004640A5 /* 35-SearchInsertPosition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "35-SearchInsertPosition.h"; sourceTree = "<group>"; };
 		E9C52D462192C0F2004640A5 /* 35-SearchInsertPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "35-SearchInsertPosition.m"; sourceTree = "<group>"; };
 		E9C52D492192D61E004640A5 /* searchInsertPostionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = searchInsertPostionTest.m; sourceTree = "<group>"; };
 		E9C52D4B2192D853004640A5 /* 36-ValidSudoku.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "36-ValidSudoku.h"; sourceTree = "<group>"; };
 		E9C52D4C2192D86E004640A5 /* 36-ValidSudoku.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "36-ValidSudoku.m"; sourceTree = "<group>"; };
 		E9C53B0D2176FFF000F39F06 /* substringWithConcatenationOfAllWordsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = substringWithConcatenationOfAllWordsTest.m; sourceTree = "<group>"; };
+		E9C5656821A144E4002A56D8 /* 50-Pow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "50-Pow.h"; sourceTree = "<group>"; };
+		E9C5656921A144FD002A56D8 /* 50-Pow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "50-Pow.m"; sourceTree = "<group>"; };
+		E9C7B33F21A6B7BE00E6CD32 /* firstMissingPositiveTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = firstMissingPositiveTest.m; sourceTree = "<group>"; };
+		E9C7B34821A6C2A500E6CD32 /* trappingRainWaterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = trappingRainWaterTest.m; sourceTree = "<group>"; };
 		E9CFB9CC2164907100188B82 /* 22-GenerateParentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "22-GenerateParentheses.h"; sourceTree = "<group>"; };
 		E9CFB9CD2164911300188B82 /* 22-GenerateParentheses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "22-GenerateParentheses.m"; sourceTree = "<group>"; };
 		E9CFB9D42164A5CA00188B82 /* 23-MergeKSortedLists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "23-MergeKSortedLists.h"; sourceTree = "<group>"; };
 		E9CFB9D52164A68E00188B82 /* 23-MergeKSortedLists.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "23-MergeKSortedLists.m"; sourceTree = "<group>"; };
+		E9D83B4B219ECB910058F759 /* 49-GroupAnagrams.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "49-GroupAnagrams.h"; sourceTree = "<group>"; };
+		E9D83B4C219ECBA40058F759 /* 49-GroupAnagrams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "49-GroupAnagrams.m"; sourceTree = "<group>"; };
 		E9E555EC20D246E8000F33AD /* containerWithMostWaterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = containerWithMostWaterTest.m; sourceTree = "<group>"; };
+		E9E8E00221ABC2260038FE30 /* groupAnagramsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = groupAnagramsTest.m; sourceTree = "<group>"; };
+		E9E8E00421ABCC4D0038FE30 /* powTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = powTest.m; sourceTree = "<group>"; };
 		E9EB7FF0214259F7003AEC20 /* 9-PalindromeNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "9-PalindromeNumber.h"; sourceTree = "<group>"; };
 		E9EB7FF121425A7A003AEC20 /* 9-PalindromeNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "9-PalindromeNumber.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -450,6 +502,28 @@
 				E96748862195189800861B2C /* 39-CombinationSum.m */,
 				E96748892195196B00861B2C /* 40-CombinationSumII.h */,
 				E967488A219519B400861B2C /* 40-CombinationSumII.m */,
+				E90D819121983B84009A08E6 /* 41-FirstMissingPositive.h */,
+				E90D819221983BA4009A08E6 /* 41-FirstMissingPositive.m */,
+				E90D81952198402A009A08E6 /* 42-TrappingRainWater.h */,
+				E90D819621984040009A08E6 /* 42-TrappingRainWater.m */,
+				E9182A3B21997761001061EC /* 43-MultiplyStrings.h */,
+				E9182A3C21997771001061EC /* 43-MultiplyStrings.m */,
+				E9182A4121998427001061EC /* 44-WildcardMatching.h */,
+				E9182A422199843C001061EC /* 44-WildcardMatching.m */,
+				E9B8D006219C079D00094210 /* 45-JumpGameII.h */,
+				E9B8D007219C07B100094210 /* 45-JumpGameII.m */,
+				E9B8D00A219C09DD00094210 /* 46-Permutations.h */,
+				E9B8D00B219C09EE00094210 /* 46-Permutations.m */,
+				E97CA2ED219D428E00795BB8 /* 47-PermutationsII.h */,
+				E97CA2EE219D42A100795BB8 /* 47-PermutationsII.m */,
+				E97CA2F1219D684F00795BB8 /* 48-RotateImage.h */,
+				E97CA2F2219D686400795BB8 /* 48-RotateImage.m */,
+				E9D83B4B219ECB910058F759 /* 49-GroupAnagrams.h */,
+				E9D83B4C219ECBA40058F759 /* 49-GroupAnagrams.m */,
+				E9C5656821A144E4002A56D8 /* 50-Pow.h */,
+				E9C5656921A144FD002A56D8 /* 50-Pow.m */,
+				E9643ACB21A549E100365910 /* 51-NQueens.h */,
+				E9643ACC21A549F600365910 /* 51-NQueens.m */,
 				E97EAFB120CC965E00505F11 /* 92-ReverseLinkedListII.h */,
 				E97EAFB220CC965E00505F11 /* 92-ReverseLinkedListII.m */,
 				E97EAFB320CC965E00505F11 /* 94-BinaryTreeInorderTraversal-2.h */,
@@ -477,16 +551,9 @@
 				E97EAFC920CC965E00505F11 /* ListNode.h */,
 				E97EAFCA20CC965E00505F11 /* ListNode.m */,
 				E9BD25DF20CDE7C6001778D6 /* main.m */,
+				E9C13AE821A00B0C0018DB47 /* sort-string.m */,
 				E97EAFCB20CC965E00505F11 /* TreeNode.h */,
 				E97EAFCC20CC965E00505F11 /* TreeNode.m */,
-				E90D819121983B84009A08E6 /* 41-FirstMissingPositive.h */,
-				E90D819221983BA4009A08E6 /* 41-FirstMissingPositive.m */,
-				E90D81952198402A009A08E6 /* 42-TrappingRainWater.h */,
-				E90D819621984040009A08E6 /* 42-TrappingRainWater.m */,
-				E9182A3B21997761001061EC /* 43-MultiplyStrings.h */,
-				E9182A3C21997771001061EC /* 43-MultiplyStrings.m */,
-				E9182A4121998427001061EC /* 44-WildcardMatching.h */,
-				E9182A422199843C001061EC /* 44-WildcardMatching.m */,
 			);
 			path = leetcodeObjC;
 			sourceTree = "<group>";
@@ -510,10 +577,13 @@
 				E982052B216DD11D0079A336 /* divideTwoIntegersTest.m */,
 				E9B4D445219184B000CDA9C1 /* findFirstAndLastPositionOfElementInSortedArrayTest.m */,
 				E9687F7A20E60854006422CF /* findMedianSortedArraysTest.m */,
+				E9C7B33F21A6B7BE00E6CD32 /* firstMissingPositiveTest.m */,
 				E9770939215A088B00753038 /* fourSumTest.m */,
 				E99143F1218E24F600ABE11D /* generateParenthesesTest.m */,
+				E9E8E00221ABC2260038FE30 /* groupAnagramsTest.m */,
 				E9B1BE97216CFFC200FE7531 /* implementStrstrTest.m */,
 				E962E4CF214BA0A1009A03A9 /* integerToRomanTest.m */,
+				E9B720CA21A7D785005DFE2E /* jumpGameIITest.m */,
 				E97F9DE12154E8BF000C6C82 /* letterCombinationOfAPhoneNumberTest.m */,
 				E995F7BC21520777004B2309 /* longestCommonPrefixTest.m */,
 				E91C59BC20F190DA00BC74A0 /* longestPalindromicSubstringTest.m */,
@@ -522,8 +592,12 @@
 				E962E4CB214B93B2009A03A9 /* medianOfTwoSortedArrayTest.m */,
 				E99BD98A2165D1050070A8E3 /* mergeKSortedListsTest.m */,
 				E97886AE20DF8BAB00579C3A /* mergeTwoSortedListTest.m */,
+				E9182A3E219981B0001061EC /* multiplyStringsTest.m */,
 				E99F2B5D218C4274002DEF57 /* nextPermutationTest.m */,
 				E91E9A1A2144FF6C00756048 /* palindromeNumberTest.m */,
+				E9B720CE21A7E1FF005DFE2E /* permutationsIITest.m */,
+				E9B720CC21A7D8F8005DFE2E /* permutationsTest.m */,
+				E9E8E00421ABCC4D0038FE30 /* powTest.m */,
 				E98EE2A421433377003A0633 /* regularExpressionMatchingTest.m */,
 				E993FA5E21672BE00089C560 /* removeDuplicatesFromSortedArrayTest.m */,
 				E9B1BE91216C829700FE7531 /* removeElementTest.m */,
@@ -531,6 +605,7 @@
 				E963CE432144B6A1003D3F92 /* reverseIntegerTest.m */,
 				E993FA582167254F0089C560 /* reverseNodesInKGroupTest.m */,
 				E99143F3218E259400ABE11D /* romanToIntegerTest.m */,
+				E9B720D021A7E3AB005DFE2E /* rotateImageTest.m */,
 				E9B4D4472191857F00CDA9C1 /* searchInRotatedSortedArrayTest.m */,
 				E9C52D492192D61E004640A5 /* searchInsertPostionTest.m */,
 				E91896EE214252C0009D21EA /* stringToIntegerTest.m */,
@@ -538,12 +613,14 @@
 				E973C9832165F820008A9AB5 /* swapNodesInPairsTest.m */,
 				E93C7DD3215377E900A39502 /* threeSumClosestTest.m */,
 				E935E0EE214505110090EECE /* threeSumTest.m */,
+				E9C7B34821A6C2A500E6CD32 /* trappingRainWaterTest.m */,
 				E96FDB7120CCB7C300121361 /* twoSumTest.m */,
 				E933ACA8215E106F00D23146 /* validParenthesesTest.m */,
 				E97C0D902193B4C900FDD071 /* validSudokuTest.m */,
+				E9B720C821A7D537005DFE2E /* wildcardMatchingTest.m */,
 				E980297C2141070B00456DD7 /* zigzagConversionTest.m */,
 				E97EAFF820CCAD9700505F11 /* Info.plist */,
-				E9182A3E219981B0001061EC /* multiplyStringsTest.m */,
+				E981EA6121AD254D0079A1B4 /* nQueensTest.m */,
 			);
 			path = leetcodeObjCTest;
 			sourceTree = "<group>";
@@ -646,15 +723,19 @@
 				E9B4D44121917FE500CDA9C1 /* 34-FindFirstAndLastPositionOfElementInSortedArray.m in Sources */,
 				E94FA85B2194245F000E36FC /* 38-CountAndSay.m in Sources */,
 				E9CFB9D62164A68E00188B82 /* 23-MergeKSortedLists.m in Sources */,
+				E97CA2F3219D686400795BB8 /* 48-RotateImage.m in Sources */,
 				E9B1BE8E216C789600FE7531 /* 27-RemoveElement.m in Sources */,
 				E993FA5D21672A280089C560 /* 26-RemoveDuplicatesFromSortedArray.m in Sources */,
 				E9350EC0215CB8B0001456A3 /* 20-ValidParentheses.m in Sources */,
 				E94FA8582193FAB8000E36FC /* 37-SudokuSolver.m in Sources */,
 				E97EAFCF20CC965E00505F11 /* 3-LongestSubstringWithoutRepeatingCharacters.m in Sources */,
+				E9C5656A21A144FD002A56D8 /* 50-Pow.m in Sources */,
 				E99143EE218E1BB500ABE11D /* 32-LongestValidParenthese.m in Sources */,
+				E9B8D00C219C09EF00094210 /* 46-Permutations.m in Sources */,
 				E9BE38CD2150F1E400F09C09 /* 14-LongestCommonPrefix.m in Sources */,
 				E98C67802175C7DA0098CB39 /* 30-SubstringWithConcatenationOfAllWords.m in Sources */,
 				E9C52D4D2192D86E004640A5 /* 36-ValidSudoku.m in Sources */,
+				E97CA2EF219D42A100795BB8 /* 47-PermutationsII.m in Sources */,
 				E9C52D472192C0F2004640A5 /* 35-SearchInsertPosition.m in Sources */,
 				E995F7C121520E5E004B2309 /* 16-ThreeSumClosest.m in Sources */,
 				E97EAFCE20CC965E00505F11 /* 2-AddTwoNumbers.m in Sources */,
@@ -668,11 +749,13 @@
 				E91896ED21424C97009D21EA /* 8-StringToInteger.m in Sources */,
 				E91CDB7620E363B6003DB474 /* 4-MedianOfTwoSortedArrays.m in Sources */,
 				E97EAFD520CC965E00505F11 /* 24-SwapNodesinPairs.m in Sources */,
+				E9643ACD21A549F600365910 /* 51-NQueens.m in Sources */,
 				E962E4D4214BA5CE009A03A9 /* 13-RomanToInteger.m in Sources */,
 				E97EAFDF20CC965E00505F11 /* 226-InvertBinaryTree.m in Sources */,
 				E97EAFD220CC965E00505F11 /* 15-ThreeSum.m in Sources */,
 				E967488B219519B400861B2C /* 40-CombinationSumII.m in Sources */,
 				E97EAFD320CC965E00505F11 /* 19-RemoveNthNodeFromEndofList.m in Sources */,
+				E9B8D008219C07B100094210 /* 45-JumpGameII.m in Sources */,
 				E90D819721984040009A08E6 /* 42-TrappingRainWater.m in Sources */,
 				E97EAFDA20CC965E00505F11 /* 98-ValidateBinarySearchTree.m in Sources */,
 				E9B4D43B219171EC00CDA9C1 /* 33-SearchInRotatedSortedArray.m in Sources */,
@@ -695,7 +778,9 @@
 				E9CFB9CE2164911300188B82 /* 22-GenerateParentheses.m in Sources */,
 				E9182A432199843C001061EC /* 44-WildcardMatching.m in Sources */,
 				E9BD25E020CDE7C6001778D6 /* main.m in Sources */,
+				E9D83B4D219ECBA40058F759 /* 49-GroupAnagrams.m in Sources */,
 				E97EAFE320CC965E00505F11 /* TreeNode.m in Sources */,
+				E9C13AE921A00B0C0018DB47 /* sort-string.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -703,7 +788,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9C7B34121A6B7EB00E6CD32 /* 42-TrappingRainWater.m in Sources */,
+				E9C7B34221A6B7EB00E6CD32 /* 44-WildcardMatching.m in Sources */,
+				E9C7B34321A6B7EB00E6CD32 /* 46-Permutations.m in Sources */,
+				E9C7B34421A6B7EB00E6CD32 /* 48-RotateImage.m in Sources */,
+				E9C7B34521A6B7EB00E6CD32 /* 49-GroupAnagrams.m in Sources */,
+				E9C7B34621A6B7EB00E6CD32 /* 50-Pow.m in Sources */,
+				E9C7B34721A6B7EB00E6CD32 /* 51-NQueens.m in Sources */,
+				E97CA2F0219D445B00795BB8 /* 47-PermutationsII.m in Sources */,
+				E9B8D009219C099100094210 /* 45-JumpGameII.m in Sources */,
 				E9182A40219981C9001061EC /* 43-MultiplyStrings.m in Sources */,
+				E9B720CD21A7D8F8005DFE2E /* permutationsTest.m in Sources */,
 				E90D819421983C20009A08E6 /* 41-FirstMissingPositive.m in Sources */,
 				E967488C219519E300861B2C /* 40-CombinationSumII.m in Sources */,
 				E96748882195193F00861B2C /* 39-CombinationSum.m in Sources */,
@@ -713,6 +808,7 @@
 				E9B4D4492191874900CDA9C1 /* 34-FindFirstAndLastPositionOfElementInSortedArray.m in Sources */,
 				E9B4D43E21917BF800CDA9C1 /* 33-SearchInRotatedSortedArray.m in Sources */,
 				E99143F5218E267D00ABE11D /* 32-LongestValidParenthese.m in Sources */,
+				E9B720CB21A7D785005DFE2E /* jumpGameIITest.m in Sources */,
 				E99143F0218E249D00ABE11D /* longestValidParentheseTest.m in Sources */,
 				E99F2B5F218C42B2002DEF57 /* 31-NextPermutation.m in Sources */,
 				E9C53B0F2177000400F39F06 /* 30-SubstringWithConcatenationOfAllWords.m in Sources */,
@@ -740,7 +836,9 @@
 				E995F7BE21520796004B2309 /* 14-LongestCommonPrefix.m in Sources */,
 				E962E4D7214BACA1009A03A9 /* 13-RomanToInteger.m in Sources */,
 				E962E4D1214BA14B009A03A9 /* 12-IntegerToRoman.m in Sources */,
+				E9B720CF21A7E1FF005DFE2E /* permutationsIITest.m in Sources */,
 				E9C53B0E2176FFF000F39F06 /* substringWithConcatenationOfAllWordsTest.m in Sources */,
+				E9C7B34021A6B7BE00E6CD32 /* firstMissingPositiveTest.m in Sources */,
 				E99F2B5E218C4274002DEF57 /* nextPermutationTest.m in Sources */,
 				E9A802A721490BD00011259B /* 1-TwoSum.m in Sources */,
 				E935E0ED214504130090EECE /* 15-ThreeSum.m in Sources */,
@@ -749,8 +847,12 @@
 				E977093A215A088B00753038 /* fourSumTest.m in Sources */,
 				E98EE2A0214328C4003A0633 /* 9-PalindromeNumber.m in Sources */,
 				E97C0D912193B4C900FDD071 /* validSudokuTest.m in Sources */,
+				E981EA6221AD254D0079A1B4 /* nQueensTest.m in Sources */,
 				E91896F021425470009D21EA /* 8-StringToInteger.m in Sources */,
+				E9E8E00521ABCC4D0038FE30 /* powTest.m in Sources */,
 				E933ACA9215E106F00D23146 /* validParenthesesTest.m in Sources */,
+				E9E8E00321ABC2260038FE30 /* groupAnagramsTest.m in Sources */,
+				E9B720D121A7E3AB005DFE2E /* rotateImageTest.m in Sources */,
 				E963CE442144B6A1003D3F92 /* reverseIntegerTest.m in Sources */,
 				E980297E21410AA800456DD7 /* 6-ZigzagConversion.m in Sources */,
 				E93C7DD4215377E900A39502 /* threeSumClosestTest.m in Sources */,
@@ -781,9 +883,11 @@
 				E94FA85D21942D96000E36FC /* countAndSayTest.m in Sources */,
 				E9E555FF20D248D3000F33AD /* 11-ContainerWithMostWater.m in Sources */,
 				E97886A820DF033700579C3A /* addTwoNumbersTest.m in Sources */,
+				E9C7B34921A6C2A500E6CD32 /* trappingRainWaterTest.m in Sources */,
 				E96748902195939200861B2C /* combinationSumIITest.m in Sources */,
 				E9E555ED20D246E8000F33AD /* containerWithMostWaterTest.m in Sources */,
 				E96FDB7220CCB7C300121361 /* twoSumTest.m in Sources */,
+				E9B720C921A7D537005DFE2E /* wildcardMatchingTest.m in Sources */,
 				E935E0EF214505110090EECE /* threeSumTest.m in Sources */,
 				E9BD25EB20CDFE50001778D6 /* longestSubstringWithoutRepeatingCharactersTest.m in Sources */,
 			);

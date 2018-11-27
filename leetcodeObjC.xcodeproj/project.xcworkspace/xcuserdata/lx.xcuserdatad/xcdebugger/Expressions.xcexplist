@@ -3,64 +3,10 @@
    version = "1.0">
    <ContextStates>
       <ContextState
-         contextName = "-[threeSumTest testThreeSum]:threeSumTest.m">
+         contextName = "-[Solution43 multiply::]:43-MultiplyStrings.m">
          <PersistentStrings>
             <PersistentString
-               value = "[indices objectAtIndex:0]">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "-[Solution31 nextPermutation:]:31-NextPermutation.m">
-         <PersistentStrings>
-            <PersistentString
-               value = "[ret[i] intValue]">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "-[nextPermutationTest testNextPermutation3]:nextPermutationTest.m">
-         <PersistentStrings>
-            <PersistentString
-               value = "[ret isEqualToArray:actual]">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "-[Solution13 romanToInt:]:13-RomanToInteger.m">
-         <PersistentStrings>
-            <PersistentString
-               value = "[m valueForKey: c]">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "-[Solution39 combinationSumDFS:target:start:output:ret:]:39-CombinationSum.m">
-         <PersistentStrings>
-            <PersistentString
-               value = "candidates[i]">
-            </PersistentString>
-            <PersistentString
-               value = "target - [candidates[i] intValue]">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "-[Solution4 findKth:::::::]:4-MedianofTwoSortedArrays.m">
-         <PersistentStrings>
-            <PersistentString
-               value = "[nums2 objectAtIndex: start2]">
-            </PersistentString>
-            <PersistentString
-               value = "[nums1 objectAtIndex: start1]">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "-[Solution20 isValid:]:20-ValidParentheses.m">
-         <PersistentStrings>
-            <PersistentString
-               value = "[stack count] == 0">
+               value = "tmpres[len - i - j]">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -76,10 +22,83 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "-[combinationSumIITest testCombinationSum21]:combinationSumIITest.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[Solution41 firstMissingPositive:]:41-FirstMissingPositive.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[nums[i] intValue] -1]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Solution20 isValid:]:20-ValidParentheses.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[stack count] == 0">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Solution39 combinationSumDFS:target:start:output:ret:]:39-CombinationSum.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "candidates[i]">
+            </PersistentString>
+            <PersistentString
+               value = "target - [candidates[i] intValue]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "-[Solution39 combinationSumDFS:target:start:output:res:]:39-CombinationSum.m">
          <PersistentStrings>
             <PersistentString
                value = "candidates[i]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Solution31 nextPermutation:]:31-NextPermutation.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[ret[i] intValue]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Solution13 romanToInt:]:13-RomanToInteger.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[m valueForKey: c]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[nextPermutationTest testNextPermutation3]:nextPermutationTest.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[ret isEqualToArray:actual]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[Solution4 findKth:::::::]:4-MedianofTwoSortedArrays.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[nums2 objectAtIndex: start2]">
+            </PersistentString>
+            <PersistentString
+               value = "[nums1 objectAtIndex: start1]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[threeSumTest testThreeSum]:threeSumTest.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[indices objectAtIndex:0]">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
