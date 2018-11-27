@@ -98,6 +98,9 @@
 		E980297D2141070B00456DD7 /* zigzagConversionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E980297C2141070B00456DD7 /* zigzagConversionTest.m */; };
 		E980297E21410AA800456DD7 /* 6-ZigzagConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = E93CFCF3213B7B65000EA5BE /* 6-ZigzagConversion.m */; };
 		E981EA6221AD254D0079A1B4 /* nQueensTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E981EA6121AD254D0079A1B4 /* nQueensTest.m */; };
+		E981EA6521AD2F530079A1B4 /* 52-NQueensII.m in Sources */ = {isa = PBXBuildFile; fileRef = E981EA6421AD2F530079A1B4 /* 52-NQueensII.m */; };
+		E981EA6621AD2FD80079A1B4 /* 52-NQueensII.m in Sources */ = {isa = PBXBuildFile; fileRef = E981EA6421AD2F530079A1B4 /* 52-NQueensII.m */; };
+		E981EA6821AD30910079A1B4 /* nQueensIITest.m in Sources */ = {isa = PBXBuildFile; fileRef = E981EA6721AD30910079A1B4 /* nQueensIITest.m */; };
 		E982052A216DCC380079A336 /* 29-DivideTwoIntegers.m in Sources */ = {isa = PBXBuildFile; fileRef = E9820529216DCC380079A336 /* 29-DivideTwoIntegers.m */; };
 		E982052C216DD11D0079A336 /* divideTwoIntegersTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E982052B216DD11D0079A336 /* divideTwoIntegersTest.m */; };
 		E982052D216DD2190079A336 /* 29-DivideTwoIntegers.m in Sources */ = {isa = PBXBuildFile; fileRef = E9820529216DCC380079A336 /* 29-DivideTwoIntegers.m */; };
@@ -305,6 +308,9 @@
 		E97F9DE12154E8BF000C6C82 /* letterCombinationOfAPhoneNumberTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = letterCombinationOfAPhoneNumberTest.m; sourceTree = "<group>"; };
 		E980297C2141070B00456DD7 /* zigzagConversionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zigzagConversionTest.m; sourceTree = "<group>"; };
 		E981EA6121AD254D0079A1B4 /* nQueensTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nQueensTest.m; sourceTree = "<group>"; };
+		E981EA6321AD2F410079A1B4 /* 52-NQueensII.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "52-NQueensII.h"; sourceTree = "<group>"; };
+		E981EA6421AD2F530079A1B4 /* 52-NQueensII.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "52-NQueensII.m"; sourceTree = "<group>"; };
+		E981EA6721AD30910079A1B4 /* nQueensIITest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nQueensIITest.m; sourceTree = "<group>"; };
 		E9820528216DCC190079A336 /* 29-DivideTwoIntegers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "29-DivideTwoIntegers.h"; sourceTree = "<group>"; };
 		E9820529216DCC380079A336 /* 29-DivideTwoIntegers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "29-DivideTwoIntegers.m"; sourceTree = "<group>"; };
 		E982052B216DD11D0079A336 /* divideTwoIntegersTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = divideTwoIntegersTest.m; sourceTree = "<group>"; };
@@ -524,6 +530,8 @@
 				E9C5656921A144FD002A56D8 /* 50-Pow.m */,
 				E9643ACB21A549E100365910 /* 51-NQueens.h */,
 				E9643ACC21A549F600365910 /* 51-NQueens.m */,
+				E981EA6321AD2F410079A1B4 /* 52-NQueensII.h */,
+				E981EA6421AD2F530079A1B4 /* 52-NQueensII.m */,
 				E97EAFB120CC965E00505F11 /* 92-ReverseLinkedListII.h */,
 				E97EAFB220CC965E00505F11 /* 92-ReverseLinkedListII.m */,
 				E97EAFB320CC965E00505F11 /* 94-BinaryTreeInorderTraversal-2.h */,
@@ -621,6 +629,7 @@
 				E980297C2141070B00456DD7 /* zigzagConversionTest.m */,
 				E97EAFF820CCAD9700505F11 /* Info.plist */,
 				E981EA6121AD254D0079A1B4 /* nQueensTest.m */,
+				E981EA6721AD30910079A1B4 /* nQueensIITest.m */,
 			);
 			path = leetcodeObjCTest;
 			sourceTree = "<group>";
@@ -732,6 +741,7 @@
 				E9C5656A21A144FD002A56D8 /* 50-Pow.m in Sources */,
 				E99143EE218E1BB500ABE11D /* 32-LongestValidParenthese.m in Sources */,
 				E9B8D00C219C09EF00094210 /* 46-Permutations.m in Sources */,
+				E981EA6521AD2F530079A1B4 /* 52-NQueensII.m in Sources */,
 				E9BE38CD2150F1E400F09C09 /* 14-LongestCommonPrefix.m in Sources */,
 				E98C67802175C7DA0098CB39 /* 30-SubstringWithConcatenationOfAllWords.m in Sources */,
 				E9C52D4D2192D86E004640A5 /* 36-ValidSudoku.m in Sources */,
@@ -788,8 +798,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E981EA6621AD2FD80079A1B4 /* 52-NQueensII.m in Sources */,
 				E9C7B34121A6B7EB00E6CD32 /* 42-TrappingRainWater.m in Sources */,
 				E9C7B34221A6B7EB00E6CD32 /* 44-WildcardMatching.m in Sources */,
+				E981EA6821AD30910079A1B4 /* nQueensIITest.m in Sources */,
 				E9C7B34321A6B7EB00E6CD32 /* 46-Permutations.m in Sources */,
 				E9C7B34421A6B7EB00E6CD32 /* 48-RotateImage.m in Sources */,
 				E9C7B34521A6B7EB00E6CD32 /* 49-GroupAnagrams.m in Sources */,
