@@ -30,6 +30,9 @@
 		E9395ED921AE8FDC0001A700 /* 53-MaximumSubarray.m in Sources */ = {isa = PBXBuildFile; fileRef = E9395ED821AE8FDC0001A700 /* 53-MaximumSubarray.m */; };
 		E9395EDB21AE92130001A700 /* maximumSubarrayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9395EDA21AE92130001A700 /* maximumSubarrayTest.m */; };
 		E9395EDC21AE92610001A700 /* 53-MaximumSubarray.m in Sources */ = {isa = PBXBuildFile; fileRef = E9395ED821AE8FDC0001A700 /* 53-MaximumSubarray.m */; };
+		E9395EDF21AE94B60001A700 /* 54-SpiralMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = E9395EDE21AE94B60001A700 /* 54-SpiralMatrix.m */; };
+		E9395EE021AE95580001A700 /* 54-SpiralMatrix.m in Sources */ = {isa = PBXBuildFile; fileRef = E9395EDE21AE94B60001A700 /* 54-SpiralMatrix.m */; };
+		E9395EE221AE9B320001A700 /* spiralMatrixTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E9395EE121AE9B320001A700 /* spiralMatrixTest.m */; };
 		E93C7DD4215377E900A39502 /* threeSumClosestTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E93C7DD3215377E900A39502 /* threeSumClosestTest.m */; };
 		E93C7DD62153797800A39502 /* 16-ThreeSumClosest.m in Sources */ = {isa = PBXBuildFile; fileRef = E995F7C021520E5E004B2309 /* 16-ThreeSumClosest.m */; };
 		E93CFCF4213B7B65000EA5BE /* 6-ZigzagConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = E93CFCF3213B7B65000EA5BE /* 6-ZigzagConversion.m */; };
@@ -221,6 +224,9 @@
 		E9395ED721AE8FC60001A700 /* 53-MaximumSubarray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "53-MaximumSubarray.h"; sourceTree = "<group>"; };
 		E9395ED821AE8FDC0001A700 /* 53-MaximumSubarray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "53-MaximumSubarray.m"; sourceTree = "<group>"; };
 		E9395EDA21AE92130001A700 /* maximumSubarrayTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = maximumSubarrayTest.m; sourceTree = "<group>"; };
+		E9395EDD21AE94A10001A700 /* 54-SpiralMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "54-SpiralMatrix.h"; sourceTree = "<group>"; };
+		E9395EDE21AE94B60001A700 /* 54-SpiralMatrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "54-SpiralMatrix.m"; sourceTree = "<group>"; };
+		E9395EE121AE9B320001A700 /* spiralMatrixTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = spiralMatrixTest.m; sourceTree = "<group>"; };
 		E93C7DD3215377E900A39502 /* threeSumClosestTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = threeSumClosestTest.m; sourceTree = "<group>"; };
 		E93CFCF2213B7AC6000EA5BE /* 6-ZigzagConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "6-ZigzagConversion.h"; sourceTree = "<group>"; };
 		E93CFCF3213B7B65000EA5BE /* 6-ZigzagConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "6-ZigzagConversion.m"; sourceTree = "<group>"; };
@@ -570,6 +576,8 @@
 				E9C13AE821A00B0C0018DB47 /* sort-string.m */,
 				E97EAFCB20CC965E00505F11 /* TreeNode.h */,
 				E97EAFCC20CC965E00505F11 /* TreeNode.m */,
+				E9395EDD21AE94A10001A700 /* 54-SpiralMatrix.h */,
+				E9395EDE21AE94B60001A700 /* 54-SpiralMatrix.m */,
 			);
 			path = leetcodeObjC;
 			sourceTree = "<group>";
@@ -639,6 +647,7 @@
 				E9B720C821A7D537005DFE2E /* wildcardMatchingTest.m */,
 				E980297C2141070B00456DD7 /* zigzagConversionTest.m */,
 				E97EAFF820CCAD9700505F11 /* Info.plist */,
+				E9395EE121AE9B320001A700 /* spiralMatrixTest.m */,
 			);
 			path = leetcodeObjCTest;
 			sourceTree = "<group>";
@@ -746,6 +755,7 @@
 				E993FA5D21672A280089C560 /* 26-RemoveDuplicatesFromSortedArray.m in Sources */,
 				E9350EC0215CB8B0001456A3 /* 20-ValidParentheses.m in Sources */,
 				E94FA8582193FAB8000E36FC /* 37-SudokuSolver.m in Sources */,
+				E9395EDF21AE94B60001A700 /* 54-SpiralMatrix.m in Sources */,
 				E97EAFCF20CC965E00505F11 /* 3-LongestSubstringWithoutRepeatingCharacters.m in Sources */,
 				E9C5656A21A144FD002A56D8 /* 50-Pow.m in Sources */,
 				E99143EE218E1BB500ABE11D /* 32-LongestValidParenthese.m in Sources */,
@@ -808,6 +818,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9395EE021AE95580001A700 /* 54-SpiralMatrix.m in Sources */,
 				E9395EDC21AE92610001A700 /* 53-MaximumSubarray.m in Sources */,
 				E981EA6621AD2FD80079A1B4 /* 52-NQueensII.m in Sources */,
 				E9C7B34121A6B7EB00E6CD32 /* 42-TrappingRainWater.m in Sources */,
@@ -880,6 +891,7 @@
 				E963CE442144B6A1003D3F92 /* reverseIntegerTest.m in Sources */,
 				E980297E21410AA800456DD7 /* 6-ZigzagConversion.m in Sources */,
 				E93C7DD4215377E900A39502 /* threeSumClosestTest.m in Sources */,
+				E9395EE221AE9B320001A700 /* spiralMatrixTest.m in Sources */,
 				E91C59BE20F1982B00BC74A0 /* 5-LongestPalindromicSubstring.m in Sources */,
 				E993FA592167254F0089C560 /* reverseNodesInKGroupTest.m in Sources */,
 				E9687F7C20E610BA006422CF /* 4-MedianOfTwoSortedArrays.m in Sources */,
