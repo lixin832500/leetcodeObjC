@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35AB36DE2A6F045B00E282CA /* 55-JumpGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AB36DC2A6F045B00E282CA /* 55-JumpGame.m */; };
+		35AB36E02A6F047A00E282CA /* jumpGameTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AB36DF2A6F047A00E282CA /* jumpGameTest.m */; };
 		E90D819321983BA4009A08E6 /* 41-FirstMissingPositive.m in Sources */ = {isa = PBXBuildFile; fileRef = E90D819221983BA4009A08E6 /* 41-FirstMissingPositive.m */; };
 		E90D819421983C20009A08E6 /* 41-FirstMissingPositive.m in Sources */ = {isa = PBXBuildFile; fileRef = E90D819221983BA4009A08E6 /* 41-FirstMissingPositive.m */; };
 		E90D819721984040009A08E6 /* 42-TrappingRainWater.m in Sources */ = {isa = PBXBuildFile; fileRef = E90D819621984040009A08E6 /* 42-TrappingRainWater.m */; };
@@ -201,6 +203,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		35AB36DC2A6F045B00E282CA /* 55-JumpGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "55-JumpGame.m"; sourceTree = "<group>"; };
+		35AB36DD2A6F045B00E282CA /* 55-JumpGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "55-JumpGame.h"; sourceTree = "<group>"; };
+		35AB36DF2A6F047A00E282CA /* jumpGameTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jumpGameTest.m; sourceTree = "<group>"; };
 		E90D819121983B84009A08E6 /* 41-FirstMissingPositive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "41-FirstMissingPositive.h"; sourceTree = "<group>"; };
 		E90D819221983BA4009A08E6 /* 41-FirstMissingPositive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "41-FirstMissingPositive.m"; sourceTree = "<group>"; };
 		E90D81952198402A009A08E6 /* 42-TrappingRainWater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "42-TrappingRainWater.h"; sourceTree = "<group>"; };
@@ -546,6 +551,10 @@
 				E981EA6421AD2F530079A1B4 /* 52-NQueensII.m */,
 				E9395ED721AE8FC60001A700 /* 53-MaximumSubarray.h */,
 				E9395ED821AE8FDC0001A700 /* 53-MaximumSubarray.m */,
+				E9395EDD21AE94A10001A700 /* 54-SpiralMatrix.h */,
+				E9395EDE21AE94B60001A700 /* 54-SpiralMatrix.m */,
+				35AB36DD2A6F045B00E282CA /* 55-JumpGame.h */,
+				35AB36DC2A6F045B00E282CA /* 55-JumpGame.m */,
 				E97EAFB120CC965E00505F11 /* 92-ReverseLinkedListII.h */,
 				E97EAFB220CC965E00505F11 /* 92-ReverseLinkedListII.m */,
 				E97EAFB320CC965E00505F11 /* 94-BinaryTreeInorderTraversal-2.h */,
@@ -576,8 +585,6 @@
 				E9C13AE821A00B0C0018DB47 /* sort-string.m */,
 				E97EAFCB20CC965E00505F11 /* TreeNode.h */,
 				E97EAFCC20CC965E00505F11 /* TreeNode.m */,
-				E9395EDD21AE94A10001A700 /* 54-SpiralMatrix.h */,
-				E9395EDE21AE94B60001A700 /* 54-SpiralMatrix.m */,
 			);
 			path = leetcodeObjC;
 			sourceTree = "<group>";
@@ -593,6 +600,7 @@
 		E97EAFF520CCAD9700505F11 /* leetcodeObjCTest */ = {
 			isa = PBXGroup;
 			children = (
+				35AB36DF2A6F047A00E282CA /* jumpGameTest.m */,
 				E97886A720DF033700579C3A /* addTwoNumbersTest.m */,
 				E967488F2195939200861B2C /* combinationSumIITest.m */,
 				E967488D2195667C00861B2C /* combinationSumTest.m */,
@@ -713,6 +721,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = E97EAF8C20CC95EA00505F11;
@@ -756,6 +765,7 @@
 				E9350EC0215CB8B0001456A3 /* 20-ValidParentheses.m in Sources */,
 				E94FA8582193FAB8000E36FC /* 37-SudokuSolver.m in Sources */,
 				E9395EDF21AE94B60001A700 /* 54-SpiralMatrix.m in Sources */,
+				35AB36DE2A6F045B00E282CA /* 55-JumpGame.m in Sources */,
 				E97EAFCF20CC965E00505F11 /* 3-LongestSubstringWithoutRepeatingCharacters.m in Sources */,
 				E9C5656A21A144FD002A56D8 /* 50-Pow.m in Sources */,
 				E99143EE218E1BB500ABE11D /* 32-LongestValidParenthese.m in Sources */,
@@ -899,6 +909,7 @@
 				E9B1BE92216C829700FE7531 /* removeElementTest.m in Sources */,
 				E97886AD20DF29C000579C3A /* 21-MergeTwoSortedLists.m in Sources */,
 				E980297D2141070B00456DD7 /* zigzagConversionTest.m in Sources */,
+				35AB36E02A6F047A00E282CA /* jumpGameTest.m in Sources */,
 				E9770941215A14E100753038 /* removeNthNodeFromEndofListTest.m in Sources */,
 				E993FA5F21672BE00089C560 /* removeDuplicatesFromSortedArrayTest.m in Sources */,
 				E9B4D4482191858000CDA9C1 /* searchInRotatedSortedArrayTest.m in Sources */,
