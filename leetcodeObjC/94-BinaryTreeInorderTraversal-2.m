@@ -14,41 +14,35 @@
 - (NSArray *)inorderTraversal: (TreeNode *)root
 {
     
-    NSMutableArray* ret =  [[NSMutableArray alloc] init];
-    if(root == nil) return ret;
+    NSMutableArray<NSNumber *> *result =  [[NSMutableArray alloc] init];
+    if(root == nil) return result;
     NSMutableArray *stack = [NSMutableArray array];
     TreeNode* p = root;
     while(p != nil || [stack count] != 0){
         if(p != nil){
             [stack addObject: p];
             p = p.left;
-        }else{
+        } else {
             TreeNode* node = [stack lastObject];
 //            [ret addObject: [NSNumber numberWithInt: (int)node.val]];
-            [ret addObject:@(node.val)];
+            [result addObject:@(node.val)];
             [stack removeLastObject];
             p = node.right;
         }
     }
     
-    return [ret copy];
+    return [result copy];
 }
 
 @end
 
 //int main(int argc, const char * argv[]) {
 //    @autoreleasepool {
-//        TreeNode *treeNode1 = [[TreeNode alloc] init];
-//        TreeNode *treeNode21 = [[TreeNode alloc] init];
-//        TreeNode *treeNode22 = [[TreeNode alloc] init];
-//        TreeNode *treeNode31 = [[TreeNode alloc] init];
-//        TreeNode *treeNode32 = [[TreeNode alloc] init];
-//
-//        treeNode1.val = 3;
-//        treeNode21.val = 9;
-//        treeNode22.val = 20;
-//        treeNode31.val = 15;
-//        treeNode32.val = 7;
+//        TreeNode *treeNode1 = [[TreeNode alloc] initWithValue:3];
+//        TreeNode *treeNode21 = [[TreeNode alloc] initWithValue:9];
+//        TreeNode *treeNode22 = [[TreeNode alloc] initWithValue:20];
+//        TreeNode *treeNode31 = [[TreeNode alloc] initWithValue:15];
+//        TreeNode *treeNode32 = [[TreeNode alloc] initWithValue:7];
 //
 //        treeNode1.left = treeNode21;
 //        treeNode1.right = treeNode22;
@@ -57,7 +51,7 @@
 //
 //        Solution94_2 *s = [[Solution94_2 alloc] init];
 //
-//        NSMutableArray* array = [s inorderTraversal : treeNode1];
+//        NSArray<NSNumber *> *array = [s inorderTraversal : treeNode1];
 //        NSEnumerator* enumer = [array objectEnumerator];
 //        
 //        id obj;

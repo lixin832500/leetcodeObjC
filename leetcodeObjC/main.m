@@ -8,10 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-int main(int argc, const char * argv[])
-{
-    @autoreleasepool {
-        NSLog(@"The leetcode Objective-C solution!");
-    }
-    return 0;
-}
+//int main(int argc, const char * argv[])
+//{
+//    @autoreleasepool {
+//        NSLog(@"The leetcode Objective-C solution!");
+//    }
+//    return 0;
+//}

@@ -11,11 +11,12 @@
 
 @implementation TreeNode
 
-- (instancetype)init: (NSInteger)x
+- (instancetype)initWithValue:(NSInteger)value
 {
-    self = [super init];
-    if (self) {
-        _val = x;
+    if (self = [super init]) {
+        _val = value;
+        _left = nil;
+        _right = nil;
     }
     return self;
 }

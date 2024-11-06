@@ -13,5 +13,5 @@
 @property (nonatomic) NSInteger val;
 
 
-- (instancetype)init: (NSInteger)x;
+- (instancetype)initWithValue: (NSInteger)value;
 @end
